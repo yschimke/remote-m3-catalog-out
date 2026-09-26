@@ -563,6 +563,12 @@
                 "displayName": null,
                 "canvas": "wear-m3/icon",
                 "canvasMapping": {
+                    "defaults": {
+                        "iconKey": {
+                            "type": "enum",
+                            "value": "addCircle"
+                        }
+                    },
                     "properties": {
                         "iconKey": "imageVector"
                     }

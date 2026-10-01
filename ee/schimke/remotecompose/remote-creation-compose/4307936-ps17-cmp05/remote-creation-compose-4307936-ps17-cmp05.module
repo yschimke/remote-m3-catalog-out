@@ -1,0 +1,265 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-creation-compose",
+    "version": "4307936-ps17-cmp05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-metadata-4307936-ps17-cmp05.jar",
+          "url": "remote-creation-compose-4307936-ps17-cmp05.jar",
+          "size": 152697,
+          "sha512": "60fc3abd9ab5bdcbb3a250172a615540d567ae86ce320e19f2cac9a2481e5370fa150cd9b4a20edce7e2a11047657e10d7f89247481ee37d3c39b04b422a6971",
+          "sha256": "61d55cdb9ce274e9efcaf06cdfad98ef4545ebe72c90ed9fc9d03acb96053bdc",
+          "sha1": "4ee94d87af246f157af74ebb9a6f8ef78138867f",
+          "md5": "2218d1d282bd6b1570d07341f2e71e6a"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "remote-creation-compose-kotlin-4307936-ps17-cmp05-sources.jar",
+          "url": "remote-creation-compose-4307936-ps17-cmp05-sources.jar",
+          "size": 314460,
+          "sha512": "0660e61a727314a695a106f7579f1a7f4927be532c2917120845d7b10b179fc461891c1cf8ec15d529633313f1a2a879da32508dfc76fe96e9164d55447754f9",
+          "sha256": "5e4cabc745fd98be4884e12428aa6624b4c57f417719d5db951f37276db72d5b",
+          "sha1": "b975df7d97c0c00d772b7d0a2d752f7f489b6299",
+          "md5": "1c4ce54826f1dd330f37f7139159e7f0"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-android/4307936-ps17-cmp05/remote-creation-compose-android-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-android",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-android/4307936-ps17-cmp05/remote-creation-compose-android-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-android",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-android/4307936-ps17-cmp05/remote-creation-compose-android-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-android",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-jvm/4307936-ps17-cmp05/remote-creation-compose-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-jvm/4307936-ps17-cmp05/remote-creation-compose-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-jvm/4307936-ps17-cmp05/remote-creation-compose-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-wasm-js/4307936-ps17-cmp05/remote-creation-compose-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-wasm-js/4307936-ps17-cmp05/remote-creation-compose-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-wasm-js/4307936-ps17-cmp05/remote-creation-compose-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-creation-compose-wasm-js/4307936-ps17-cmp05/remote-creation-compose-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-creation-compose-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    }
+  ]
+}

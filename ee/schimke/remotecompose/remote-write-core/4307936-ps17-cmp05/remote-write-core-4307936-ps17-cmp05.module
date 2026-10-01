@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-write-core",
+    "version": "4307936-ps17-cmp05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-write-core-metadata-4307936-ps17-cmp05.jar",
+          "url": "remote-write-core-4307936-ps17-cmp05.jar",
+          "size": 24690,
+          "sha512": "46c0c96fd5700721f6e334ab17c6423cb381b5d148ef6fdff87291e7f20963a299e6bdfa813c6ff8132df19c16c4d92a00708e296dc382af8f0927ab01f2afd9",
+          "sha256": "6f19eee62334de93b3ce9d5cbfc95d9468a3b8f050d36a5eae06e9171db74b3c",
+          "sha1": "29184de011907338e97923f5d63a8c765ab39a9b",
+          "md5": "a5ecceb59d83c6fb91ef6d9f3994acc7"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "remote-write-core-kotlin-4307936-ps17-cmp05-sources.jar",
+          "url": "remote-write-core-4307936-ps17-cmp05-sources.jar",
+          "size": 24885,
+          "sha512": "cc8f82079013a1c6eeb0128fb4001f8bacd0ea4400d806e0d5479c756051ff8b496ea35e42d6a59d5b6b08c050b854f4259534011661cef392cc527fc7ea3f78",
+          "sha256": "da6506309f071b57fbd719ca1e56ce390f39d6733404a75c7b1b56e410e0ed5d",
+          "sha1": "d88fc854d7c8f4eefa9d49e019bf6965d16092bc",
+          "md5": "9ae468b2a152fd26267760933b2c803a"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-jvm/4307936-ps17-cmp05/remote-write-core-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-jvm/4307936-ps17-cmp05/remote-write-core-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-jvm/4307936-ps17-cmp05/remote-write-core-jvm-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-jvm",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-wasm-js/4307936-ps17-cmp05/remote-write-core-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-wasm-js/4307936-ps17-cmp05/remote-write-core-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-write-core-wasm-js/4307936-ps17-cmp05/remote-write-core-wasm-js-4307936-ps17-cmp05.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-write-core-wasm-js",
+        "version": "4307936-ps17-cmp05"
+      }
+    }
+  ]
+}

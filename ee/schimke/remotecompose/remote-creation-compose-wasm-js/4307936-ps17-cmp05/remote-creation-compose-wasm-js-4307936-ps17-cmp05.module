@@ -1,0 +1,274 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-creation-compose/4307936-ps17-cmp05/remote-creation-compose-4307936-ps17-cmp05.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-creation-compose",
+    "version": "4307936-ps17-cmp05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-wasm-js-4307936-ps17-cmp05.klib",
+          "url": "remote-creation-compose-wasm-js-4307936-ps17-cmp05.klib",
+          "size": 1136696,
+          "sha512": "150e78669babc767dd4f02d0eb4d0706b326d807f31e4f4b831a0d30aeaa81db319c5fe0dc3b1db8dabdec9ad11f5fb1db21cb0d991d1ff2d000ef9c57e42b65",
+          "sha256": "ff5398fb83cd43bd549c5cae1f5ab494d1112ccca1484d134093c262d62decfa",
+          "sha1": "9c8131b276b6894c35c8a5a1338a86b9f0ed848e",
+          "md5": "33381a81a6d81c56292e21153fac48d7"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-wasm-js-4307936-ps17-cmp05.klib",
+          "url": "remote-creation-compose-wasm-js-4307936-ps17-cmp05.klib",
+          "size": 1136696,
+          "sha512": "150e78669babc767dd4f02d0eb4d0706b326d807f31e4f4b831a0d30aeaa81db319c5fe0dc3b1db8dabdec9ad11f5fb1db21cb0d991d1ff2d000ef9c57e42b65",
+          "sha256": "ff5398fb83cd43bd549c5cae1f5ab494d1112ccca1484d134093c262d62decfa",
+          "sha1": "9c8131b276b6894c35c8a5a1338a86b9f0ed848e",
+          "md5": "33381a81a6d81c56292e21153fac48d7"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "remote-creation-compose-wasm-js-4307936-ps17-cmp05-sources.jar",
+          "url": "remote-creation-compose-wasm-js-4307936-ps17-cmp05-sources.jar",
+          "size": 295721,
+          "sha512": "a50b8a610c0e196fe95ed270b1f9df7e4a7fc7d6fdf7eef2b4d2a8c0e2716be435043414aad96a9a41f621102ba5fee590416ceb6b0518eb8ddcfd8c775659db",
+          "sha256": "7fb820d661a75377c66b4a106c6f743ecf297d494444714c705fa991c65addf2",
+          "sha1": "a20a1dbe205c78e53e60c021bc81c418fc07ca50",
+          "md5": "8d9ffda8d5ea07aecda89cf53f57f582"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-4307936-ps17-cmp05.kotlin_resources.zip",
+          "url": "remote-creation-compose-wasm-js-4307936-ps17-cmp05-kotlin_resources.kotlin_resources.zip",
+          "size": 384,
+          "sha512": "59109f389e581cfc1a7df5b18e44de471326236ccde5d31c7d984b1669eba3cc5c2fb1152e306a95990a6efd5f8924bff757b35da42dc756f3bd124f3f5a0c52",
+          "sha256": "0b959c8462765583ecb364a320452f34d905a320de711c48155e44c80cb84bb5",
+          "sha1": "f07e50b3b71ada0a48c8dc701ef2d6af690de8ed",
+          "md5": "300587d4093dfe4d6062c5e6bb482313"
+        }
+      ]
+    }
+  ]
+}

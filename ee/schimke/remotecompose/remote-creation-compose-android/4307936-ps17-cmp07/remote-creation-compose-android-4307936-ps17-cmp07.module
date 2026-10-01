@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-creation-compose/4307936-ps17-cmp07/remote-creation-compose-4307936-ps17-cmp07.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-creation-compose",
+    "version": "4307936-ps17-cmp07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.remote",
+          "module": "remote-creation",
+          "version": {
+            "requires": "1.0.0-alpha20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose.aar",
+          "url": "remote-creation-compose-android-4307936-ps17-cmp07.aar",
+          "size": 1621561,
+          "sha512": "aca7f773afe6ed05d0234250ca5f6839409cc8a228683b0e939bb83556e61a4f3255c7c58bae017aedbc12e220a85e2e2b905a60f3558791a0641e094284dd1b",
+          "sha256": "ecaad5796473affc358e23c4d4b0f227fccf285223731302eb3b71f737cfd623",
+          "sha1": "faee3b2a1d7d85c45421815f1b8a0533dfd99930",
+          "md5": "7aae6f8166ffca487cc4f9eb9e11ab8a"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.remote",
+          "module": "remote-creation",
+          "version": {
+            "requires": "1.0.0-alpha20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-path",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing-ktx",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose.aar",
+          "url": "remote-creation-compose-android-4307936-ps17-cmp07.aar",
+          "size": 1621561,
+          "sha512": "aca7f773afe6ed05d0234250ca5f6839409cc8a228683b0e939bb83556e61a4f3255c7c58bae017aedbc12e220a85e2e2b905a60f3558791a0641e094284dd1b",
+          "sha256": "ecaad5796473affc358e23c4d4b0f227fccf285223731302eb3b71f737cfd623",
+          "sha1": "faee3b2a1d7d85c45421815f1b8a0533dfd99930",
+          "md5": "7aae6f8166ffca487cc4f9eb9e11ab8a"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "remote-creation-compose-android-4307936-ps17-cmp07-sources.jar",
+          "url": "remote-creation-compose-android-4307936-ps17-cmp07-sources.jar",
+          "size": 386398,
+          "sha512": "3aac7e7ef910b15f456daac974675b2b9b3fa869cc06c618d9202808dbb960ca01e523a8394cec89810234ecc45c2c0da8c8a5712566c3be52dfbf185ce4e493",
+          "sha256": "88be8bdeda87fac2f0308c42fe0c7c5a6b9026ae93adf89da36d10287112540c",
+          "sha1": "6e18801120590e76560094d164cac7865cd85eee",
+          "md5": "bffa30c577d5e1f42355336adcd2ff48"
+        }
+      ]
+    }
+  ]
+}

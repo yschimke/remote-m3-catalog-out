@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2036
+        "byteLength": 2518
     },
     "operations": [
         {
@@ -14,16 +14,30 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 200\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
-            "type": "ComponentValue",
-            "valueId": 42,
-            "componentValueType": "WIDTH",
-            "componentId": -1000001
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 42,
+            "srcValues": [
+                "@27",
+                26.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
-            "type": "ComponentValue",
-            "valueId": 43,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000001
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 43,
+            "srcValues": [
+                "@27",
+                14.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "$tags": [
@@ -32,15 +46,48 @@
             "type": "FloatExpression",
             "id": 44,
             "srcValues": [
-                52.0,
+                "@27",
+                6.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "type": "ComponentValue",
+            "valueId": 45,
+            "componentValueType": "WIDTH",
+            "componentId": -1000001
+        },
+        {
+            "type": "ComponentValue",
+            "valueId": 46,
+            "componentValueType": "HEIGHT",
+            "componentId": -1000001
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 47,
+            "srcValues": [
                 "@42",
-                "@43",
+                "@42",
+                "@45",
+                "@46",
                 "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
                 "@42",
-                "@43",
+                "@42",
+                "@3211265",
+                1.0E-4,
+                "@3211271",
+                "@3211268",
+                "@3211267",
+                "@42",
+                "@42",
+                "@3211265",
+                "@45",
+                "@46",
                 "@3211270",
                 "@3211266",
                 "@3211290",
@@ -54,53 +101,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 45,
-            "srcValues": [
-                "@42",
-                "@44",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 46,
-            "srcValues": [
-                "@45",
-                "@44",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 47,
-            "srcValues": [
-                "@44",
-                "@44",
-                0.5522848,
-                "@3211267",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
             "id": 48,
             "srcValues": [
-                "@43",
-                "@44",
+                "@45",
+                "@47",
                 "@3211266"
             ],
             "animation": null
@@ -113,7 +117,50 @@
             "id": 49,
             "srcValues": [
                 "@48",
-                "@44",
+                "@47",
+                0.5522848,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 50,
+            "srcValues": [
+                "@47",
+                "@47",
+                0.5522848,
+                "@3211267",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 51,
+            "srcValues": [
+                "@46",
+                "@47",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 52,
+            "srcValues": [
+                "@51",
+                "@47",
                 0.5522848,
                 "@3211267",
                 "@3211265"
@@ -122,20 +169,20 @@
         },
         {
             "type": "TextData",
-            "textId": 50,
+            "textId": 53,
             "text": "Primary label ("
         },
         {
             "type": "IntegerConstant",
-            "id": 51,
+            "id": 54,
             "value": 0
         },
         {
             "type": "TextFromFloat",
-            "textId": 52,
+            "textId": 55,
             "value": [
-                "@51",
-                "@51"
+                "@54",
+                "@54"
             ],
             "digitsBefore": 255,
             "digitsAfter": 0,
@@ -143,24 +190,24 @@
         },
         {
             "type": "TextMerge",
-            "id": 53,
-            "leftId": 50,
-            "rightId": 52
+            "id": 56,
+            "leftId": 53,
+            "rightId": 55
         },
         {
             "type": "TextData",
-            "textId": 54,
+            "textId": 57,
             "text": ")"
         },
         {
             "type": "TextMerge",
-            "id": 55,
-            "leftId": 53,
-            "rightId": 54
+            "id": 58,
+            "leftId": 56,
+            "rightId": 57
         },
         {
             "type": "TextData",
-            "textId": 56,
+            "textId": 59,
             "text": "Primary label"
         },
         {
@@ -175,7 +222,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 57,
+            "id": 60,
             "mask": 0,
             "srcValues": [
                 0
@@ -187,13 +234,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 58,
+            "id": 61,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
-                51,
-                57,
+                54,
+                60,
                 65538,
                 65558
             ],
@@ -201,37 +248,37 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 59,
+            "textId": 62,
             "dataSetId": 2097194,
             "indexId": [
-                58.0,
-                58.0
+                61.0,
+                61.0
             ]
         },
         {
             "type": "ColorConstant",
             "color": "0xfff6edff",
-            "colorId": 60
+            "colorId": 63
         },
         {
             "type": "NamedVariable",
-            "varId": 60,
+            "varId": 63,
             "varName": "USER:WearM3.onSurface",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "COLOR_ALPHA",
-            "id": 61,
-            "colorId": 60
+            "id": 64,
+            "colorId": 63
         },
         {
             "$tags": [
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 62,
+            "id": 65,
             "srcValues": [
-                "@61",
+                "@64",
                 0.38,
                 "@3211267"
             ],
@@ -239,54 +286,205 @@
         },
         {
             "type": "COLOR_RED",
-            "id": 63,
-            "colorId": 60
+            "id": 66,
+            "colorId": 63
         },
         {
             "type": "COLOR_GREEN",
-            "id": 64,
-            "colorId": 60
+            "id": 67,
+            "colorId": 63
         },
         {
             "type": "COLOR_BLUE",
-            "id": 65,
-            "colorId": 60
+            "id": 68,
+            "colorId": 63
         },
         {
             "type": "ColorExpression",
-            "id": 66,
+            "id": 69,
             "mode": "ARGB",
             "a": [
-                "@62",
-                "@62"
-            ],
-            "r": [
-                "@63",
-                "@63"
-            ],
-            "g": [
-                "@64",
-                "@64"
-            ],
-            "b": [
                 "@65",
                 "@65"
+            ],
+            "r": [
+                "@66",
+                "@66"
+            ],
+            "g": [
+                "@67",
+                "@67"
+            ],
+            "b": [
+                "@68",
+                "@68"
             ]
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 70,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                15.0,
+                "@3211267",
+                15.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                9.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 71,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                15.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 72,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 73,
+            "srcValues": [
+                "@70",
+                "@71",
+                1.03,
+                "@72",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "TextData",
-            "textId": 67,
+            "textId": 74,
             "text": "google:Roboto Flex"
         },
         {
             "type": "TextData",
-            "textId": 68,
+            "textId": 75,
             "text": "pnum"
         },
         {
             "type": "TextData",
-            "textId": 69,
+            "textId": 76,
             "text": "Secondary label"
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 77,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                14.0,
+                "@3211267",
+                13.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                10.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 78,
+            "srcValues": [
+                "@72",
+                13.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 79,
+            "srcValues": [
+                "@77",
+                "@78",
+                1.03,
+                "@72",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "$tags": [
@@ -351,7 +549,7 @@
                             "x": 0.0,
                             "y": 0.0,
                             "width": 172.0,
-                            "height": 24.0,
+                            "height": "@44",
                             "visibility": "VISIBLE",
                             "list": [
                                 {
@@ -407,20 +605,20 @@
                                         },
                                         {
                                             "topStart": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "topEnd": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomStart": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomEnd": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "$tags": [
                                                 "MODIFIER"
@@ -448,10 +646,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": 28.0,
-                                            "top": 12.0,
-                                            "right": 28.0,
-                                            "bottom": 12.0
+                                            "left": "@43",
+                                            "top": "@44",
+                                            "right": "@43",
+                                            "bottom": "@44"
                                         },
                                         {
                                             "$tags": [
@@ -531,19 +729,19 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 59,
+                                                    "textId": 62,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        30.0,
-                                                        30.0
+                                                        "@73",
+                                                        36.0
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 500.0,
-                                                    "fontFamilyId": 67,
+                                                    "fontFamilyId": 74,
                                                     "textAlign": 5
                                                 }
                                             ],
@@ -648,19 +846,19 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 69,
+                                                    "textId": 76,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        26.0,
-                                                        26.0
+                                                        "@79",
+                                                        36.0
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 500.0,
-                                                    "fontFamilyId": 67,
+                                                    "fontFamilyId": 74,
                                                     "textAlign": 5
                                                 }
                                             ],
@@ -682,10 +880,10 @@
                                     "spacedBy": 0.0
                                 }
                             ],
-                            "paddingLeft": 28.0,
-                            "paddingRight": 28.0,
-                            "paddingTop": 12.0,
-                            "paddingBottom": 12.0,
+                            "paddingLeft": "@43",
+                            "paddingRight": "@43",
+                            "paddingTop": "@44",
+                            "paddingBottom": "@44",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "START",
                             "spacedBy": 0.0

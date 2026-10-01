@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2576
+        "byteLength": 2826
     },
     "operations": [
         {
@@ -14,8 +14,21 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 400\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
-            "type": "IntegerConstant",
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
             "id": 42,
+            "srcValues": [
+                "@27",
+                26.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "type": "IntegerConstant",
+            "id": 43,
             "value": 0
         },
         {
@@ -23,24 +36,37 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 43,
+            "id": 44,
             "mask": 5,
             "srcValues": [
-                42,
+                43,
                 1,
                 65537
             ],
             "srcValuesMask": 5
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 45,
+            "srcValues": [
+                "@27",
+                12.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "ComponentValue",
-            "valueId": 44,
+            "valueId": 46,
             "componentValueType": "WIDTH",
             "componentId": -1000001
         },
         {
             "type": "ComponentValue",
-            "valueId": 45,
+            "valueId": 47,
             "componentValueType": "HEIGHT",
             "componentId": -1000001
         },
@@ -49,17 +75,25 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 46,
+            "id": 48,
             "srcValues": [
-                52.0,
-                "@44",
-                "@45",
+                "@42",
+                "@42",
+                "@46",
+                "@47",
                 "@3211270",
-                2.0,
+                "@42",
+                "@42",
+                "@3211265",
+                1.0E-4,
+                "@3211271",
                 "@3211268",
-                104.0,
-                "@44",
-                "@45",
+                "@3211267",
+                "@42",
+                "@42",
+                "@3211265",
+                "@46",
+                "@47",
                 "@3211270",
                 "@3211266",
                 "@3211290",
@@ -73,40 +107,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 47,
-            "srcValues": [
-                "@44",
-                "@46",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 48,
-            "srcValues": [
-                "@47",
-                "@46",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
             "id": 49,
             "srcValues": [
                 "@46",
-                "@46",
-                0.5522848,
-                "@3211267",
+                "@48",
                 "@3211266"
             ],
             "animation": null
@@ -118,9 +122,11 @@
             "type": "FloatExpression",
             "id": 50,
             "srcValues": [
-                "@45",
-                "@46",
-                "@3211266"
+                "@49",
+                "@48",
+                0.5522848,
+                "@3211267",
+                "@3211265"
             ],
             "animation": null
         },
@@ -131,11 +137,11 @@
             "type": "FloatExpression",
             "id": 51,
             "srcValues": [
-                "@50",
-                "@46",
+                "@48",
+                "@48",
                 0.5522848,
                 "@3211267",
-                "@3211265"
+                "@3211266"
             ],
             "animation": null
         },
@@ -146,28 +152,9 @@
             "type": "FloatExpression",
             "id": 52,
             "srcValues": [
-                2.0,
-                2.0,
-                "@3211268",
-                52.0,
-                "@44",
-                "@45",
-                "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
-                "@44",
-                "@45",
-                "@3211270",
-                "@3211266",
-                "@3211290",
-                2.0,
-                2.0,
-                "@3211268",
-                "@3211266",
-                0.0,
-                "@3211271",
-                "@3211265"
+                "@47",
+                "@48",
+                "@3211266"
             ],
             "animation": null
         },
@@ -178,72 +165,8 @@
             "type": "FloatExpression",
             "id": 53,
             "srcValues": [
-                2.0,
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 54,
-            "srcValues": [
-                "@53",
-                "@44",
-                2.0,
-                "@3211266",
-                "@3211265",
-                52.0,
-                "@44",
-                "@45",
-                "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
-                "@44",
-                "@45",
-                "@3211270",
-                "@3211266",
-                "@3211290",
-                2.0,
-                2.0,
-                "@3211268",
-                "@3211266",
-                0.0,
-                "@3211271",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 55,
-            "srcValues": [
-                "@54",
-                52.0,
-                "@44",
-                "@45",
-                "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
-                "@44",
-                "@45",
-                "@3211270",
-                "@3211266",
-                "@3211290",
-                2.0,
-                2.0,
-                "@3211268",
-                "@3211266",
-                0.0,
-                "@3211271",
+                "@52",
+                "@48",
                 0.5522848,
                 "@3211267",
                 "@3211265"
@@ -255,11 +178,64 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
+            "id": 54,
+            "srcValues": [
+                "@27",
+                2.0,
+                "@3211268",
+                "@42",
+                "@42",
+                "@46",
+                "@47",
+                "@3211270",
+                "@42",
+                "@42",
+                "@3211265",
+                1.0E-4,
+                "@3211271",
+                "@3211268",
+                "@3211267",
+                "@42",
+                "@42",
+                "@3211265",
+                "@46",
+                "@47",
+                "@3211270",
+                "@3211266",
+                "@3211290",
+                "@27",
+                2.0,
+                "@3211268",
+                "@3211266",
+                0.0,
+                "@3211271",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 55,
+            "srcValues": [
+                "@27",
+                2.0,
+                "@3211268"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
             "id": 56,
             "srcValues": [
-                "@53",
-                "@44",
-                2.0,
+                "@55",
+                "@46",
+                "@27",
                 "@3211266",
                 "@3211265"
             ],
@@ -272,28 +248,32 @@
             "type": "FloatExpression",
             "id": 57,
             "srcValues": [
-                "@52",
-                52.0,
-                "@44",
-                "@45",
+                "@42",
+                "@42",
+                "@46",
+                "@47",
                 "@3211270",
-                2.0,
+                "@42",
+                "@42",
+                "@3211265",
+                1.0E-4,
+                "@3211271",
                 "@3211268",
-                104.0,
-                "@44",
-                "@45",
+                "@3211267",
+                "@42",
+                "@42",
+                "@3211265",
+                "@46",
+                "@47",
                 "@3211270",
                 "@3211266",
                 "@3211290",
-                2.0,
+                "@27",
                 2.0,
                 "@3211268",
                 "@3211266",
                 0.0,
-                "@3211271",
-                0.5522848,
-                "@3211267",
-                "@3211266"
+                "@3211271"
             ],
             "animation": null
         },
@@ -304,29 +284,8 @@
             "type": "FloatExpression",
             "id": 58,
             "srcValues": [
-                "@53",
-                "@45",
-                2.0,
-                "@3211266",
-                "@3211265",
-                52.0,
-                "@44",
-                "@45",
-                "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
-                "@44",
-                "@45",
-                "@3211270",
-                "@3211266",
-                "@3211290",
-                2.0,
-                2.0,
-                "@3211268",
-                "@3211266",
-                0.0,
-                "@3211271",
+                "@56",
+                "@57",
                 "@3211266"
             ],
             "animation": null
@@ -339,24 +298,7 @@
             "id": 59,
             "srcValues": [
                 "@58",
-                52.0,
-                "@44",
-                "@45",
-                "@3211270",
-                2.0,
-                "@3211268",
-                104.0,
-                "@44",
-                "@45",
-                "@3211270",
-                "@3211266",
-                "@3211290",
-                2.0,
-                2.0,
-                "@3211268",
-                "@3211266",
-                0.0,
-                "@3211271",
+                "@57",
                 0.5522848,
                 "@3211267",
                 "@3211265"
@@ -370,9 +312,56 @@
             "type": "FloatExpression",
             "id": 60,
             "srcValues": [
-                "@53",
-                "@45",
-                2.0,
+                "@54",
+                "@57",
+                0.5522848,
+                "@3211267",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 61,
+            "srcValues": [
+                "@55",
+                "@47",
+                "@27",
+                "@3211266",
+                "@3211265",
+                "@57",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 62,
+            "srcValues": [
+                "@61",
+                "@57",
+                0.5522848,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 63,
+            "srcValues": [
+                "@55",
+                "@47",
+                "@27",
                 "@3211266",
                 "@3211265"
             ],
@@ -380,15 +369,15 @@
         },
         {
             "type": "TextData",
-            "textId": 61,
+            "textId": 64,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 62,
+            "textId": 65,
             "value": [
-                "@42",
-                "@42"
+                "@43",
+                "@43"
             ],
             "digitsBefore": 255,
             "digitsAfter": 0,
@@ -396,24 +385,24 @@
         },
         {
             "type": "TextMerge",
-            "id": 63,
-            "leftId": 61,
-            "rightId": 62
+            "id": 66,
+            "leftId": 64,
+            "rightId": 65
         },
         {
             "type": "TextData",
-            "textId": 64,
+            "textId": 67,
             "text": ")"
         },
         {
             "type": "TextMerge",
-            "id": 65,
-            "leftId": 63,
-            "rightId": 64
+            "id": 68,
+            "leftId": 66,
+            "rightId": 67
         },
         {
             "type": "TextData",
-            "textId": 66,
+            "textId": 69,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -428,7 +417,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 67,
+            "id": 70,
             "mask": 0,
             "srcValues": [
                 0
@@ -440,13 +429,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 68,
+            "id": 71,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
-                42,
-                67,
+                43,
+                70,
                 65538,
                 65558
             ],
@@ -454,52 +443,203 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 69,
+            "textId": 72,
             "dataSetId": 2097194,
             "indexId": [
-                68.0,
-                68.0
+                71.0,
+                71.0
             ]
         },
         {
             "type": "ColorConstant",
             "color": "0xfff6edff",
-            "colorId": 70
+            "colorId": 73
         },
         {
             "type": "NamedVariable",
-            "varId": 70,
+            "varId": 73,
             "varName": "USER:WearM3.onSurface",
             "varType": "COLOR_TYPE"
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 74,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                14.0,
+                "@3211267",
+                16.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                10.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 75,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                16.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 76,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 77,
+            "srcValues": [
+                "@74",
+                "@75",
+                1.03,
+                "@76",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "TextData",
-            "textId": 71,
+            "textId": 78,
             "text": "google:Roboto Flex"
         },
         {
             "type": "TextData",
-            "textId": 72,
+            "textId": 79,
             "text": "pnum"
         },
         {
             "type": "TextData",
-            "textId": 73,
+            "textId": 80,
             "text": "XXm"
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 81,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                16.0,
+                "@3211267",
+                14.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                8.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 82,
+            "srcValues": [
+                "@76",
+                14.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 83,
+            "srcValues": [
+                "@81",
+                "@82",
+                1.03,
+                "@76",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "TextData",
-            "textId": 74,
+            "textId": 84,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 75
+            "colorId": 85
         },
         {
             "type": "NamedVariable",
-            "varId": 75,
+            "varId": 85,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
@@ -619,20 +759,20 @@
                                         },
                                         {
                                             "topStart": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "topEnd": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomStart": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomEnd": [
-                                                52.0,
-                                                52.0
+                                                "@42",
+                                                "@42"
                                             ],
                                             "$tags": [
                                                 "MODIFIER"
@@ -666,10 +806,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": 24.0,
-                                            "top": 24.0,
-                                            "right": 24.0,
-                                            "bottom": 24.0
+                                            "left": "@45",
+                                            "top": "@45",
+                                            "right": "@45",
+                                            "bottom": "@45"
                                         }
                                     ]
                                 },
@@ -759,19 +899,19 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 69,
+                                                    "textId": 72,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        32.0,
-                                                        32.0
+                                                        "@77",
+                                                        36.0
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 550.0,
-                                                    "fontFamilyId": 71,
+                                                    "fontFamilyId": 78,
                                                     "textAlign": 1
                                                 }
                                             ],
@@ -846,19 +986,19 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 73,
+                                            "textId": 80,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                28.0,
-                                                28.0
+                                                "@83",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 450.0,
-                                            "fontFamilyId": 71,
+                                            "fontFamilyId": 78,
                                             "textAlign": 1
                                         }
                                     ],
@@ -933,26 +1073,26 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 74,
+                                    "textId": 84,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        32.0,
-                                        32.0
+                                        "@77",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 71,
+                                    "fontFamilyId": 78,
                                     "textAlign": 1
                                 }
                             ],
-                            "paddingLeft": 24.0,
-                            "paddingRight": 24.0,
-                            "paddingTop": 24.0,
-                            "paddingBottom": 24.0,
+                            "paddingLeft": "@45",
+                            "paddingRight": "@45",
+                            "paddingTop": "@45",
+                            "paddingBottom": "@45",
                             "verticalPositioning": "TOP",
                             "horizontalPositioning": "START",
                             "spacedBy": 0.0

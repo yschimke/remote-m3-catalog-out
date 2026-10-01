@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3374
+        "byteLength": 3390
     },
     "operations": [
         {
@@ -267,7 +267,9 @@
             "type": "FloatExpression",
             "id": 60,
             "srcValues": [
-                8.0
+                "@27",
+                4.0,
+                "@3211267"
             ],
             "animation": null
         },
@@ -278,9 +280,9 @@
             "type": "FloatExpression",
             "id": 61,
             "srcValues": [
-                8.0,
+                "@27",
                 2.0,
-                "@3211268"
+                "@3211267"
             ],
             "animation": null
         },
@@ -291,7 +293,9 @@
             "type": "FloatExpression",
             "id": 62,
             "srcValues": [
-                24.0
+                "@27",
+                12.0,
+                "@3211267"
             ],
             "animation": null
         },
@@ -302,9 +306,9 @@
             "type": "FloatExpression",
             "id": 63,
             "srcValues": [
-                24.0,
-                2.0,
-                "@3211268"
+                "@27",
+                6.0,
+                "@3211267"
             ],
             "animation": null
         },
@@ -322,7 +326,7 @@
             "id": 65,
             "srcValues": [
                 "@64",
-                8.0,
+                "@60",
                 "@3211266",
                 2.0,
                 "@3211268"
@@ -337,7 +341,7 @@
             "id": 66,
             "srcValues": [
                 "@64",
-                24.0,
+                "@62",
                 "@3211266",
                 2.0,
                 "@3211268"
@@ -977,7 +981,7 @@
                                             "id": 88,
                                             "srcValues": [
                                                 "@65",
-                                                8.0,
+                                                "@60",
                                                 "@3211265"
                                             ],
                                             "animation": null
@@ -1037,7 +1041,7 @@
                                             "id": 90,
                                             "srcValues": [
                                                 "@66",
-                                                24.0,
+                                                "@62",
                                                 "@3211265"
                                             ],
                                             "animation": null

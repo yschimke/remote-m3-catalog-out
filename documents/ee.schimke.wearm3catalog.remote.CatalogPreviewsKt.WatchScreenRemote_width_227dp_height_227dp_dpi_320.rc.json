@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 853
+        "byteLength": 1261
     },
     "operations": [
         {
@@ -41,38 +41,202 @@
             "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 45,
-            "text": "10:10"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 45,
+            "srcValues": [
+                "@27",
+                8.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "type": "TextData",
             "textId": 46,
-            "text": "google:Roboto Flex"
+            "text": "10:10"
         },
         {
-            "type": "TextData",
-            "textId": 47,
-            "text": "pnum"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 47,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                15.0,
+                "@3211267",
+                15.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                9.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 48,
-            "text": "Row 1"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 48,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                15.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 49,
-            "text": "Row 2"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 49,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 50,
-            "text": "Row 3"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 50,
+            "srcValues": [
+                "@47",
+                "@48",
+                1.03,
+                "@49",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "type": "TextData",
             "textId": 51,
+            "text": "google:Roboto Flex"
+        },
+        {
+            "type": "TextData",
+            "textId": 52,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 53,
+            "text": "Row 1"
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 54,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                14.0,
+                "@3211267",
+                16.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                10.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 55,
+            "srcValues": [
+                "@49",
+                16.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 56,
+            "srcValues": [
+                "@54",
+                "@55",
+                1.03,
+                "@49",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "type": "TextData",
+            "textId": 57,
+            "text": "Row 2"
+        },
+        {
+            "type": "TextData",
+            "textId": 58,
+            "text": "Row 3"
+        },
+        {
+            "type": "TextData",
+            "textId": 59,
             "text": "Row 4"
         },
         {
@@ -256,16 +420,16 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 45,
+                                            "textId": 46,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                30.0,
-                                                30.0
+                                                "@50",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 500.0,
-                                            "fontFamilyId": 46,
+                                            "fontFamilyId": 51,
                                             "textAlign": 1
                                         },
                                         {
@@ -292,16 +456,16 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 48,
+                                            "textId": 53,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                32.0,
-                                                32.0
+                                                "@56",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 550.0,
-                                            "fontFamilyId": 46,
+                                            "fontFamilyId": 51,
                                             "textAlign": 1
                                         },
                                         {
@@ -328,16 +492,16 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 49,
+                                            "textId": 57,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                32.0,
-                                                32.0
+                                                "@56",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 550.0,
-                                            "fontFamilyId": 46,
+                                            "fontFamilyId": 51,
                                             "textAlign": 1
                                         },
                                         {
@@ -364,16 +528,16 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 50,
+                                            "textId": 58,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                32.0,
-                                                32.0
+                                                "@56",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 550.0,
-                                            "fontFamilyId": 46,
+                                            "fontFamilyId": 51,
                                             "textAlign": 1
                                         },
                                         {
@@ -400,16 +564,16 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 51,
+                                            "textId": 59,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                32.0,
-                                                32.0
+                                                "@56",
+                                                36.0
                                             ],
                                             "fontStyle": 0,
                                             "fontWeight": 550.0,
-                                            "fontFamilyId": 46,
+                                            "fontFamilyId": 51,
                                             "textAlign": 1
                                         }
                                     ],
@@ -419,7 +583,7 @@
                                     "paddingBottom": 0.0,
                                     "verticalPositioning": "TOP",
                                     "horizontalPositioning": "CENTER",
-                                    "spacedBy": 16.0
+                                    "spacedBy": "@45"
                                 }
                             ],
                             "paddingLeft": 0.0,

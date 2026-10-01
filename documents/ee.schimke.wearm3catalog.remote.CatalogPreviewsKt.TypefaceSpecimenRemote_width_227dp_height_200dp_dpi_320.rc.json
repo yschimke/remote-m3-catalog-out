@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 578
+        "byteLength": 794
     },
     "operations": [
         {
@@ -19,43 +19,128 @@
             "text": "Orbitron"
         },
         {
-            "type": "TextData",
-            "textId": 43,
-            "text": "google:Orbitron"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 43,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                10.0,
+                "@3211267",
+                22.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                16.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 44,
-            "text": "pnum"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 44,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                22.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 45,
-            "text": "Lobster Two"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 45,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 46,
-            "text": "google:Lobster Two"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 46,
+            "srcValues": [
+                "@43",
+                "@44",
+                1.03,
+                "@45",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "type": "TextData",
             "textId": 47,
-            "text": "Space Grotesk"
+            "text": "google:Orbitron"
         },
         {
             "type": "TextData",
             "textId": 48,
-            "text": "google:Space Grotesk"
+            "text": "pnum"
         },
         {
             "type": "TextData",
             "textId": 49,
-            "text": "JetBrains Mono"
+            "text": "Lobster Two"
         },
         {
             "type": "TextData",
             "textId": 50,
+            "text": "google:Lobster Two"
+        },
+        {
+            "type": "TextData",
+            "textId": 51,
+            "text": "Space Grotesk"
+        },
+        {
+            "type": "TextData",
+            "textId": 52,
+            "text": "google:Space Grotesk"
+        },
+        {
+            "type": "TextData",
+            "textId": 53,
+            "text": "JetBrains Mono"
+        },
+        {
+            "type": "TextData",
+            "textId": 54,
             "text": "google:JetBrains Mono"
         },
         {
@@ -159,12 +244,12 @@
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        44.0,
-                                        44.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
-                                    "fontFamilyId": 43,
+                                    "fontFamilyId": 47,
                                     "textAlign": 1
                                 },
                                 {
@@ -191,16 +276,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 45,
+                                    "textId": 49,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        44.0,
-                                        44.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
-                                    "fontFamilyId": 46,
+                                    "fontFamilyId": 50,
                                     "textAlign": 1
                                 },
                                 {
@@ -227,16 +312,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 47,
+                                    "textId": 51,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        44.0,
-                                        44.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
-                                    "fontFamilyId": 48,
+                                    "fontFamilyId": 52,
                                     "textAlign": 1
                                 },
                                 {
@@ -263,16 +348,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 49,
+                                    "textId": 53,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        44.0,
-                                        44.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
-                                    "fontFamilyId": 50,
+                                    "fontFamilyId": 54,
                                     "textAlign": 1
                                 }
                             ],

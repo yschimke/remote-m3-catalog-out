@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 547
+        "byteLength": 763
     },
     "operations": [
         {
@@ -19,33 +19,118 @@
             "text": "wght 100"
         },
         {
-            "type": "TextData",
-            "textId": 43,
-            "text": "google:Roboto Flex"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 43,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                12.0,
+                "@3211267",
+                20.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                16.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 44,
-            "text": "wght"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 44,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                20.0,
+                "@3211267"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 45,
-            "text": "pnum"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 45,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 46,
-            "text": "wght 400"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 46,
+            "srcValues": [
+                "@43",
+                "@44",
+                1.03,
+                "@45",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
         },
         {
             "type": "TextData",
             "textId": 47,
-            "text": "wght 700"
+            "text": "google:Roboto Flex"
         },
         {
             "type": "TextData",
             "textId": 48,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 49,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 50,
+            "text": "wght 400"
+        },
+        {
+            "type": "TextData",
+            "textId": 51,
+            "text": "wght 700"
+        },
+        {
+            "type": "TextData",
+            "textId": 52,
             "text": "wght 1000"
         },
         {
@@ -149,12 +234,12 @@
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        40.0,
-                                        40.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 43,
+                                    "fontFamilyId": 47,
                                     "textAlign": 1
                                 },
                                 {
@@ -181,16 +266,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 46,
+                                    "textId": 50,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        40.0,
-                                        40.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 43,
+                                    "fontFamilyId": 47,
                                     "textAlign": 1
                                 },
                                 {
@@ -217,16 +302,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 47,
+                                    "textId": 51,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        40.0,
-                                        40.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 43,
+                                    "fontFamilyId": 47,
                                     "textAlign": 1
                                 },
                                 {
@@ -253,16 +338,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 48,
+                                    "textId": 52,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        40.0,
-                                        40.0
+                                        "@46",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 43,
+                                    "fontFamilyId": 47,
                                     "textAlign": 1
                                 }
                             ],

@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 1555
+        "byteLength": 1587
     },
     "operations": [
         {
@@ -20,7 +20,9 @@
             "type": "FloatExpression",
             "id": 42,
             "srcValues": [
-                24.0
+                "@27",
+                12.0,
+                "@3211267"
             ],
             "animation": null
         },
@@ -31,9 +33,9 @@
             "type": "FloatExpression",
             "id": 43,
             "srcValues": [
-                24.0,
-                2.0,
-                "@3211268"
+                "@27",
+                6.0,
+                "@3211267"
             ],
             "animation": null
         },
@@ -104,7 +106,9 @@
             "id": 49,
             "srcValues": [
                 "@46",
-                24.0,
+                "@27",
+                12.0,
+                "@3211267",
                 "@3211266"
             ],
             "animation": null
@@ -287,12 +291,14 @@
             "srcValues": [
                 1.0,
                 0.0,
-                24.0,
-                8.0,
+                "@42",
+                "@27",
+                4.0,
+                "@3211267",
                 "@3211265",
                 0.001,
                 "@46",
-                24.0,
+                "@42",
                 "@3211266",
                 "@3211271",
                 "@3211268",
@@ -484,7 +490,7 @@
                                         "type": "PaintBundle",
                                         "operations": [
                                             "{type=ColorId, id=63}",
-                                            "{type=StrokeWidth, width={type=Value, value=24.0}}",
+                                            "{type=StrokeWidth, width={type=Variable, id=42}}",
                                             "{type=StrokeCap, cap=1}",
                                             "{type=StrokeJoin, strokeJoin=0}",
                                             "{type=Style, style=1}",
@@ -627,12 +633,14 @@
                                     "srcValues": [
                                         1.0,
                                         0.0,
-                                        24.0,
-                                        8.0,
+                                        "@42",
+                                        "@27",
+                                        4.0,
+                                        "@3211267",
                                         "@3211265",
                                         0.001,
                                         "@46",
-                                        24.0,
+                                        "@42",
                                         "@3211266",
                                         "@3211271",
                                         "@3211268",

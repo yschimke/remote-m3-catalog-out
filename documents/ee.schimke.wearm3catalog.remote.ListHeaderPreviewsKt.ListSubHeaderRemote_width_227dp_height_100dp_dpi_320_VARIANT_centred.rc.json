@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 353
+        "byteLength": 632
     },
     "operations": [
         {
@@ -14,29 +14,153 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 200\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 42,
+            "srcValues": [
+                "@27",
+                14.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 43,
+            "srcValues": [
+                "@27",
+                16.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 44,
+            "srcValues": [
+                "@27",
+                8.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "TextData",
-            "textId": 42,
+            "textId": 45,
             "text": "Subtitle"
         },
         {
             "type": "ColorConstant",
             "color": "0xfff6edff",
-            "colorId": 43
+            "colorId": 46
         },
         {
             "type": "NamedVariable",
-            "varId": 43,
+            "varId": 46,
             "varName": "USER:WearM3.onSurface",
             "varType": "COLOR_TYPE"
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 47,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                16.0,
+                "@3211267",
+                14.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                8.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 48,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                14.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 49,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 50,
+            "srcValues": [
+                "@47",
+                "@48",
+                1.03,
+                "@49",
+                "@3211266",
+                "@3211290",
+                "@27",
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
             "type": "TextData",
-            "textId": 44,
+            "textId": 51,
             "text": "google:Roboto Flex"
         },
         {
             "type": "TextData",
-            "textId": 45,
+            "textId": 52,
             "text": "pnum"
         },
         {
@@ -102,7 +226,7 @@
                             "x": 0.0,
                             "y": 0.0,
                             "width": 180.0,
-                            "height": 48.0,
+                            "height": "@43",
                             "visibility": "VISIBLE",
                             "list": [
                                 {
@@ -141,10 +265,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": 28.0,
-                                            "top": 32.0,
-                                            "right": 28.0,
-                                            "bottom": 16.0
+                                            "left": "@42",
+                                            "top": "@43",
+                                            "right": "@42",
+                                            "bottom": "@44"
                                         }
                                     ]
                                 },
@@ -184,26 +308,26 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 42,
+                                    "textId": 45,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        28.0,
-                                        28.0
+                                        "@50",
+                                        36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 550.0,
-                                    "fontFamilyId": 44,
+                                    "fontFamilyId": 51,
                                     "textAlign": 3
                                 }
                             ],
-                            "paddingLeft": 28.0,
-                            "paddingRight": 28.0,
-                            "paddingTop": 32.0,
-                            "paddingBottom": 16.0,
+                            "paddingLeft": "@42",
+                            "paddingRight": "@42",
+                            "paddingTop": "@43",
+                            "paddingBottom": "@44",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "START",
                             "spacedBy": 0.0

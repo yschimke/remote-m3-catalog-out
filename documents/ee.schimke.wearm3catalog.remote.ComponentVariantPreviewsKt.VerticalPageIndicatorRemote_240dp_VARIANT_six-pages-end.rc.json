@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2883
+        "byteLength": 2825
     },
     "operations": [
         {
@@ -988,54 +988,49 @@
                                         },
                                         {
                                             "type": "ColorConstant",
-                                            "color": "0xffcac4d0",
+                                            "color": "0xffffffff",
                                             "colorId": 95
                                         },
                                         {
                                             "type": "NamedVariable",
                                             "varId": 95,
-                                            "varName": "USER:WearM3.onSurfaceVariant",
+                                            "varName": "USER:WearM3.onBackground",
                                             "varType": "COLOR_TYPE"
                                         },
                                         {
-                                            "type": "COLOR_ALPHA",
+                                            "type": "COLOR_RED",
                                             "id": 96,
                                             "colorId": 95
                                         },
                                         {
-                                            "type": "COLOR_RED",
+                                            "type": "COLOR_GREEN",
                                             "id": 97,
                                             "colorId": 95
                                         },
                                         {
-                                            "type": "COLOR_GREEN",
+                                            "type": "COLOR_BLUE",
                                             "id": 98,
                                             "colorId": 95
                                         },
                                         {
-                                            "type": "COLOR_BLUE",
-                                            "id": 99,
-                                            "colorId": 95
-                                        },
-                                        {
                                             "type": "ColorExpression",
-                                            "id": 100,
+                                            "id": 99,
                                             "mode": "ARGB",
                                             "a": [
+                                                0.2998047,
+                                                0.2998047
+                                            ],
+                                            "r": [
                                                 "@96",
                                                 "@96"
                                             ],
-                                            "r": [
+                                            "g": [
                                                 "@97",
                                                 "@97"
                                             ],
-                                            "g": [
+                                            "b": [
                                                 "@98",
                                                 "@98"
-                                            ],
-                                            "b": [
-                                                "@99",
-                                                "@99"
                                             ]
                                         },
                                         {
@@ -1043,7 +1038,7 @@
                                             "paintBundle": {
                                                 "type": "PaintBundle",
                                                 "operations": [
-                                                    "{type=ColorId, id=100}",
+                                                    "{type=ColorId, id=99}",
                                                     "{type=StrokeWidth, width={type=Value, value=0.0}}",
                                                     "{type=StrokeCap, cap=0}",
                                                     "{type=Style, style=0}"
@@ -1055,7 +1050,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 101,
+                                            "id": 100,
                                             "srcValues": [
                                                 "@71",
                                                 "@54",
@@ -1068,7 +1063,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 102,
+                                            "id": 101,
                                             "srcValues": [
                                                 "@72",
                                                 "@54",
@@ -1086,12 +1081,12 @@
                                                 "@72"
                                             ],
                                             "right": [
-                                                "@101",
-                                                "@101"
+                                                "@100",
+                                                "@100"
                                             ],
                                             "bottom": [
-                                                "@102",
-                                                "@102"
+                                                "@101",
+                                                "@101"
                                             ],
                                             "rx": [
                                                 "@52",
@@ -1108,7 +1103,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 103,
+                                            "id": 102,
                                             "srcValues": [
                                                 "@74",
                                                 "@54",
@@ -1121,7 +1116,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 104,
+                                            "id": 103,
                                             "srcValues": [
                                                 "@75",
                                                 "@54",
@@ -1139,12 +1134,12 @@
                                                 "@75"
                                             ],
                                             "right": [
-                                                "@103",
-                                                "@103"
+                                                "@102",
+                                                "@102"
                                             ],
                                             "bottom": [
-                                                "@104",
-                                                "@104"
+                                                "@103",
+                                                "@103"
                                             ],
                                             "rx": [
                                                 "@52",
@@ -1161,7 +1156,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 105,
+                                            "id": 104,
                                             "srcValues": [
                                                 "@77",
                                                 "@54",
@@ -1174,7 +1169,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 106,
+                                            "id": 105,
                                             "srcValues": [
                                                 "@78",
                                                 "@54",
@@ -1192,12 +1187,12 @@
                                                 "@78"
                                             ],
                                             "right": [
-                                                "@105",
-                                                "@105"
+                                                "@104",
+                                                "@104"
                                             ],
                                             "bottom": [
-                                                "@106",
-                                                "@106"
+                                                "@105",
+                                                "@105"
                                             ],
                                             "rx": [
                                                 "@52",
@@ -1214,7 +1209,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 107,
+                                            "id": 106,
                                             "srcValues": [
                                                 "@80",
                                                 "@54",
@@ -1227,7 +1222,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 108,
+                                            "id": 107,
                                             "srcValues": [
                                                 "@81",
                                                 "@54",
@@ -1245,12 +1240,12 @@
                                                 "@81"
                                             ],
                                             "right": [
-                                                "@107",
-                                                "@107"
+                                                "@106",
+                                                "@106"
                                             ],
                                             "bottom": [
-                                                "@108",
-                                                "@108"
+                                                "@107",
+                                                "@107"
                                             ],
                                             "rx": [
                                                 "@52",
@@ -1267,7 +1262,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 109,
+                                            "id": 108,
                                             "srcValues": [
                                                 "@83",
                                                 "@54",
@@ -1280,7 +1275,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 110,
+                                            "id": 109,
                                             "srcValues": [
                                                 "@84",
                                                 "@54",
@@ -1298,12 +1293,12 @@
                                                 "@84"
                                             ],
                                             "right": [
-                                                "@109",
-                                                "@109"
+                                                "@108",
+                                                "@108"
                                             ],
                                             "bottom": [
-                                                "@110",
-                                                "@110"
+                                                "@109",
+                                                "@109"
                                             ],
                                             "rx": [
                                                 "@52",
@@ -1320,9 +1315,8 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 111,
+                                            "id": 110,
                                             "srcValues": [
-                                                "@96",
                                                 "@59",
                                                 0.5,
                                                 "@3211268",
@@ -1347,29 +1341,30 @@
                                                 1.0,
                                                 "@3211266",
                                                 "@3211290",
+                                                0.3,
                                                 "@3211267"
                                             ],
                                             "animation": null
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 112,
+                                            "id": 111,
                                             "mode": "ARGB",
                                             "a": [
-                                                "@111",
-                                                "@111"
+                                                "@110",
+                                                "@110"
                                             ],
                                             "r": [
+                                                "@96",
+                                                "@96"
+                                            ],
+                                            "g": [
                                                 "@97",
                                                 "@97"
                                             ],
-                                            "g": [
+                                            "b": [
                                                 "@98",
                                                 "@98"
-                                            ],
-                                            "b": [
-                                                "@99",
-                                                "@99"
                                             ]
                                         },
                                         {
@@ -1377,7 +1372,7 @@
                                             "paintBundle": {
                                                 "type": "PaintBundle",
                                                 "operations": [
-                                                    "{type=ColorId, id=112}"
+                                                    "{type=ColorId, id=111}"
                                                 ]
                                             }
                                         },
@@ -1386,7 +1381,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 113,
+                                            "id": 112,
                                             "srcValues": [
                                                 "@86",
                                                 "@88",
@@ -1399,7 +1394,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 114,
+                                            "id": 113,
                                             "srcValues": [
                                                 "@87",
                                                 "@88",
@@ -1417,12 +1412,12 @@
                                                 "@87"
                                             ],
                                             "right": [
-                                                "@113",
-                                                "@113"
+                                                "@112",
+                                                "@112"
                                             ],
                                             "bottom": [
-                                                "@114",
-                                                "@114"
+                                                "@113",
+                                                "@113"
                                             ],
                                             "rx": [
                                                 "@60",
@@ -1435,22 +1430,11 @@
                                             "type": "DrawRoundRect"
                                         },
                                         {
-                                            "type": "ColorConstant",
-                                            "color": "0xfff6edff",
-                                            "colorId": 115
-                                        },
-                                        {
-                                            "type": "NamedVariable",
-                                            "varId": 115,
-                                            "varName": "USER:WearM3.onSurface",
-                                            "varType": "COLOR_TYPE"
-                                        },
-                                        {
                                             "type": "PaintData",
                                             "paintBundle": {
                                                 "type": "PaintBundle",
                                                 "operations": [
-                                                    "{type=ColorId, id=115}"
+                                                    "{type=ColorId, id=95}"
                                                 ]
                                             }
                                         },
@@ -1524,7 +1508,7 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 116,
+                                            "id": 114,
                                             "srcValues": [
                                                 "@64",
                                                 "@64",
@@ -1554,8 +1538,8 @@
                                                 "@64"
                                             ],
                                             "sweepAngle": [
-                                                "@116",
-                                                "@116"
+                                                "@114",
+                                                "@114"
                                             ],
                                             "type": "DrawArc"
                                         },

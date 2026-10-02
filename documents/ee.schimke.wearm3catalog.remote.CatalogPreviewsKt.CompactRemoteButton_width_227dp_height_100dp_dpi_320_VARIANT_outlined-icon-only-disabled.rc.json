@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2462
+        "byteLength": 2442
     },
     "operations": [
         {
@@ -724,7 +724,7 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 67,
+                                                                    "valueId": 71,
                                                                     "componentValueType": "WIDTH",
                                                                     "componentId": -1000005
                                                                 },
@@ -733,9 +733,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 68,
+                                                                    "id": 72,
                                                                     "srcValues": [
-                                                                        "@67",
+                                                                        "@71",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -743,7 +743,7 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 69,
+                                                                    "valueId": 73,
                                                                     "componentValueType": "HEIGHT",
                                                                     "componentId": -1000005
                                                                 },
@@ -752,9 +752,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 70,
+                                                                    "id": 74,
                                                                     "srcValues": [
-                                                                        "@69",
+                                                                        "@73",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -762,12 +762,12 @@
                                                                 },
                                                                 {
                                                                     "scaleX": [
-                                                                        "@68",
-                                                                        "@68"
+                                                                        "@72",
+                                                                        "@72"
                                                                     ],
                                                                     "scaleY": [
-                                                                        "@70",
-                                                                        "@70"
+                                                                        "@74",
+                                                                        "@74"
                                                                     ],
                                                                     "pivotX": [
                                                                         "NaN",
@@ -780,68 +780,42 @@
                                                                     "type": "MatrixScale"
                                                                 },
                                                                 {
-                                                                    "type": "ColorConstant",
-                                                                    "color": "0xfff6edff",
-                                                                    "colorId": 71
-                                                                },
-                                                                {
-                                                                    "type": "NamedVariable",
-                                                                    "varId": 71,
-                                                                    "varName": "USER:WearM3.onSurface",
-                                                                    "varType": "COLOR_TYPE"
-                                                                },
-                                                                {
                                                                     "type": "COLOR_ALPHA",
-                                                                    "id": 72,
-                                                                    "colorId": 71
+                                                                    "id": 75,
+                                                                    "colorId": 65
                                                                 },
                                                                 {
                                                                     "$tags": [
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 73,
+                                                                    "id": 76,
                                                                     "srcValues": [
-                                                                        "@72",
+                                                                        "@75",
                                                                         0.38,
                                                                         "@3211267"
                                                                     ],
                                                                     "animation": null
                                                                 },
                                                                 {
-                                                                    "type": "COLOR_RED",
-                                                                    "id": 74,
-                                                                    "colorId": 71
-                                                                },
-                                                                {
-                                                                    "type": "COLOR_GREEN",
-                                                                    "id": 75,
-                                                                    "colorId": 71
-                                                                },
-                                                                {
-                                                                    "type": "COLOR_BLUE",
-                                                                    "id": 76,
-                                                                    "colorId": 71
-                                                                },
-                                                                {
                                                                     "type": "ColorExpression",
                                                                     "id": 77,
                                                                     "mode": "ARGB",
                                                                     "a": [
-                                                                        "@73",
-                                                                        "@73"
-                                                                    ],
-                                                                    "r": [
-                                                                        "@74",
-                                                                        "@74"
-                                                                    ],
-                                                                    "g": [
-                                                                        "@75",
-                                                                        "@75"
-                                                                    ],
-                                                                    "b": [
                                                                         "@76",
                                                                         "@76"
+                                                                    ],
+                                                                    "r": [
+                                                                        "@66",
+                                                                        "@66"
+                                                                    ],
+                                                                    "g": [
+                                                                        "@67",
+                                                                        "@67"
+                                                                    ],
+                                                                    "b": [
+                                                                        "@68",
+                                                                        "@68"
                                                                     ]
                                                                 },
                                                                 {

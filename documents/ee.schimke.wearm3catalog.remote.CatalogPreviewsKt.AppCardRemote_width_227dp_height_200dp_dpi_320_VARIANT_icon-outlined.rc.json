@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3487
+        "byteLength": 3528
     },
     "operations": [
         {
@@ -525,7 +525,7 @@
             "type": "IdListData",
             "id": 2097194,
             "ids": [
-                "[I@1fa121e2"
+                "[I@3b0090a4"
             ]
         },
         {
@@ -953,7 +953,7 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 89,
+                                                                    "valueId": 90,
                                                                     "componentValueType": "WIDTH",
                                                                     "componentId": -1000005
                                                                 },
@@ -962,9 +962,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 90,
+                                                                    "id": 91,
                                                                     "srcValues": [
-                                                                        "@89",
+                                                                        "@90",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -972,7 +972,7 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 91,
+                                                                    "valueId": 92,
                                                                     "componentValueType": "HEIGHT",
                                                                     "componentId": -1000005
                                                                 },
@@ -981,9 +981,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 92,
+                                                                    "id": 93,
                                                                     "srcValues": [
-                                                                        "@91",
+                                                                        "@92",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -991,12 +991,12 @@
                                                                 },
                                                                 {
                                                                     "scaleX": [
-                                                                        "@90",
-                                                                        "@90"
+                                                                        "@91",
+                                                                        "@91"
                                                                     ],
                                                                     "scaleY": [
-                                                                        "@92",
-                                                                        "@92"
+                                                                        "@93",
+                                                                        "@93"
                                                                     ],
                                                                     "pivotX": [
                                                                         "NaN",
@@ -1031,7 +1031,7 @@
                                                                 },
                                                                 {
                                                                     "type": "PathData",
-                                                                    "id": 93,
+                                                                    "id": 94,
                                                                     "path": [
                                                                         "@10",
                                                                         12.0,
@@ -1086,7 +1086,7 @@
                                                                 },
                                                                 {
                                                                     "type": "DrawPath",
-                                                                    "id": 93,
+                                                                    "id": 94,
                                                                     "start": 0.0,
                                                                     "end": 1.0
                                                                 },

@@ -275,6 +275,73 @@
                 "wasm": null,
                 "code": null,
                 "svg": null
+            },
+            "remote-m3/widget-container-adaptive": {
+                "role": "screen-root",
+                "displayName": "Wear widget · Adaptive (experimental)",
+                "group": "Widget Container",
+                "canvas": "widget-container",
+                "unrolled": null,
+                "traits": [
+                    "ScreenContent",
+                    "WearWidgetHost",
+                    "RemoteContentHost"
+                ],
+                "slots": {
+                    "background": {
+                        "acceptedRoles": [
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "DrawLayer",
+                            "ImageContent"
+                        ]
+                    },
+                    "headline": {
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    },
+                    "supporting": {
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    },
+                    "action": {
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    }
+                },
+                "properties": [
+                    {
+                        "name": "background",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The widget's own background, painted by the host inside the frame it draws. Defaults to #FF272430, the colour WearWidgetContainer applies to a widget that declares none. Padding and corner radius are not properties: WearWidgetParams hands them to the widget per host shape (0 rectangular, 26 squircle, 999 round), so the outermost box never authors a radius."
+                    }
+                ],
+                "modifierCapabilities": [],
+                "implementation": null,
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
             }
         },
         "components": {

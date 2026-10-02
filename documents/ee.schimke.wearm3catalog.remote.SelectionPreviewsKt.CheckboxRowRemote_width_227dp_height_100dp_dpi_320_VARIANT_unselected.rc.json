@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3551
+        "byteLength": 3508
     },
     "operations": [
         {
@@ -1534,27 +1534,16 @@
                                                     "type": "DrawRoundRect"
                                                 },
                                                 {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xff210f48",
-                                                    "colorId": 113
-                                                },
-                                                {
-                                                    "type": "NamedVariable",
-                                                    "varId": 113,
-                                                    "varName": "USER:WearM3.onPrimary",
-                                                    "varType": "COLOR_TYPE"
-                                                },
-                                                {
                                                     "type": "ColorExpression",
-                                                    "id": 114,
+                                                    "id": 113,
                                                     "mode": "TWEEN",
                                                     "startColor": [
                                                         110.0,
                                                         110.0
                                                     ],
                                                     "endColor": [
-                                                        113.0,
-                                                        113.0
+                                                        104.0,
+                                                        104.0
                                                     ],
                                                     "tween": [
                                                         "@58",
@@ -1566,7 +1555,7 @@
                                                     "paintBundle": {
                                                         "type": "PaintBundle",
                                                         "operations": [
-                                                            "{type=ColorId, id=114}",
+                                                            "{type=ColorId, id=113}",
                                                             "{type=StrokeWidth, width={type=Variable, id=77}}",
                                                             "{type=StrokeCap, cap=1}",
                                                             "{type=Style, style=1}"
@@ -1578,7 +1567,7 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 115,
+                                                    "id": 114,
                                                     "srcValues": [
                                                         "@83",
                                                         "@98",
@@ -1597,7 +1586,7 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 116,
+                                                    "id": 115,
                                                     "srcValues": [
                                                         "@83",
                                                         "@98",
@@ -1613,12 +1602,12 @@
                                                 },
                                                 {
                                                     "startX": [
-                                                        "@115",
-                                                        "@115"
+                                                        "@114",
+                                                        "@114"
                                                     ],
                                                     "startY": [
-                                                        "@116",
-                                                        "@116"
+                                                        "@115",
+                                                        "@115"
                                                     ],
                                                     "endX": [
                                                         "@96",
@@ -1635,7 +1624,7 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 117,
+                                                    "id": 116,
                                                     "srcValues": [
                                                         "@83",
                                                         "@101",
@@ -1654,7 +1643,7 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 118,
+                                                    "id": 117,
                                                     "srcValues": [
                                                         "@83",
                                                         "@101",
@@ -1678,12 +1667,12 @@
                                                         "@97"
                                                     ],
                                                     "endX": [
-                                                        "@117",
-                                                        "@117"
+                                                        "@116",
+                                                        "@116"
                                                     ],
                                                     "endY": [
-                                                        "@118",
-                                                        "@118"
+                                                        "@117",
+                                                        "@117"
                                                     ],
                                                     "type": "DrawLine"
                                                 },

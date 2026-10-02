@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2522
+        "byteLength": 2502
     },
     "operations": [
         {
@@ -658,7 +658,7 @@
                                                 },
                                                 {
                                                     "type": "ComponentValue",
-                                                    "valueId": 70,
+                                                    "valueId": 74,
                                                     "componentValueType": "WIDTH",
                                                     "componentId": -1000003
                                                 },
@@ -667,9 +667,9 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 71,
+                                                    "id": 75,
                                                     "srcValues": [
-                                                        "@70",
+                                                        "@74",
                                                         24.0,
                                                         "@3211268"
                                                     ],
@@ -677,7 +677,7 @@
                                                 },
                                                 {
                                                     "type": "ComponentValue",
-                                                    "valueId": 72,
+                                                    "valueId": 76,
                                                     "componentValueType": "HEIGHT",
                                                     "componentId": -1000003
                                                 },
@@ -686,9 +686,9 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 73,
+                                                    "id": 77,
                                                     "srcValues": [
-                                                        "@72",
+                                                        "@76",
                                                         24.0,
                                                         "@3211268"
                                                     ],
@@ -696,12 +696,12 @@
                                                 },
                                                 {
                                                     "scaleX": [
-                                                        "@71",
-                                                        "@71"
+                                                        "@75",
+                                                        "@75"
                                                     ],
                                                     "scaleY": [
-                                                        "@73",
-                                                        "@73"
+                                                        "@77",
+                                                        "@77"
                                                     ],
                                                     "pivotX": [
                                                         "NaN",
@@ -714,68 +714,42 @@
                                                     "type": "MatrixScale"
                                                 },
                                                 {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xfff6edff",
-                                                    "colorId": 74
-                                                },
-                                                {
-                                                    "type": "NamedVariable",
-                                                    "varId": 74,
-                                                    "varName": "USER:WearM3.onSurface",
-                                                    "varType": "COLOR_TYPE"
-                                                },
-                                                {
                                                     "type": "COLOR_ALPHA",
-                                                    "id": 75,
-                                                    "colorId": 74
+                                                    "id": 78,
+                                                    "colorId": 68
                                                 },
                                                 {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 76,
+                                                    "id": 79,
                                                     "srcValues": [
-                                                        "@75",
+                                                        "@78",
                                                         0.38,
                                                         "@3211267"
                                                     ],
                                                     "animation": null
                                                 },
                                                 {
-                                                    "type": "COLOR_RED",
-                                                    "id": 77,
-                                                    "colorId": 74
-                                                },
-                                                {
-                                                    "type": "COLOR_GREEN",
-                                                    "id": 78,
-                                                    "colorId": 74
-                                                },
-                                                {
-                                                    "type": "COLOR_BLUE",
-                                                    "id": 79,
-                                                    "colorId": 74
-                                                },
-                                                {
                                                     "type": "ColorExpression",
                                                     "id": 80,
                                                     "mode": "ARGB",
                                                     "a": [
-                                                        "@76",
-                                                        "@76"
-                                                    ],
-                                                    "r": [
-                                                        "@77",
-                                                        "@77"
-                                                    ],
-                                                    "g": [
-                                                        "@78",
-                                                        "@78"
-                                                    ],
-                                                    "b": [
                                                         "@79",
                                                         "@79"
+                                                    ],
+                                                    "r": [
+                                                        "@69",
+                                                        "@69"
+                                                    ],
+                                                    "g": [
+                                                        "@70",
+                                                        "@70"
+                                                    ],
+                                                    "b": [
+                                                        "@71",
+                                                        "@71"
                                                     ]
                                                 },
                                                 {

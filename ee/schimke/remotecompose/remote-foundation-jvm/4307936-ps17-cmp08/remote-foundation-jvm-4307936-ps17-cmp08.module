@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-foundation/4307936-ps17-cmp08/remote-foundation-4307936-ps17-cmp08.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-foundation",
+    "version": "4307936-ps17-cmp08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-creation-compose",
+          "version": {
+            "requires": "4307936-ps17-cmp08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-foundation-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-foundation-jvm-4307936-ps17-cmp08.jar",
+          "size": 15024,
+          "sha512": "133c0401c5b9a73ef8c3b19b7a38fee8da09ab564d386a7d02453ae74b6f84b9ef5a7d86aaab1ec0d68e4bee93836437a7d672db02edca62df1fcbdb3186a0ae",
+          "sha256": "fd0a2e44b032c66a812dc9c6fcff127b802cd27a77d0dc647e6c95580ade6955",
+          "sha1": "67b41dd46cd107e0b592d349a3fcff6881dbf949",
+          "md5": "7e0c026ca7bf9f6b0834bedc7a4db158"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-creation-compose",
+          "version": {
+            "requires": "4307936-ps17-cmp08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-foundation-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-foundation-jvm-4307936-ps17-cmp08.jar",
+          "size": 15024,
+          "sha512": "133c0401c5b9a73ef8c3b19b7a38fee8da09ab564d386a7d02453ae74b6f84b9ef5a7d86aaab1ec0d68e4bee93836437a7d672db02edca62df1fcbdb3186a0ae",
+          "sha256": "fd0a2e44b032c66a812dc9c6fcff127b802cd27a77d0dc647e6c95580ade6955",
+          "sha1": "67b41dd46cd107e0b592d349a3fcff6881dbf949",
+          "md5": "7e0c026ca7bf9f6b0834bedc7a4db158"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remote-foundation-jvm-4307936-ps17-cmp08-sources.jar",
+          "url": "remote-foundation-jvm-4307936-ps17-cmp08-sources.jar",
+          "size": 6589,
+          "sha512": "d4d5b12f82aad1eced7a4eb674ab5186c9ce3193b676d0f5ad87afa21c2019e6220d175a5bd1b3e2ba0acac7a3e8a5727a76632a624d39a6cb220f58c3abf0e5",
+          "sha256": "1d5c41415ff2cd3c8f6193de82ccd24a75998df3457c7a1a5846ebfd1852968b",
+          "sha1": "99e982ba5cca9ab311e5c1d445a175f4375431a9",
+          "md5": "d5f0900e5aac32288372fe193f338bde"
+        }
+      ]
+    }
+  ]
+}

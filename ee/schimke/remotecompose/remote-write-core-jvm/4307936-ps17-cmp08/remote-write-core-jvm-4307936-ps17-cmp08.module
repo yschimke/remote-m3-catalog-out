@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-write-core/4307936-ps17-cmp08/remote-write-core-4307936-ps17-cmp08.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-write-core",
+    "version": "4307936-ps17-cmp08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-write-core-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-write-core-jvm-4307936-ps17-cmp08.jar",
+          "size": 169612,
+          "sha512": "383d8e395b6795ab7ac41eda5ef075bf9597011bc96c09190f9a17bd8a14b7748609ec1a7f5c8b1ea1a1629d16a04ebe28edc6371ab623634f7bf5a8437b09cf",
+          "sha256": "d51287176b6f291706bf32003b445a32306261785fc4d55617e8caa4f09e27e8",
+          "sha1": "6bb08d187c2a79f089e5db638b001dc3b59407f8",
+          "md5": "37765a3f958299ff115b6a3e8f3a483b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-write-core-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-write-core-jvm-4307936-ps17-cmp08.jar",
+          "size": 169612,
+          "sha512": "383d8e395b6795ab7ac41eda5ef075bf9597011bc96c09190f9a17bd8a14b7748609ec1a7f5c8b1ea1a1629d16a04ebe28edc6371ab623634f7bf5a8437b09cf",
+          "sha256": "d51287176b6f291706bf32003b445a32306261785fc4d55617e8caa4f09e27e8",
+          "sha1": "6bb08d187c2a79f089e5db638b001dc3b59407f8",
+          "md5": "37765a3f958299ff115b6a3e8f3a483b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remote-write-core-jvm-4307936-ps17-cmp08-sources.jar",
+          "url": "remote-write-core-jvm-4307936-ps17-cmp08-sources.jar",
+          "size": 25171,
+          "sha512": "fb9d99c8319ef156624b8eb83180d277ffe37a34259fb22328179bd87eb1a6efe38fa8d89f6ffd02829c6af19598f3737118b144aa5ea1ae18e440d053dd7712",
+          "sha256": "d54159f275113450e2a8e1a508a0dae4fc7375eb413f3139ca613452e712897c",
+          "sha1": "0107d0b7b29bffaf5ce123f92a20c361f2ef20cc",
+          "md5": "044b51007b6cc5fbcba6bf4b0d218c62"
+        }
+      ]
+    }
+  ]
+}

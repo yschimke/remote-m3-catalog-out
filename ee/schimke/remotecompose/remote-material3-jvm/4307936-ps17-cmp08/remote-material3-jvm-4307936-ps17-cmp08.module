@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-material3/4307936-ps17-cmp08/remote-material3-4307936-ps17-cmp08.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-material3",
+    "version": "4307936-ps17-cmp08",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-foundation",
+          "version": {
+            "requires": "4307936-ps17-cmp08"
+          }
+        },
+        {
+          "group": "ee.schimke.wearcmp",
+          "module": "wear-compose-material3",
+          "version": {
+            "requires": "1.7.0-beta02-cmp09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-material3-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-material3-jvm-4307936-ps17-cmp08.jar",
+          "size": 402084,
+          "sha512": "2b79fd9c38bd8ae0f494ab6d8e34e95ae688eecff49f34ed9ab3745efd353a056e0f554e9b8808574dd5c13069a920bce34cf6c8b697a8e82c59606057cf354c",
+          "sha256": "1a0b4236dab1cee00a9e5f64354c43f0699759c0c53aad663b1e60ee197d1cd6",
+          "sha1": "b0d11f57fd252ac28e737caa99f71c91611908c3",
+          "md5": "3d0bdcecea326bfd420c786394b38a9a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-foundation",
+          "version": {
+            "requires": "4307936-ps17-cmp08"
+          }
+        },
+        {
+          "group": "ee.schimke.wearcmp",
+          "module": "wear-compose-material3",
+          "version": {
+            "requires": "1.7.0-beta02-cmp09"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-creation-compose",
+          "version": {
+            "requires": "4307936-ps17-cmp08"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-material3-jvm-4307936-ps17-cmp08.jar",
+          "url": "remote-material3-jvm-4307936-ps17-cmp08.jar",
+          "size": 402084,
+          "sha512": "2b79fd9c38bd8ae0f494ab6d8e34e95ae688eecff49f34ed9ab3745efd353a056e0f554e9b8808574dd5c13069a920bce34cf6c8b697a8e82c59606057cf354c",
+          "sha256": "1a0b4236dab1cee00a9e5f64354c43f0699759c0c53aad663b1e60ee197d1cd6",
+          "sha1": "b0d11f57fd252ac28e737caa99f71c91611908c3",
+          "md5": "3d0bdcecea326bfd420c786394b38a9a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remote-material3-jvm-4307936-ps17-cmp08-sources.jar",
+          "url": "remote-material3-jvm-4307936-ps17-cmp08-sources.jar",
+          "size": 115432,
+          "sha512": "7e266cbf25c533704b067fbb45354eb734a547dc62b8e281c26ae072c400345bb8996d97edfb5d019a6e84b58903f02a4395f4d44b0bb963e8b06a5ed31d53fd",
+          "sha256": "65502a04e9482a1713ee86bf85ddca5bc9a43aa60c1d766fabe1295cef263b3d",
+          "sha1": "6deb21c0f68fee0f6c271aadc421b7d5b8aad0d0",
+          "md5": "85829c6fabce6fa1760569e60ab1bed4"
+        }
+      ]
+    }
+  ]
+}

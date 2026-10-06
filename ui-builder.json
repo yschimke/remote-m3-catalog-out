@@ -787,7 +787,8 @@
                         }
                     },
                     "properties": {
-                        "iconKey": "imageVector"
+                        "iconKey": "imageVector",
+                        "color": "tint"
                     }
                 },
                 "unrolled": null,
@@ -799,7 +800,26 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "imageVector",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A Material icon key (`home`, `search`, `addCircle`, …), written as `Icons.<Style>.<Name>.toRemoteImageVector()` — `RemoteIcon` takes a `RemoteImageVector` captured from the `androidx.compose.material.icons` vector. Unset draws `addCircle`, the default the canvas mapping above gives."
+                    },
+                    {
+                        "name": "contentDescription",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "What a screen reader says for the icon. Leave it empty beside a label; set it when the icon is the whole button."
+                    },
+                    {
+                        "name": "tint",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A colour: a `#RRGGBB` literal or one of `colorTokens.roles`. Unset inherits the enclosing content colour, which is how a button's colour reaches its icon."
+                    }
+                ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null
             },

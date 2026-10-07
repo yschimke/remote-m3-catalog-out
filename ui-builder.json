@@ -1161,6 +1161,18 @@
                         "name": "maxLines",
                         "jsonType": "integer",
                         "required": false
+                    },
+                    {
+                        "name": "fontVariationSettings",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "Variable-font axis coordinates, CSS `font-variation-settings` style with bare tags: `wght 650, wdth 87.5, GRAD -50`. Written as `RemoteText(fontVariationSettings = FontVariation.Settings(…))`, so the document carries the axes and the player applies them to the face it resolves; an axis that face does not have is ignored. `wght` set here overrides `fontWeight`."
+                    },
+                    {
+                        "name": "fontFeatureSettings",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "OpenType layout features, CSS `font-feature-settings` style with bare tags: `tnum, ss01, liga 0`. Written as `style = ….merge(fontFeatureSettings = …)`, since `RemoteText` has no feature parameter; Remote Compose carries them in the document beside the axes. A feature the typeface does not have is ignored."
                     }
                 ],
                 "slotCapabilities": null,

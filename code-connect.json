@@ -1,0 +1,473 @@
+{
+  "system": "remote-widgets",
+  "title": "Remote Compose Launcher Widgets",
+  "label": "Compose",
+  "source": {
+    "repo": "yschimke/remote-m3-catalog",
+    "ref": "main",
+    "module": ":widget-catalog"
+  },
+  "generatedAt": "2026-10-08T06:32:56.198Z",
+  "mappings": [
+    {
+      "componentId": "LauncherWidget/Counter",
+      "figmaLayerName": "LauncherWidget/Counter",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "CounterWidgetSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "LauncherWidget/Grid",
+      "figmaLayerName": "LauncherWidget/Grid",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "HIGH",
+      "previewName": "WidgetGridSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetSurface",
+      "figmaLayerName": "WidgetSurface",
+      "componentName": "WidgetSurface",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "WidgetSurfaceSticker",
+      "codeSnippet": "WidgetSurface(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSurface"
+      ],
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "typeFqn": "androidx.compose.ui.graphics.Color",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "contentAlignment",
+          "type": "RemoteAlignment",
+          "typeFqn": "androidx.compose.remote.creation.compose.layout.RemoteAlignment",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetButton",
+      "figmaLayerName": "WidgetButton",
+      "componentName": "WidgetButton",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "WidgetButtonSticker",
+      "codeSnippet": "WidgetButton(\n    text = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetButton"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "containerColor",
+          "type": "Color",
+          "typeFqn": "androidx.compose.ui.graphics.Color",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "contentColor",
+          "type": "Color",
+          "typeFqn": "androidx.compose.ui.graphics.Color",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "onClick",
+          "type": "(() -> Unit)?",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": true,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetTitle",
+      "figmaLayerName": "WidgetTitle",
+      "componentName": "WidgetTitle",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "WidgetTitleSticker",
+      "codeSnippet": "WidgetTitle(\n    text = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetTitle"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "typeFqn": "androidx.compose.ui.graphics.Color",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetLabel",
+      "figmaLayerName": "WidgetLabel",
+      "componentName": "WidgetLabel",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "WidgetLabelSticker",
+      "codeSnippet": "WidgetLabel(\n    text = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetLabel"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "typeFqn": "androidx.compose.ui.graphics.Color",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteText",
+      "figmaLayerName": "RemoteText",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteTextSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteBasicText",
+      "figmaLayerName": "RemoteBasicText",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteBasicTextSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteRow",
+      "figmaLayerName": "RemoteRow",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteRowSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteColumn",
+      "figmaLayerName": "RemoteColumn",
+      "componentName": "RemoteColumnSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "RemoteColumnSticker"
+    },
+    {
+      "componentId": "RemoteBox",
+      "figmaLayerName": "RemoteBox",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteBoxSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteSpacer",
+      "figmaLayerName": "RemoteSpacer",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteSpacerSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    }
+  ]
+}

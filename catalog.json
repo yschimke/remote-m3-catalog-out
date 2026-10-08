@@ -1,0 +1,973 @@
+{
+  "schema": "design-parity-catalog/v1",
+  "system": "remote-widgets",
+  "title": "Remote Compose Launcher Widgets",
+  "components": [
+    {
+      "componentId": "LauncherWidget/Counter",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__2x2.png",
+          "state": "default",
+          "width": 357,
+          "height": 605,
+          "size": "2x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__2x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=220dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__3x2.png",
+          "state": "default",
+          "width": 558,
+          "height": 605,
+          "size": "3x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__3x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_3x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=220dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__4x1.png",
+          "state": "default",
+          "width": 759,
+          "height": 280,
+          "size": "4x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__4x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=102dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__4x2.png",
+          "state": "default",
+          "width": 759,
+          "height": 605,
+          "size": "4x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__4x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=220dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 220
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 288,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 4,
+            "top": 4,
+            "end": 4,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 4,
+            "top": 4,
+            "end": 4,
+            "bottom": 4
+          }
+        }
+      ],
+      "group": "Widget",
+      "caption": "The worked sample: AndroidX's MyWidget counter rebuilt from this sheet's WidgetSurface and WidgetButton, drawn at 3x2 and resized across the grid as a launcher would.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/launcherwidget-counter.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 55,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "CounterWidgetSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "LauncherWidget/Grid",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__1x1.png",
+          "state": "default",
+          "width": 156,
+          "height": 280,
+          "size": "1x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__1x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_1x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=57dp,height=102dp,dpi=440",
+            "widthDp": 57,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__2x2.png",
+          "state": "default",
+          "width": 357,
+          "height": 605,
+          "size": "2x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__2x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=220dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__3x2.png",
+          "state": "default",
+          "width": 558,
+          "height": 605,
+          "size": "3x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__3x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=220dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__4x1.png",
+          "state": "default",
+          "width": 759,
+          "height": 280,
+          "size": "4x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__4x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=102dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__4x2.png",
+          "state": "default",
+          "width": 759,
+          "height": 605,
+          "size": "4x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__4x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=220dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__4x3.png",
+          "state": "default",
+          "width": 759,
+          "height": 929,
+          "size": "4x3",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__4x3",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x3",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=338dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 338
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/launcherwidget-grid/ideal__default__5x2.png",
+          "state": "default",
+          "width": 959,
+          "height": 605,
+          "size": "5x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-grid__ideal__default__5x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_5x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=349dp,height=220dp,dpi=440",
+            "widthDp": 349,
+            "heightDp": 220
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 88,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Widget",
+      "caption": "The launcher grid sizes a widget design is authored in — 1x1 to 5x2 — at Android's documented portrait cell size, (73n − 16) × (118m − 16) dp.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/launcherwidget-grid.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 80,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "WidgetGridSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetSurface",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/widgetsurface/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/widgetsurface__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetSurfaceSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 288,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "The widget background: fills the cell, rounds it to Android 12's 16dp widget radius and pads its content by 12dp.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/widgetsurface.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 109,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "WidgetSurfaceSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "hasDefault": true
+        },
+        {
+          "name": "contentAlignment",
+          "type": "RemoteAlignment",
+          "hasDefault": true
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetButton",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/widgetbutton/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/widgetbutton__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetButtonSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 113,
+            "y": 107,
+            "width": 128,
+            "height": 64
+          },
+          "padding": {
+            "start": 4,
+            "top": 4,
+            "end": 4,
+            "bottom": 4
+          }
+        }
+      ],
+      "group": "Buttons",
+      "caption": "A pill around a centred label — MyWidget's Button. Its onClick is a widget lambda action routed back to the RemoteComposeWidget that recorded it.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/widgetbutton.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 123,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "WidgetButtonSticker",
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "containerColor",
+          "type": "Color",
+          "hasDefault": true
+        },
+        {
+          "name": "contentColor",
+          "type": "Color",
+          "hasDefault": true
+        },
+        {
+          "name": "onClick",
+          "type": "(() -> Unit)?",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetTitle",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/widgettitle/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/widgettitle__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetTitleSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 489,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Text",
+      "caption": "A widget's headline: one line of RemoteText at 20sp medium.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/widgettitle.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 135,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "WidgetTitleSticker",
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "WidgetLabel",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/widgetlabel/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/widgetlabel__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetLabelSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 489,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Text",
+      "caption": "A widget's supporting line: RemoteText at 14sp in the variant colour.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/widgetlabel.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 147,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "WidgetLabelSticker",
+      "parameters": [
+        {
+          "name": "text",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "color",
+          "type": "Color",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteText",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remotetext/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remotetext__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteTextSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 489,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Text",
+      "caption": "remote-creation-compose's RemoteText — the text every component above is written in, with no Material theme behind it.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remotetext.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 163,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteTextSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteBasicText",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remotebasictext/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remotebasictext__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteBasicTextSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 489,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Text",
+      "caption": "remote-foundation's RemoteBasicText: the foundation layer's own text entry point.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remotebasictext.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 177,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteBasicTextSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteRow",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remoterow/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remoterow__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteRowSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 489,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Layout",
+      "caption": "RemoteRow, its children spaced evenly across a 3x1 widget.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remoterow.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 204,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteRowSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteColumn",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remotecolumn/ideal__default__2x2.png",
+          "state": "default",
+          "width": 357,
+          "height": 605,
+          "size": "2x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remotecolumn__ideal__default__2x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteColumnSticker_2x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=220dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 220
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 288,
+            "height": 539
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Layout",
+      "caption": "RemoteColumn: a title over a supporting line, the commonest widget body.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remotecolumn.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 226,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteColumnSticker"
+    },
+    {
+      "componentId": "RemoteBox",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remotebox/ideal__default__1x1.png",
+          "state": "default",
+          "width": 156,
+          "height": 280,
+          "size": "1x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remotebox__ideal__default__1x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteBoxSticker_1x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=57dp,height=102dp,dpi=440",
+            "widthDp": 57,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 88,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Layout",
+      "caption": "RemoteBox stacking its children, the later drawn over the earlier.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remotebox.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 245,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteBoxSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "RemoteSpacer",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remotespacer/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/remotespacer__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteSpacerSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 288,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Layout",
+      "caption": "remote-foundation's RemoteSpacer holding two children 24dp apart.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/remotespacer.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 262,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "RemoteSpacerSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    }
+  ],
+  "library": [
+    "androidx.compose.remote:remote-creation-compose",
+    "androidx.compose.remote:foundation"
+  ],
+  "renderer": "compose-preview 2.35.1",
+  "generatedAt": "2026-10-08T06:32:55.788Z",
+  "display": {
+    "surface": "light",
+    "hero": "LauncherWidget/Counter"
+  },
+  "liveBundle": {
+    "path": "bundle/",
+    "file": "bundle.png"
+  },
+  "liveBundles": [
+    {
+      "path": "bundle/",
+      "file": "bundle.png",
+      "module": ":widget-catalog",
+      "previewIdPrefix": ""
+    }
+  ],
+  "componentsFile": "components.json",
+  "uiBuilderFile": "ui-builder.json",
+  "source": {
+    "repo": "yschimke/remote-m3-catalog",
+    "ref": "main",
+    "module": ":widget-catalog"
+  }
+}

@@ -1,0 +1,544 @@
+{
+    "schemaVersion": 2,
+    "module": "widget-catalog",
+    "variant": "debug",
+    "components": [
+        {
+            "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetButton",
+            "componentIds": [
+                "WidgetButton"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.remotewidgets.WidgetComponentsKt",
+                "callable": "ee.schimke.remotewidgets.WidgetButton",
+                "name": "WidgetButton",
+                "origin": "PROJECT",
+                "jvmName": "WidgetButton-t6yy7ic",
+                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;JJLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "text",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "containerColor",
+                    "type": "Color",
+                    "typeFqn": "androidx.compose.ui.graphics.Color",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "contentColor",
+                    "type": "Color",
+                    "typeFqn": "androidx.compose.ui.graphics.Color",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "onClick",
+                    "type": "(() -> Unit)?",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetButtonSticker_2x1",
+                    "componentId": "WidgetButton",
+                    "group": "Buttons"
+                }
+            ],
+            "code": {
+                "call": "WidgetButton(text = \"\")",
+                "imports": [
+                    "ee.schimke.remotewidgets.WidgetButton"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        },
+        {
+            "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetLabel",
+            "componentIds": [
+                "WidgetLabel"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.remotewidgets.WidgetComponentsKt",
+                "callable": "ee.schimke.remotewidgets.WidgetLabel",
+                "name": "WidgetLabel",
+                "origin": "PROJECT",
+                "jvmName": "WidgetLabel-FNF3uiM",
+                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;JLandroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "text",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "Color",
+                    "typeFqn": "androidx.compose.ui.graphics.Color",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetLabelSticker_3x1",
+                    "componentId": "WidgetLabel",
+                    "group": "Text"
+                }
+            ],
+            "code": {
+                "call": "WidgetLabel(text = \"\")",
+                "imports": [
+                    "ee.schimke.remotewidgets.WidgetLabel"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        },
+        {
+            "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetSurface",
+            "componentIds": [
+                "WidgetSurface"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.remotewidgets.WidgetComponentsKt",
+                "callable": "ee.schimke.remotewidgets.WidgetSurface",
+                "name": "WidgetSurface",
+                "origin": "PROJECT",
+                "jvmName": "WidgetSurface-sW7UJKQ",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;JLandroidx/compose/remote/creation/compose/layout/RemoteAlignment;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "Color",
+                    "typeFqn": "androidx.compose.ui.graphics.Color",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "contentAlignment",
+                    "type": "RemoteAlignment",
+                    "typeFqn": "androidx.compose.remote.creation.compose.layout.RemoteAlignment",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetSurfaceSticker_2x1",
+                    "componentId": "WidgetSurface",
+                    "group": "Containment"
+                }
+            ],
+            "code": {
+                "call": "WidgetSurface(content = {})",
+                "imports": [
+                    "ee.schimke.remotewidgets.WidgetSurface"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        },
+        {
+            "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetTitle",
+            "componentIds": [
+                "WidgetTitle"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.remotewidgets.WidgetComponentsKt",
+                "callable": "ee.schimke.remotewidgets.WidgetTitle",
+                "name": "WidgetTitle",
+                "origin": "PROJECT",
+                "jvmName": "WidgetTitle-FNF3uiM",
+                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;JLandroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "text",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "Color",
+                    "typeFqn": "androidx.compose.ui.graphics.Color",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetTitleSticker_3x1",
+                    "componentId": "WidgetTitle",
+                    "group": "Text"
+                }
+            ],
+            "code": {
+                "call": "WidgetTitle(text = \"\")",
+                "imports": [
+                    "ee.schimke.remotewidgets.WidgetTitle"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        },
+        {
+            "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetStickerKt.WidgetSticker",
+            "componentIds": [
+                "LauncherWidget/Counter",
+                "LauncherWidget/Grid",
+                "RemoteBasicText",
+                "RemoteBox",
+                "RemoteRow",
+                "RemoteSpacer",
+                "RemoteText"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.remotewidgets.WidgetStickerKt",
+                "callable": "ee.schimke.remotewidgets.WidgetSticker",
+                "name": "WidgetSticker",
+                "origin": "PROJECT",
+                "jvmName": "WidgetSticker",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x1",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_3x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x1",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteBasicTextSticker_3x1",
+                    "componentId": "RemoteBasicText",
+                    "group": "Text"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteBoxSticker_1x1",
+                    "componentId": "RemoteBox",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteRowSticker_3x1",
+                    "componentId": "RemoteRow",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteSpacerSticker_2x1",
+                    "componentId": "RemoteSpacer",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteTextSticker_3x1",
+                    "componentId": "RemoteText",
+                    "group": "Text"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_1x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x3",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_5x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                }
+            ],
+            "code": {
+                "call": "WidgetSticker(content = {})",
+                "imports": [
+                    "ee.schimke.remotewidgets.WidgetSticker"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        }
+    ],
+    "builderOrphans": []
+}

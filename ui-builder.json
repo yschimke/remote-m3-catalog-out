@@ -1,0 +1,269 @@
+{
+    "schema": "compose-ui-builder-catalog/v1",
+    "catalog": {
+        "id": "remote-widgets",
+        "title": "Remote Compose Launcher Widgets",
+        "platform": "remote-compose",
+        "platformLabel": "RemoteCompose · Launcher widgets",
+        "module": "widget-catalog",
+        "variant": "debug"
+    },
+    "record": {
+        "file": "components.json",
+        "schemaVersion": 2,
+        "components": 5
+    },
+    "statusSemantics": {
+        "platform": "remote-compose",
+        "platformLabel": "RemoteCompose · Launcher widgets",
+        "componentIdPrefix": "remote-widgets/",
+        "previewSurfaces": {
+            "native": {
+                "fidelity": "authoritative",
+                "backend": "android",
+                "reason": "The generated RemoteComposeWidget Kotlin, compiled against this module's own classpath (remote-creation-compose + remote-foundation, the vendored port) and rasterised by the real player under the WIDGETS_V6 profile a launcher widget records with."
+            }
+        },
+        "browserPreview": null,
+        "componentMenu": {
+            "groupOrder": [
+                "Widget",
+                "Containment",
+                "Buttons",
+                "Text",
+                "Layout"
+            ],
+            "components": {
+                "remote-widgets/widget-button": {
+                    "group": "Buttons"
+                },
+                "remote-widgets/widget-label": {
+                    "group": "Text"
+                },
+                "remote-widgets/widget-surface": {
+                    "group": "Containment"
+                },
+                "remote-widgets/widget-title": {
+                    "group": "Text"
+                },
+                "remote-widgets/widget-sticker": {
+                    "group": "Widget"
+                }
+            }
+        },
+        "frame": {
+            "$comment_adapter": "A launcher widget is drawn into the rectangle the launcher gives it, measured in grid cells. `frame/launcher-widget`, not remote-m3's `frame/widget-host` (a Wear host container) nor a device frame.",
+            "adapter": "frame/launcher-widget",
+            "geometry": {
+                "$comment": "The sizes are DISCRETE LAUNCHER GRID UNITS: each `label` is the cell count a design is authored at (`3x2`), and its dp the portrait size Android documents for that count, (73n - 16) x (118m - 16) dp (developer.android.com/develop/ui/views/appwidgets/layouts, measured on a Pixel 4's 5x4 grid). Real launchers vary the cell size, which is why the cell count is what a design states and this dp is its reference rendering. The same table is WidgetSize in widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSizes.kt and the breakpoints in catalog.spec.json; WidgetSizeTest holds all three together.",
+                "sizesDp": [
+                    {
+                        "widthDp": 57,
+                        "heightDp": 102,
+                        "label": "1x1"
+                    },
+                    {
+                        "widthDp": 130,
+                        "heightDp": 102,
+                        "label": "2x1"
+                    },
+                    {
+                        "widthDp": 130,
+                        "heightDp": 220,
+                        "label": "2x2"
+                    },
+                    {
+                        "widthDp": 203,
+                        "heightDp": 102,
+                        "label": "3x1"
+                    },
+                    {
+                        "widthDp": 203,
+                        "heightDp": 220,
+                        "label": "3x2"
+                    },
+                    {
+                        "widthDp": 276,
+                        "heightDp": 102,
+                        "label": "4x1"
+                    },
+                    {
+                        "widthDp": 276,
+                        "heightDp": 220,
+                        "label": "4x2"
+                    },
+                    {
+                        "widthDp": 276,
+                        "heightDp": 338,
+                        "label": "4x3"
+                    },
+                    {
+                        "widthDp": 349,
+                        "heightDp": 220,
+                        "label": "5x2"
+                    }
+                ]
+            }
+        },
+        "code": null,
+        "composeSourceExport": null,
+        "templates": [
+            "ui-builder/designs/hello-widget.json",
+            "ui-builder/designs/launcher-widget-2x1.json",
+            "ui-builder/designs/counter-widget.json"
+        ],
+        "colorTokens": null,
+        "assetRegistry": null,
+        "supersedes": null,
+        "builtins": {
+            "remote-widgets/launcher-widget": {
+                "role": "screen-root",
+                "displayName": "Launcher widget",
+                "group": "Widget",
+                "canvas": "layout/box",
+                "unrolled": null,
+                "traits": [
+                    "ScreenContent",
+                    "LauncherWidgetHost",
+                    "RemoteContentHost"
+                ],
+                "slots": {
+                    "content": {
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ],
+                        "max": 1
+                    }
+                },
+                "properties": [
+                    {
+                        "name": "background",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The widget's background, filling the cell the launcher gives it: a `#AARRGGBB` literal, written as `RemoteModifier.background(Color(0x…).rc)` on the box `Content` draws. Unset leaves the widget transparent over the wallpaper. The corner radius is the launcher's: it clips every widget to its own `system_app_widget_background_radius`, so the root never authors one."
+                    }
+                ],
+                "modifierCapabilities": [],
+                "implementation": null,
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
+            }
+        },
+        "components": {
+            "remote-widgets/widget-button": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetButton",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "m3/button",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null
+            },
+            "remote-widgets/widget-label": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetLabel",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "m3/text",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null
+            },
+            "remote-widgets/widget-surface": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetSurface",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "layout/box",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null
+            },
+            "remote-widgets/widget-title": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetTitle",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "m3/text",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null
+            },
+            "remote-widgets/widget-sticker": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.WidgetStickerKt.WidgetSticker",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null
+            }
+        }
+    },
+    "diagnostics": [
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "remote-widgets/widget-sticker",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "remote-widgets/remote-text",
+            "message": "ui-builder.policy.json states a policy for \"remote-widgets/remote-text\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        }
+    ]
+}

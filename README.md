@@ -729,3 +729,32 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `Google Sans Flex theme` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/wearthemecatalog__Google_Sans_Flex.png" width="150" /> |
 | `KotlinConf theme` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/wearthemecatalog__KotlinConf.png" width="150" /> |
 
+## widget-catalog
+
+| Preview | Image |
+|---------|-------|
+| `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x1-aeb34af4.png" width="150" /> |
+| `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x2-4ce6dfee.png" width="150" /> |
+| `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_3x2-1f356f4c.png" width="150" /> |
+| `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_4x1-2c16d5ba.png" width="150" /> |
+| `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_4x2-6cd15958.png" width="150" /> |
+| `RemoteBasicTextSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteBasicTextSticker_3x1-de957886.png" width="150" /> |
+| `RemoteBoxSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteBoxSticker_1x1-af792a04.png" width="150" /> |
+| `RemoteColumnSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteColumnSticker_2x2-ef6230b3.png" width="150" /> |
+| `RemoteRowSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteRowSticker_3x1-cbef4205.png" width="150" /> |
+| `RemoteSpacerSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteSpacerSticker_2x1-ce9d239c.png" width="150" /> |
+| `RemoteTextSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/RemoteTextSticker_3x1-3b58db4f.png" width="150" /> |
+| `WidgetButtonSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetButtonSticker_2x1-e91ed6ee.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_1x1-c1b71909.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_2x1-e150e817.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_2x2-b937c612.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_3x1-f7bf513c.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_3x2-da0b5a9a.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_4x1-0016a013.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_4x2-f09c2f77.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_4x3-20a177db.png" width="150" /> |
+| `WidgetGridSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetGridSticker_5x2-a06e0443.png" width="150" /> |
+| `WidgetLabelSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetLabelSticker_3x1-7dc120dd.png" width="150" /> |
+| `WidgetSurfaceSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetSurfaceSticker_2x1-171291db.png" width="150" /> |
+| `WidgetTitleSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/WidgetTitleSticker_3x1-10e03956.png" width="150" /> |
+

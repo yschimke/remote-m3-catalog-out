@@ -200,7 +200,11 @@
                 "catalogId": null,
                 "displayName": null,
                 "canvas": "layout/box",
-                "canvasMapping": null,
+                "canvasMapping": {
+                    "slots": {
+                        "children": "content"
+                    }
+                },
                 "unrolled": null,
                 "nativeOnly": false,
                 "traits": [],

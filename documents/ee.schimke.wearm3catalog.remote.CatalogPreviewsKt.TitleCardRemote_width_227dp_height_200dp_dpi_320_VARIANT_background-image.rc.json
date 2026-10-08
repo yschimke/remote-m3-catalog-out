@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2646
+        "byteLength": 2720
     },
     "operations": [
         {
@@ -373,11 +373,21 @@
         {
             "type": "TextData",
             "textId": 70,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 71,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 72,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 73,
             "text": "XXm"
         },
         {
@@ -385,7 +395,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 72,
+            "id": 74,
             "srcValues": [
                 "@33",
                 14.0,
@@ -420,7 +430,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 73,
+            "id": 75,
             "srcValues": [
                 "@67",
                 14.0,
@@ -433,10 +443,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 74,
+            "id": 76,
             "srcValues": [
-                "@72",
-                "@73",
+                "@74",
+                "@75",
                 1.03,
                 "@67",
                 "@3211266",
@@ -448,7 +458,7 @@
         },
         {
             "type": "TextData",
-            "textId": 75,
+            "textId": 77,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
@@ -794,14 +804,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 71,
+                                            "textId": 73,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@74",
+                                                "@76",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -881,7 +891,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 75,
+                                    "textId": 77,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,

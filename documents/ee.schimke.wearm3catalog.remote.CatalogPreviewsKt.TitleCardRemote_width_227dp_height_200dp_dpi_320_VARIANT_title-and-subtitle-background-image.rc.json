@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2806
+        "byteLength": 2880
     },
     "operations": [
         {
@@ -295,16 +295,26 @@
         {
             "type": "TextData",
             "textId": 62,
-            "text": "pnum"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 63,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 64,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 65,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 64,
+            "textId": 66,
             "value": [
                 "@43",
                 "@43"
@@ -315,17 +325,6 @@
         },
         {
             "type": "TextMerge",
-            "id": 65,
-            "leftId": 63,
-            "rightId": 64
-        },
-        {
-            "type": "TextData",
-            "textId": 66,
-            "text": ")"
-        },
-        {
-            "type": "TextMerge",
             "id": 67,
             "leftId": 65,
             "rightId": 66
@@ -333,6 +332,17 @@
         {
             "type": "TextData",
             "textId": 68,
+            "text": ")"
+        },
+        {
+            "type": "TextMerge",
+            "id": 69,
+            "leftId": 67,
+            "rightId": 68
+        },
+        {
+            "type": "TextData",
+            "textId": 70,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -347,7 +357,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 69,
+            "id": 71,
             "mask": 0,
             "srcValues": [
                 0
@@ -359,13 +369,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 70,
+            "id": 72,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
                 43,
-                69,
+                71,
                 65538,
                 65558
             ],
@@ -373,11 +383,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 71,
+            "textId": 73,
             "dataSetId": 2097194,
             "indexId": [
-                70.0,
-                70.0
+                72.0,
+                72.0
             ]
         },
         {
@@ -385,7 +395,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 72,
+            "id": 74,
             "srcValues": [
                 "@33",
                 14.0,
@@ -420,7 +430,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 73,
+            "id": 75,
             "srcValues": [
                 "@59",
                 16.0,
@@ -433,10 +443,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 74,
+            "id": 76,
             "srcValues": [
-                "@72",
-                "@73",
+                "@74",
+                "@75",
                 1.03,
                 "@59",
                 "@3211266",
@@ -448,17 +458,17 @@
         },
         {
             "type": "TextData",
-            "textId": 75,
+            "textId": 77,
             "text": "Subtitle"
         },
         {
             "type": "ColorConstant",
             "color": "0xffffdcc2",
-            "colorId": 76
+            "colorId": 78
         },
         {
             "type": "NamedVariable",
-            "varId": 76,
+            "varId": 78,
             "varName": "USER:WearM3.tertiary",
             "varType": "COLOR_TYPE"
         },
@@ -467,7 +477,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 77,
+            "id": 79,
             "srcValues": [
                 "@33",
                 14.0,
@@ -502,7 +512,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 78,
+            "id": 80,
             "srcValues": [
                 "@59",
                 15.0,
@@ -515,10 +525,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 79,
+            "id": 81,
             "srcValues": [
-                "@77",
-                "@78",
+                "@79",
+                "@80",
                 1.03,
                 "@59",
                 "@3211266",
@@ -862,14 +872,14 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 71,
+                                                    "textId": 73,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        "@74",
+                                                        "@76",
                                                         36.0
                                                     ],
                                                     "fontStyle": 0,
@@ -958,14 +968,14 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 75,
+                                    "textId": 77,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@79",
+                                        "@81",
                                         36.0
                                     ],
                                     "fontStyle": 0,

@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3462
+        "byteLength": 3536
     },
     "operations": [
         {
@@ -554,11 +554,21 @@
         {
             "type": "TextData",
             "textId": 79,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 80,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 81,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 82,
             "text": "XXm"
         },
         {
@@ -566,7 +576,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 81,
+            "id": 83,
             "srcValues": [
                 "@33",
                 14.0,
@@ -601,7 +611,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 82,
+            "id": 84,
             "srcValues": [
                 "@76",
                 14.0,
@@ -614,10 +624,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 83,
+            "id": 85,
             "srcValues": [
-                "@81",
-                "@82",
+                "@83",
+                "@84",
                 1.03,
                 "@76",
                 "@3211266",
@@ -632,31 +642,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 84,
-            "srcValues": [
-                "@27",
-                4.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "BitmapData",
-            "imageId": 85,
-            "imageWidth": 8,
-            "imageHeight": 8,
-            "imageType": "TYPE_PNG_8888",
-            "encoding": "ENCODING_INLINE"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
             "id": 86,
             "srcValues": [
                 "@27",
-                14.0,
+                4.0,
                 "@3211267"
             ],
             "animation": null
@@ -670,18 +659,39 @@
             "encoding": "ENCODING_INLINE"
         },
         {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 88,
+            "srcValues": [
+                "@27",
+                14.0,
+                "@3211267"
+            ],
+            "animation": null
+        },
+        {
+            "type": "BitmapData",
+            "imageId": 89,
+            "imageWidth": 8,
+            "imageHeight": 8,
+            "imageType": "TYPE_PNG_8888",
+            "encoding": "ENCODING_INLINE"
+        },
+        {
             "type": "TextData",
-            "textId": 88,
+            "textId": 90,
             "text": "Subtitle"
         },
         {
             "type": "ColorConstant",
             "color": "0xffffdcc2",
-            "colorId": 89
+            "colorId": 91
         },
         {
             "type": "NamedVariable",
-            "varId": 89,
+            "varId": 91,
             "varName": "USER:WearM3.tertiary",
             "varType": "COLOR_TYPE"
         },
@@ -690,7 +700,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 90,
+            "id": 92,
             "srcValues": [
                 "@33",
                 14.0,
@@ -725,7 +735,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 91,
+            "id": 93,
             "srcValues": [
                 "@76",
                 15.0,
@@ -738,10 +748,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 92,
+            "id": 94,
             "srcValues": [
-                "@90",
-                "@91",
+                "@92",
+                "@93",
                 1.03,
                 "@76",
                 "@3211266",
@@ -1094,14 +1104,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 80,
+                                            "textId": 82,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@83",
+                                                "@85",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1241,20 +1251,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "topEnd": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "bottomStart": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -1313,20 +1323,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "topEnd": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "bottomStart": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@86",
-                                                                "@86"
+                                                                "@88",
+                                                                "@88"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -1350,7 +1360,7 @@
                                     "paddingBottom": 0.0,
                                     "verticalPositioning": "TOP",
                                     "horizontalPositioning": "START",
-                                    "spacedBy": "@84"
+                                    "spacedBy": "@86"
                                 },
                                 {
                                     "$tags": [
@@ -1415,14 +1425,14 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 88,
+                                    "textId": 90,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@92",
+                                        "@94",
                                         36.0
                                     ],
                                     "fontStyle": 0,

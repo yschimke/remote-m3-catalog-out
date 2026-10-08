@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3125
+        "byteLength": 3199
     },
     "operations": [
         {
@@ -303,32 +303,42 @@
         {
             "type": "TextData",
             "textId": 63,
-            "text": "pnum"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 64,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 65,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 66,
             "text": "XXm"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 65
+            "colorId": 67
         },
         {
             "type": "NamedVariable",
-            "varId": 65,
+            "varId": 67,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "TextData",
-            "textId": 66,
+            "textId": 68,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 67,
+            "textId": 69,
             "value": [
                 "@43",
                 "@43"
@@ -339,17 +349,6 @@
         },
         {
             "type": "TextMerge",
-            "id": 68,
-            "leftId": 66,
-            "rightId": 67
-        },
-        {
-            "type": "TextData",
-            "textId": 69,
-            "text": ")"
-        },
-        {
-            "type": "TextMerge",
             "id": 70,
             "leftId": 68,
             "rightId": 69
@@ -357,6 +356,17 @@
         {
             "type": "TextData",
             "textId": 71,
+            "text": ")"
+        },
+        {
+            "type": "TextMerge",
+            "id": 72,
+            "leftId": 70,
+            "rightId": 71
+        },
+        {
+            "type": "TextData",
+            "textId": 73,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -371,7 +381,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 72,
+            "id": 74,
             "mask": 0,
             "srcValues": [
                 0
@@ -383,13 +393,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 73,
+            "id": 75,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
                 43,
-                72,
+                74,
                 65538,
                 65558
             ],
@@ -397,11 +407,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 74,
+            "textId": 76,
             "dataSetId": 2097194,
             "indexId": [
-                73.0,
-                73.0
+                75.0,
+                75.0
             ]
         },
         {
@@ -409,7 +419,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 75,
+            "id": 77,
             "srcValues": [
                 "@33",
                 14.0,
@@ -444,7 +454,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 76,
+            "id": 78,
             "srcValues": [
                 "@60",
                 16.0,
@@ -457,10 +467,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 77,
+            "id": 79,
             "srcValues": [
-                "@75",
-                "@76",
+                "@77",
+                "@78",
                 1.03,
                 "@60",
                 "@3211266",
@@ -472,7 +482,7 @@
         },
         {
             "type": "BitmapData",
-            "imageId": 78,
+            "imageId": 80,
             "imageWidth": 8,
             "imageHeight": 8,
             "imageType": "TYPE_PNG_8888",
@@ -483,7 +493,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 79,
+            "id": 81,
             "srcValues": [
                 "@27",
                 14.0,
@@ -493,7 +503,7 @@
         },
         {
             "type": "BitmapData",
-            "imageId": 80,
+            "imageId": 82,
             "imageWidth": 8,
             "imageHeight": 8,
             "imageType": "TYPE_PNG_8888",
@@ -953,7 +963,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 64,
+                                            "textId": 66,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -1071,14 +1081,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 74,
+                                            "textId": 76,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@77",
+                                                "@79",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1218,20 +1228,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "topEnd": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "bottomStart": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -1290,20 +1300,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "topEnd": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "bottomStart": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@79",
-                                                                "@79"
+                                                                "@81",
+                                                                "@81"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"

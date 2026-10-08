@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 1261
+        "byteLength": 1367
     },
     "operations": [
         {
@@ -151,11 +151,21 @@
         {
             "type": "TextData",
             "textId": 52,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 53,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 54,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 55,
             "text": "Row 1"
         },
         {
@@ -163,7 +173,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 54,
+            "id": 56,
             "srcValues": [
                 "@33",
                 14.0,
@@ -198,7 +208,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 55,
+            "id": 57,
             "srcValues": [
                 "@49",
                 16.0,
@@ -211,10 +221,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 56,
+            "id": 58,
             "srcValues": [
-                "@54",
-                "@55",
+                "@56",
+                "@57",
                 1.03,
                 "@49",
                 "@3211266",
@@ -226,17 +236,17 @@
         },
         {
             "type": "TextData",
-            "textId": 57,
+            "textId": 59,
             "text": "Row 2"
         },
         {
             "type": "TextData",
-            "textId": 58,
+            "textId": 60,
             "text": "Row 3"
         },
         {
             "type": "TextData",
-            "textId": 59,
+            "textId": 61,
             "text": "Row 4"
         },
         {
@@ -456,11 +466,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 53,
+                                            "textId": 55,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                "@56",
+                                                "@58",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -492,11 +502,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 57,
+                                            "textId": 59,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                "@56",
+                                                "@58",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -528,11 +538,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 58,
+                                            "textId": 60,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                "@56",
+                                                "@58",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -564,11 +574,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 59,
+                                            "textId": 61,
                                             "flags": 0,
                                             "color": "0xffffffff",
                                             "fontSize": [
-                                                "@56",
+                                                "@58",
                                                 36.0
                                             ],
                                             "fontStyle": 0,

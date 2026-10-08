@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3563
+        "byteLength": 3653
     },
     "operations": [
         {
@@ -497,21 +497,31 @@
         {
             "type": "TextData",
             "textId": 73,
-            "text": "pnum"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 74,
-            "text": "XXm"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 75,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 76,
+            "text": "XXm"
+        },
+        {
+            "type": "TextData",
+            "textId": 77,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 76,
+            "textId": 78,
             "value": [
                 "@43",
                 "@43"
@@ -522,17 +532,6 @@
         },
         {
             "type": "TextMerge",
-            "id": 77,
-            "leftId": 75,
-            "rightId": 76
-        },
-        {
-            "type": "TextData",
-            "textId": 78,
-            "text": ")"
-        },
-        {
-            "type": "TextMerge",
             "id": 79,
             "leftId": 77,
             "rightId": 78
@@ -540,6 +539,17 @@
         {
             "type": "TextData",
             "textId": 80,
+            "text": ")"
+        },
+        {
+            "type": "TextMerge",
+            "id": 81,
+            "leftId": 79,
+            "rightId": 80
+        },
+        {
+            "type": "TextData",
+            "textId": 82,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -554,7 +564,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 81,
+            "id": 83,
             "mask": 0,
             "srcValues": [
                 0
@@ -566,13 +576,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 82,
+            "id": 84,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
                 43,
-                81,
+                83,
                 65538,
                 65558
             ],
@@ -580,11 +590,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 83,
+            "textId": 85,
             "dataSetId": 2097194,
             "indexId": [
-                82.0,
-                82.0
+                84.0,
+                84.0
             ]
         },
         {
@@ -592,7 +602,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 84,
+            "id": 86,
             "srcValues": [
                 "@33",
                 14.0,
@@ -627,7 +637,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 85,
+            "id": 87,
             "srcValues": [
                 "@70",
                 16.0,
@@ -640,10 +650,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 86,
+            "id": 88,
             "srcValues": [
-                "@84",
-                "@85",
+                "@86",
+                "@87",
                 1.03,
                 "@70",
                 "@3211266",
@@ -655,17 +665,17 @@
         },
         {
             "type": "TextData",
-            "textId": 87,
+            "textId": 89,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 88
+            "colorId": 90
         },
         {
             "type": "NamedVariable",
-            "varId": 88,
+            "varId": 90,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
@@ -1123,7 +1133,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 74,
+                                            "textId": 76,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -1241,14 +1251,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 83,
+                                            "textId": 85,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@86",
+                                                "@88",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1328,14 +1338,14 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 87,
+                                    "textId": 89,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@86",
+                                        "@88",
                                         36.0
                                     ],
                                     "fontStyle": 0,

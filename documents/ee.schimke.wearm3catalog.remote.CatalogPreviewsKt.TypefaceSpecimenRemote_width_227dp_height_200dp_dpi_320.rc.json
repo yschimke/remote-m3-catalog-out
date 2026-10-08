@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 794
+        "byteLength": 884
     },
     "operations": [
         {
@@ -111,36 +111,46 @@
         {
             "type": "TextData",
             "textId": 48,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 49,
-            "text": "Lobster Two"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 50,
-            "text": "google:Lobster Two"
+            "text": "pnum"
         },
         {
             "type": "TextData",
             "textId": 51,
-            "text": "Space Grotesk"
+            "text": "Lobster Two"
         },
         {
             "type": "TextData",
             "textId": 52,
-            "text": "google:Space Grotesk"
+            "text": "google:Lobster Two"
         },
         {
             "type": "TextData",
             "textId": 53,
-            "text": "JetBrains Mono"
+            "text": "Space Grotesk"
         },
         {
             "type": "TextData",
             "textId": 54,
+            "text": "google:Space Grotesk"
+        },
+        {
+            "type": "TextData",
+            "textId": 55,
+            "text": "JetBrains Mono"
+        },
+        {
+            "type": "TextData",
+            "textId": 56,
             "text": "google:JetBrains Mono"
         },
         {
@@ -276,42 +286,6 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 49,
-                                    "flags": 0,
-                                    "color": "0xffffffff",
-                                    "fontSize": [
-                                        "@46",
-                                        36.0
-                                    ],
-                                    "fontStyle": 0,
-                                    "fontWeight": 400.0,
-                                    "fontFamilyId": 50,
-                                    "textAlign": 1
-                                },
-                                {
-                                    "$tags": [
-                                        "LAYOUT_COMPONENT"
-                                    ],
-                                    "type": "CORE_TEXT",
-                                    "id": -1000004,
-                                    "x": 0.0,
-                                    "y": 0.0,
-                                    "width": 0.0,
-                                    "height": 0.0,
-                                    "visibility": "VISIBLE",
-                                    "list": [
-                                        {
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "ComponentModifiers",
-                                            "modifiers": []
-                                        }
-                                    ],
-                                    "paddingLeft": 0.0,
-                                    "paddingRight": 0.0,
-                                    "paddingTop": 0.0,
-                                    "paddingBottom": 0.0,
                                     "textId": 51,
                                     "flags": 0,
                                     "color": "0xffffffff",
@@ -329,7 +303,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000005,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -358,6 +332,42 @@
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
                                     "fontFamilyId": 54,
+                                    "textAlign": 1
+                                },
+                                {
+                                    "$tags": [
+                                        "LAYOUT_COMPONENT"
+                                    ],
+                                    "type": "CORE_TEXT",
+                                    "id": -1000005,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "visibility": "VISIBLE",
+                                    "list": [
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "ComponentModifiers",
+                                            "modifiers": []
+                                        }
+                                    ],
+                                    "paddingLeft": 0.0,
+                                    "paddingRight": 0.0,
+                                    "paddingTop": 0.0,
+                                    "paddingBottom": 0.0,
+                                    "textId": 55,
+                                    "flags": 0,
+                                    "color": "0xffffffff",
+                                    "fontSize": [
+                                        "@46",
+                                        36.0
+                                    ],
+                                    "fontStyle": 0,
+                                    "fontWeight": 400.0,
+                                    "fontFamilyId": 56,
                                     "textAlign": 1
                                 }
                             ],

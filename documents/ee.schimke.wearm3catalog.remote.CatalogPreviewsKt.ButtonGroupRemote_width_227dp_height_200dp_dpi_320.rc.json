@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2529
+        "byteLength": 2587
     },
     "operations": [
         {
@@ -254,7 +254,7 @@
             "type": "IdListData",
             "id": 2097194,
             "ids": [
-                "[I@4b2bac3f"
+                "[I@79079097"
             ]
         },
         {
@@ -399,11 +399,21 @@
         {
             "type": "TextData",
             "textId": 72,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 73,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 74,
             "text": "pnum"
         },
         {
             "type": "IntegerConstant",
-            "id": 73,
+            "id": 75,
             "value": 0
         },
         {
@@ -411,10 +421,10 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 74,
+            "id": 76,
             "mask": 5,
             "srcValues": [
-                73,
+                75,
                 1,
                 65537
             ],
@@ -422,13 +432,13 @@
         },
         {
             "type": "ComponentValue",
-            "valueId": 75,
+            "valueId": 77,
             "componentValueType": "WIDTH",
             "componentId": -1000004
         },
         {
             "type": "ComponentValue",
-            "valueId": 76,
+            "valueId": 78,
             "componentValueType": "HEIGHT",
             "componentId": -1000004
         },
@@ -437,12 +447,12 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 77,
+            "id": 79,
             "srcValues": [
                 "@44",
                 "@44",
-                "@75",
-                "@76",
+                "@77",
+                "@78",
                 "@3211270",
                 "@44",
                 "@44",
@@ -454,8 +464,8 @@
                 "@44",
                 "@44",
                 "@3211265",
-                "@75",
-                "@76",
+                "@77",
+                "@78",
                 "@3211270",
                 "@3211266",
                 "@3211290",
@@ -469,40 +479,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 78,
-            "srcValues": [
-                "@75",
-                "@77",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 79,
-            "srcValues": [
-                "@78",
-                "@77",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
             "id": 80,
             "srcValues": [
                 "@77",
-                "@77",
-                0.5522848,
-                "@3211267",
+                "@79",
                 "@3211266"
             ],
             "animation": null
@@ -514,9 +494,11 @@
             "type": "FloatExpression",
             "id": 81,
             "srcValues": [
-                "@76",
-                "@77",
-                "@3211266"
+                "@80",
+                "@79",
+                0.5522848,
+                "@3211267",
+                "@3211265"
             ],
             "animation": null
         },
@@ -527,8 +509,36 @@
             "type": "FloatExpression",
             "id": 82,
             "srcValues": [
-                "@81",
-                "@77",
+                "@79",
+                "@79",
+                0.5522848,
+                "@3211267",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 83,
+            "srcValues": [
+                "@78",
+                "@79",
+                "@3211266"
+            ],
+            "animation": null
+        },
+        {
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 84,
+            "srcValues": [
+                "@83",
+                "@79",
                 0.5522848,
                 "@3211267",
                 "@3211265"
@@ -537,15 +547,15 @@
         },
         {
             "type": "TextData",
-            "textId": 83,
+            "textId": 85,
             "text": "B ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 84,
+            "textId": 86,
             "value": [
-                "@73",
-                "@73"
+                "@75",
+                "@75"
             ],
             "digitsBefore": 255,
             "digitsAfter": 0,
@@ -553,26 +563,26 @@
         },
         {
             "type": "TextMerge",
-            "id": 85,
-            "leftId": 83,
-            "rightId": 84
+            "id": 87,
+            "leftId": 85,
+            "rightId": 86
         },
         {
             "type": "TextMerge",
-            "id": 86,
-            "leftId": 85,
+            "id": 88,
+            "leftId": 87,
             "rightId": 60
         },
         {
             "type": "TextData",
-            "textId": 87,
+            "textId": 89,
             "text": "B"
         },
         {
             "type": "IdListData",
             "id": 2097195,
             "ids": [
-                "[I@4e08711f"
+                "[I@4d1c00d0"
             ]
         },
         {
@@ -580,12 +590,12 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 88,
+            "id": 90,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
-                73,
+                75,
                 63,
                 65538,
                 65558
@@ -594,11 +604,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 89,
+            "textId": 91,
             "dataSetId": 2097195,
             "indexId": [
-                88.0,
-                88.0
+                90.0,
+                90.0
             ]
         },
         {
@@ -1006,7 +1016,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 89,
+                                            "textId": 91,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,

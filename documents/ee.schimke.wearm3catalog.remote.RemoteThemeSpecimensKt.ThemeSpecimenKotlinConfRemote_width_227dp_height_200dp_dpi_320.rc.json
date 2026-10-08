@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 1361
+        "byteLength": 1451
     },
     "operations": [
         {
@@ -111,11 +111,21 @@
         {
             "type": "TextData",
             "textId": 48,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 49,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 50,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 51,
             "text": "0123456789"
         },
         {
@@ -123,7 +133,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 50,
+            "id": 52,
             "srcValues": [
                 "@33",
                 14.0,
@@ -152,17 +162,17 @@
         },
         {
             "type": "TextData",
-            "textId": 51,
+            "textId": 53,
             "text": "Body Large"
         },
         {
             "type": "TextData",
-            "textId": 52,
+            "textId": 54,
             "text": "google:Inter"
         },
         {
             "type": "TextData",
-            "textId": 53,
+            "textId": 55,
             "text": "Label Medium"
         },
         {
@@ -170,7 +180,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 54,
+            "id": 56,
             "srcValues": [
                 "@33",
                 14.0,
@@ -205,7 +215,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 55,
+            "id": 57,
             "srcValues": [
                 "@45",
                 15.0,
@@ -218,10 +228,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 56,
+            "id": 58,
             "srcValues": [
-                "@54",
-                "@55",
+                "@56",
+                "@57",
                 1.03,
                 "@45",
                 "@3211266",
@@ -364,11 +374,11 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 49,
+                                    "textId": 51,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        "@50",
+                                        "@52",
                                         36.0
                                     ],
                                     "fontStyle": 0,
@@ -400,7 +410,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 51,
+                                    "textId": 53,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
@@ -409,7 +419,7 @@
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 52,
+                                    "fontFamilyId": 54,
                                     "textAlign": 1
                                 },
                                 {
@@ -436,16 +446,16 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 53,
+                                    "textId": 55,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
-                                        "@56",
+                                        "@58",
                                         36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 500.0,
-                                    "fontFamilyId": 52,
+                                    "fontFamilyId": 54,
                                     "textAlign": 1
                                 },
                                 {

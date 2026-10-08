@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2867
+        "byteLength": 2941
     },
     "operations": [
         {
@@ -554,11 +554,21 @@
         {
             "type": "TextData",
             "textId": 79,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 80,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 81,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 82,
             "text": "XXm"
         },
         {
@@ -566,7 +576,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 81,
+            "id": 83,
             "srcValues": [
                 "@33",
                 14.0,
@@ -601,7 +611,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 82,
+            "id": 84,
             "srcValues": [
                 "@76",
                 14.0,
@@ -614,10 +624,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 83,
+            "id": 85,
             "srcValues": [
-                "@81",
-                "@82",
+                "@83",
+                "@84",
                 1.03,
                 "@76",
                 "@3211266",
@@ -629,17 +639,17 @@
         },
         {
             "type": "TextData",
-            "textId": 84,
+            "textId": 86,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 85
+            "colorId": 87
         },
         {
             "type": "NamedVariable",
-            "varId": 85,
+            "varId": 87,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
@@ -986,14 +996,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 80,
+                                            "textId": 82,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@83",
+                                                "@85",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1073,7 +1083,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 84,
+                                    "textId": 86,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,

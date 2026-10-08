@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 1206
+        "byteLength": 1248
     },
     "operations": [
         {
@@ -174,6 +174,16 @@
         {
             "type": "TextData",
             "textId": 53,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 54,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 55,
             "text": "pnum"
         },
         {
@@ -368,27 +378,8 @@
                                                 },
                                                 {
                                                     "type": "ComponentValue",
-                                                    "valueId": 54,
-                                                    "componentValueType": "WIDTH",
-                                                    "componentId": -1000003
-                                                },
-                                                {
-                                                    "$tags": [
-                                                        "EXPRESSION"
-                                                    ],
-                                                    "type": "FloatExpression",
-                                                    "id": 55,
-                                                    "srcValues": [
-                                                        "@54",
-                                                        24.0,
-                                                        "@3211268"
-                                                    ],
-                                                    "animation": null
-                                                },
-                                                {
-                                                    "type": "ComponentValue",
                                                     "valueId": 56,
-                                                    "componentValueType": "HEIGHT",
+                                                    "componentValueType": "WIDTH",
                                                     "componentId": -1000003
                                                 },
                                                 {
@@ -405,13 +396,32 @@
                                                     "animation": null
                                                 },
                                                 {
-                                                    "scaleX": [
-                                                        "@55",
-                                                        "@55"
+                                                    "type": "ComponentValue",
+                                                    "valueId": 58,
+                                                    "componentValueType": "HEIGHT",
+                                                    "componentId": -1000003
+                                                },
+                                                {
+                                                    "$tags": [
+                                                        "EXPRESSION"
                                                     ],
-                                                    "scaleY": [
+                                                    "type": "FloatExpression",
+                                                    "id": 59,
+                                                    "srcValues": [
+                                                        "@58",
+                                                        24.0,
+                                                        "@3211268"
+                                                    ],
+                                                    "animation": null
+                                                },
+                                                {
+                                                    "scaleX": [
                                                         "@57",
                                                         "@57"
+                                                    ],
+                                                    "scaleY": [
+                                                        "@59",
+                                                        "@59"
                                                     ],
                                                     "pivotX": [
                                                         "NaN",
@@ -446,7 +456,7 @@
                                                 },
                                                 {
                                                     "type": "PathData",
-                                                    "id": 58,
+                                                    "id": 60,
                                                     "path": [
                                                         "@10",
                                                         19.0,
@@ -516,7 +526,7 @@
                                                 },
                                                 {
                                                     "type": "DrawPath",
-                                                    "id": 58,
+                                                    "id": 60,
                                                     "start": 0.0,
                                                     "end": 1.0
                                                 },

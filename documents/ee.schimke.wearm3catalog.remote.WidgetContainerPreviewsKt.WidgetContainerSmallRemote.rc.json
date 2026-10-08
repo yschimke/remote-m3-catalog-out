@@ -5,7 +5,7 @@
         "height": 157,
         "contentDescription": "",
         "profiles": 2048,
-        "byteLength": 467
+        "byteLength": 493
     },
     "operations": [
         {
@@ -25,6 +25,16 @@
         {
             "type": "TextData",
             "textId": 44,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 45,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 46,
             "text": "pnum"
         },
         {
@@ -32,7 +42,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 45,
+            "id": 47,
             "srcValues": [
                 68.25
             ],

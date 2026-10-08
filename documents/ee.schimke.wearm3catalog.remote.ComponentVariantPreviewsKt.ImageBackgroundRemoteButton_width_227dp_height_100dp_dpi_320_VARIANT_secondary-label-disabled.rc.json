@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2518
+        "byteLength": 2576
     },
     "operations": [
         {
@@ -413,11 +413,21 @@
         {
             "type": "TextData",
             "textId": 75,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 76,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 77,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 78,
             "text": "Secondary label"
         },
         {
@@ -425,7 +435,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 77,
+            "id": 79,
             "srcValues": [
                 "@33",
                 14.0,
@@ -460,7 +470,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 78,
+            "id": 80,
             "srcValues": [
                 "@72",
                 13.0,
@@ -473,10 +483,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 79,
+            "id": 81,
             "srcValues": [
-                "@77",
-                "@78",
+                "@79",
+                "@80",
                 1.03,
                 "@72",
                 "@3211266",
@@ -846,14 +856,14 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 76,
+                                                    "textId": 78,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        "@79",
+                                                        "@81",
                                                         36.0
                                                     ],
                                                     "fontStyle": 0,

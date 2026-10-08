@@ -5,7 +5,7 @@
         "height": 357,
         "contentDescription": "",
         "profiles": 2048,
-        "byteLength": 564
+        "byteLength": 590
     },
     "operations": [
         {
@@ -25,11 +25,21 @@
         {
             "type": "TextData",
             "textId": 44,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 45,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 46,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 47,
             "text": "5.2 km · 28 min"
         },
         {
@@ -37,7 +47,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 46,
+            "id": 48,
             "srcValues": [
                 2622.375
             ],
@@ -278,7 +288,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 45,
+                                                    "textId": 47,
                                                     "flags": 0,
                                                     "color": "0xffffffff",
                                                     "fontSize": [

@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2476
+        "byteLength": 2534
     },
     "operations": [
         {
@@ -373,47 +373,57 @@
         {
             "type": "TextData",
             "textId": 70,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 71,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 72,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 73,
             "text": "Secondary label"
         },
         {
             "type": "COLOR_RED",
-            "id": 72,
-            "colorId": 64
-        },
-        {
-            "type": "COLOR_GREEN",
-            "id": 73,
-            "colorId": 64
-        },
-        {
-            "type": "COLOR_BLUE",
             "id": 74,
             "colorId": 64
         },
         {
-            "type": "ColorExpression",
+            "type": "COLOR_GREEN",
             "id": 75,
+            "colorId": 64
+        },
+        {
+            "type": "COLOR_BLUE",
+            "id": 76,
+            "colorId": 64
+        },
+        {
+            "type": "ColorExpression",
+            "id": 77,
             "mode": "ARGB",
             "a": [
                 0.7998047,
                 0.7998047
             ],
             "r": [
-                "@72",
-                "@72"
-            ],
-            "g": [
-                "@73",
-                "@73"
-            ],
-            "b": [
                 "@74",
                 "@74"
+            ],
+            "g": [
+                "@75",
+                "@75"
+            ],
+            "b": [
+                "@76",
+                "@76"
             ]
         },
         {
@@ -421,7 +431,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 76,
+            "id": 78,
             "srcValues": [
                 "@33",
                 14.0,
@@ -456,7 +466,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 77,
+            "id": 79,
             "srcValues": [
                 "@67",
                 13.0,
@@ -469,10 +479,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 78,
+            "id": 80,
             "srcValues": [
-                "@76",
-                "@77",
+                "@78",
+                "@79",
                 1.03,
                 "@67",
                 "@3211266",
@@ -848,14 +858,14 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 71,
+                                                    "textId": 73,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        "@78",
+                                                        "@80",
                                                         36.0
                                                     ],
                                                     "fontStyle": 0,

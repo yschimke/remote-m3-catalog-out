@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3847
+        "byteLength": 3921
     },
     "operations": [
         {
@@ -476,21 +476,31 @@
         {
             "type": "TextData",
             "textId": 71,
-            "text": "pnum"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 72,
-            "text": "XXm"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 73,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 74,
+            "text": "XXm"
+        },
+        {
+            "type": "TextData",
+            "textId": 75,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 74,
+            "textId": 76,
             "value": [
                 "@43",
                 "@43"
@@ -501,17 +511,6 @@
         },
         {
             "type": "TextMerge",
-            "id": 75,
-            "leftId": 73,
-            "rightId": 74
-        },
-        {
-            "type": "TextData",
-            "textId": 76,
-            "text": ")"
-        },
-        {
-            "type": "TextMerge",
             "id": 77,
             "leftId": 75,
             "rightId": 76
@@ -519,6 +518,17 @@
         {
             "type": "TextData",
             "textId": 78,
+            "text": ")"
+        },
+        {
+            "type": "TextMerge",
+            "id": 79,
+            "leftId": 77,
+            "rightId": 78
+        },
+        {
+            "type": "TextData",
+            "textId": 80,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -533,7 +543,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 79,
+            "id": 81,
             "mask": 0,
             "srcValues": [
                 0
@@ -545,13 +555,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 80,
+            "id": 82,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
                 43,
-                79,
+                81,
                 65538,
                 65558
             ],
@@ -559,11 +569,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 81,
+            "textId": 83,
             "dataSetId": 2097194,
             "indexId": [
-                80.0,
-                80.0
+                82.0,
+                82.0
             ]
         },
         {
@@ -571,7 +581,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 82,
+            "id": 84,
             "srcValues": [
                 "@33",
                 14.0,
@@ -606,7 +616,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 83,
+            "id": 85,
             "srcValues": [
                 "@68",
                 16.0,
@@ -619,10 +629,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 84,
+            "id": 86,
             "srcValues": [
-                "@82",
-                "@83",
+                "@84",
+                "@85",
                 1.03,
                 "@68",
                 "@3211266",
@@ -637,7 +647,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 85,
+            "id": 87,
             "srcValues": [
                 "@27",
                 4.0,
@@ -647,7 +657,7 @@
         },
         {
             "type": "BitmapData",
-            "imageId": 86,
+            "imageId": 88,
             "imageWidth": 8,
             "imageHeight": 8,
             "imageType": "TYPE_PNG_8888",
@@ -658,7 +668,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 87,
+            "id": 89,
             "srcValues": [
                 "@27",
                 200.0,
@@ -668,7 +678,7 @@
         },
         {
             "type": "BitmapData",
-            "imageId": 88,
+            "imageId": 90,
             "imageWidth": 8,
             "imageHeight": 8,
             "imageType": "TYPE_PNG_8888",
@@ -979,27 +989,8 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 92,
-                                                                    "componentValueType": "WIDTH",
-                                                                    "componentId": -1000005
-                                                                },
-                                                                {
-                                                                    "$tags": [
-                                                                        "EXPRESSION"
-                                                                    ],
-                                                                    "type": "FloatExpression",
-                                                                    "id": 93,
-                                                                    "srcValues": [
-                                                                        "@92",
-                                                                        24.0,
-                                                                        "@3211268"
-                                                                    ],
-                                                                    "animation": null
-                                                                },
-                                                                {
-                                                                    "type": "ComponentValue",
                                                                     "valueId": 94,
-                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentValueType": "WIDTH",
                                                                     "componentId": -1000005
                                                                 },
                                                                 {
@@ -1016,13 +1007,32 @@
                                                                     "animation": null
                                                                 },
                                                                 {
-                                                                    "scaleX": [
-                                                                        "@93",
-                                                                        "@93"
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 96,
+                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentId": -1000005
+                                                                },
+                                                                {
+                                                                    "$tags": [
+                                                                        "EXPRESSION"
                                                                     ],
-                                                                    "scaleY": [
+                                                                    "type": "FloatExpression",
+                                                                    "id": 97,
+                                                                    "srcValues": [
+                                                                        "@96",
+                                                                        24.0,
+                                                                        "@3211268"
+                                                                    ],
+                                                                    "animation": null
+                                                                },
+                                                                {
+                                                                    "scaleX": [
                                                                         "@95",
                                                                         "@95"
+                                                                    ],
+                                                                    "scaleY": [
+                                                                        "@97",
+                                                                        "@97"
                                                                     ],
                                                                     "pivotX": [
                                                                         "NaN",
@@ -1037,11 +1047,11 @@
                                                                 {
                                                                     "type": "ColorConstant",
                                                                     "color": "0xffcac4d0",
-                                                                    "colorId": 96
+                                                                    "colorId": 98
                                                                 },
                                                                 {
                                                                     "type": "NamedVariable",
-                                                                    "varId": 96,
+                                                                    "varId": 98,
                                                                     "varName": "USER:WearM3.onSurfaceVariant",
                                                                     "varType": "COLOR_TYPE"
                                                                 },
@@ -1059,7 +1069,7 @@
                                                                             "{type=FontFamily, fontFamily=0}",
                                                                             "{type=FontWeight, weight=400.0}",
                                                                             "{type=TypeFace, italic=false}",
-                                                                            "{type=ColorFilterID, id=96, mode=SRC_IN}",
+                                                                            "{type=ColorFilterID, id=98, mode=SRC_IN}",
                                                                             "{type=BlendMode, mode=SRC_OVER}",
                                                                             "{type=FilterBitmap, enabled=true}",
                                                                             "{type=Shader, id=0}"
@@ -1068,7 +1078,7 @@
                                                                 },
                                                                 {
                                                                     "type": "PathData",
-                                                                    "id": 97,
+                                                                    "id": 99,
                                                                     "path": [
                                                                         "@10",
                                                                         12.0,
@@ -1123,7 +1133,7 @@
                                                                 },
                                                                 {
                                                                     "type": "DrawPath",
-                                                                    "id": 97,
+                                                                    "id": 99,
                                                                     "start": 0.0,
                                                                     "end": 1.0
                                                                 },
@@ -1335,7 +1345,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 72,
+                                            "textId": 74,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -1453,14 +1463,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 81,
+                                            "textId": 83,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@84",
+                                                "@86",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1600,20 +1610,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "topEnd": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "bottomStart": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -1672,20 +1682,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "topEnd": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "bottomStart": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@87",
-                                                                "@87"
+                                                                "@89",
+                                                                "@89"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -1709,7 +1719,7 @@
                                     "paddingBottom": 0.0,
                                     "verticalPositioning": "TOP",
                                     "horizontalPositioning": "START",
-                                    "spacedBy": "@85"
+                                    "spacedBy": "@87"
                                 }
                             ],
                             "paddingLeft": "@45",

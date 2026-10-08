@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2792
+        "byteLength": 2882
     },
     "operations": [
         {
@@ -282,32 +282,42 @@
         {
             "type": "TextData",
             "textId": 61,
-            "text": "pnum"
+            "text": "wght"
         },
         {
             "type": "TextData",
             "textId": 62,
+            "text": "wdth"
+        },
+        {
+            "type": "TextData",
+            "textId": 63,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 64,
             "text": "XXm"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 63
+            "colorId": 65
         },
         {
             "type": "NamedVariable",
-            "varId": 63,
+            "varId": 65,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "TextData",
-            "textId": 64,
+            "textId": 66,
             "text": "Title card title text lorem ipsum dolor sit amet ("
         },
         {
             "type": "TextFromFloat",
-            "textId": 65,
+            "textId": 67,
             "value": [
                 "@43",
                 "@43"
@@ -318,17 +328,6 @@
         },
         {
             "type": "TextMerge",
-            "id": 66,
-            "leftId": 64,
-            "rightId": 65
-        },
-        {
-            "type": "TextData",
-            "textId": 67,
-            "text": ")"
-        },
-        {
-            "type": "TextMerge",
             "id": 68,
             "leftId": 66,
             "rightId": 67
@@ -336,6 +335,17 @@
         {
             "type": "TextData",
             "textId": 69,
+            "text": ")"
+        },
+        {
+            "type": "TextMerge",
+            "id": 70,
+            "leftId": 68,
+            "rightId": 69
+        },
+        {
+            "type": "TextData",
+            "textId": 71,
             "text": "Title card title text lorem ipsum dolor sit amet"
         },
         {
@@ -350,7 +360,7 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 70,
+            "id": 72,
             "mask": 0,
             "srcValues": [
                 0
@@ -362,13 +372,13 @@
                 "EXPRESSION"
             ],
             "type": "IntegerExpression",
-            "id": 71,
+            "id": 73,
             "mask": 60,
             "srcValues": [
                 1,
                 0,
                 43,
-                70,
+                72,
                 65538,
                 65558
             ],
@@ -376,11 +386,11 @@
         },
         {
             "type": "TextLookupInt",
-            "textId": 72,
+            "textId": 74,
             "dataSetId": 2097194,
             "indexId": [
-                71.0,
-                71.0
+                73.0,
+                73.0
             ]
         },
         {
@@ -388,7 +398,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 73,
+            "id": 75,
             "srcValues": [
                 "@33",
                 14.0,
@@ -423,7 +433,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 74,
+            "id": 76,
             "srcValues": [
                 "@58",
                 16.0,
@@ -436,10 +446,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 75,
+            "id": 77,
             "srcValues": [
-                "@73",
-                "@74",
+                "@75",
+                "@76",
                 1.03,
                 "@58",
                 "@3211266",
@@ -451,7 +461,7 @@
         },
         {
             "type": "TextData",
-            "textId": 76,
+            "textId": 78,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
@@ -759,27 +769,8 @@
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 79,
-                                                                    "componentValueType": "WIDTH",
-                                                                    "componentId": -1000005
-                                                                },
-                                                                {
-                                                                    "$tags": [
-                                                                        "EXPRESSION"
-                                                                    ],
-                                                                    "type": "FloatExpression",
-                                                                    "id": 80,
-                                                                    "srcValues": [
-                                                                        "@79",
-                                                                        24.0,
-                                                                        "@3211268"
-                                                                    ],
-                                                                    "animation": null
-                                                                },
-                                                                {
-                                                                    "type": "ComponentValue",
                                                                     "valueId": 81,
-                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentValueType": "WIDTH",
                                                                     "componentId": -1000005
                                                                 },
                                                                 {
@@ -796,13 +787,32 @@
                                                                     "animation": null
                                                                 },
                                                                 {
-                                                                    "scaleX": [
-                                                                        "@80",
-                                                                        "@80"
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 83,
+                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentId": -1000005
+                                                                },
+                                                                {
+                                                                    "$tags": [
+                                                                        "EXPRESSION"
                                                                     ],
-                                                                    "scaleY": [
+                                                                    "type": "FloatExpression",
+                                                                    "id": 84,
+                                                                    "srcValues": [
+                                                                        "@83",
+                                                                        24.0,
+                                                                        "@3211268"
+                                                                    ],
+                                                                    "animation": null
+                                                                },
+                                                                {
+                                                                    "scaleX": [
                                                                         "@82",
                                                                         "@82"
+                                                                    ],
+                                                                    "scaleY": [
+                                                                        "@84",
+                                                                        "@84"
                                                                     ],
                                                                     "pivotX": [
                                                                         "NaN",
@@ -828,7 +838,7 @@
                                                                             "{type=FontFamily, fontFamily=0}",
                                                                             "{type=FontWeight, weight=400.0}",
                                                                             "{type=TypeFace, italic=false}",
-                                                                            "{type=ColorFilterID, id=63, mode=SRC_IN}",
+                                                                            "{type=ColorFilterID, id=65, mode=SRC_IN}",
                                                                             "{type=BlendMode, mode=SRC_OVER}",
                                                                             "{type=FilterBitmap, enabled=true}",
                                                                             "{type=Shader, id=0}"
@@ -837,7 +847,7 @@
                                                                 },
                                                                 {
                                                                     "type": "PathData",
-                                                                    "id": 83,
+                                                                    "id": 85,
                                                                     "path": [
                                                                         "@10",
                                                                         12.0,
@@ -892,7 +902,7 @@
                                                                 },
                                                                 {
                                                                     "type": "DrawPath",
-                                                                    "id": 83,
+                                                                    "id": 85,
                                                                     "start": 0.0,
                                                                     "end": 1.0
                                                                 },
@@ -1104,7 +1114,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 62,
+                                            "textId": 64,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -1222,14 +1232,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 72,
+                                            "textId": 74,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@75",
+                                                "@77",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -1309,14 +1319,14 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 76,
+                                    "textId": 78,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@75",
+                                        "@77",
                                         36.0
                                     ],
                                     "fontStyle": 0,

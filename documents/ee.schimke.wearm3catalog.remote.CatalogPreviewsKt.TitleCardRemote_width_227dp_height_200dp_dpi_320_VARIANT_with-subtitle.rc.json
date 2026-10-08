@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2457
+        "byteLength": 2547
     },
     "operations": [
         {
@@ -360,21 +360,31 @@
         {
             "type": "TextData",
             "textId": 69,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 70,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 71,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 72,
             "text": "XXm"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 71
+            "colorId": 73
         },
         {
             "type": "NamedVariable",
-            "varId": 71,
+            "varId": 73,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
@@ -383,7 +393,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 72,
+            "id": 74,
             "srcValues": [
                 "@33",
                 14.0,
@@ -418,7 +428,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 73,
+            "id": 75,
             "srcValues": [
                 "@66",
                 14.0,
@@ -431,10 +441,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 74,
+            "id": 76,
             "srcValues": [
-                "@72",
-                "@73",
+                "@74",
+                "@75",
                 1.03,
                 "@66",
                 "@3211266",
@@ -446,22 +456,22 @@
         },
         {
             "type": "TextData",
-            "textId": 75,
+            "textId": 77,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
             "type": "TextData",
-            "textId": 76,
+            "textId": 78,
             "text": "Subtitle"
         },
         {
             "type": "ColorConstant",
             "color": "0xffffdcc2",
-            "colorId": 77
+            "colorId": 79
         },
         {
             "type": "NamedVariable",
-            "varId": 77,
+            "varId": 79,
             "varName": "USER:WearM3.tertiary",
             "varType": "COLOR_TYPE"
         },
@@ -470,7 +480,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 78,
+            "id": 80,
             "srcValues": [
                 "@33",
                 14.0,
@@ -505,7 +515,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 79,
+            "id": 81,
             "srcValues": [
                 "@66",
                 15.0,
@@ -518,10 +528,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 80,
+            "id": 82,
             "srcValues": [
-                "@78",
-                "@79",
+                "@80",
+                "@81",
                 1.03,
                 "@66",
                 "@3211266",
@@ -874,14 +884,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 70,
+                                            "textId": 72,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@74",
+                                                "@76",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -961,7 +971,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 75,
+                                    "textId": 77,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -1039,14 +1049,14 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 76,
+                                    "textId": 78,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@80",
+                                        "@82",
                                         36.0
                                     ],
                                     "fontStyle": 0,

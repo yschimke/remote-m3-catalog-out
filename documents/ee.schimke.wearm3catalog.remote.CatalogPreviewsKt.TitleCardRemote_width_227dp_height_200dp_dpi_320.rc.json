@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2131
+        "byteLength": 2205
     },
     "operations": [
         {
@@ -360,21 +360,31 @@
         {
             "type": "TextData",
             "textId": 69,
-            "text": "pnum"
+            "text": "wdth"
         },
         {
             "type": "TextData",
             "textId": 70,
+            "text": "wght"
+        },
+        {
+            "type": "TextData",
+            "textId": 71,
+            "text": "pnum"
+        },
+        {
+            "type": "TextData",
+            "textId": 72,
             "text": "XXm"
         },
         {
             "type": "ColorConstant",
             "color": "0xffcac4d0",
-            "colorId": 71
+            "colorId": 73
         },
         {
             "type": "NamedVariable",
-            "varId": 71,
+            "varId": 73,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
@@ -383,7 +393,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 72,
+            "id": 74,
             "srcValues": [
                 "@33",
                 14.0,
@@ -418,7 +428,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 73,
+            "id": 75,
             "srcValues": [
                 "@66",
                 14.0,
@@ -431,10 +441,10 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 74,
+            "id": 76,
             "srcValues": [
-                "@72",
-                "@73",
+                "@74",
+                "@75",
                 1.03,
                 "@66",
                 "@3211266",
@@ -446,7 +456,7 @@
         },
         {
             "type": "TextData",
-            "textId": 75,
+            "textId": 77,
             "text": "Content lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
         },
         {
@@ -792,14 +802,14 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 70,
+                                            "textId": 72,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
                                                 -1.0
                                             ],
                                             "fontSize": [
-                                                "@74",
+                                                "@76",
                                                 36.0
                                             ],
                                             "fontStyle": 0,
@@ -879,7 +889,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 75,
+                                    "textId": 77,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,

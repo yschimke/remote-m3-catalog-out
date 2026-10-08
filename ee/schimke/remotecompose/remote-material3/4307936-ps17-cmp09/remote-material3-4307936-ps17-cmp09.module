@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-material3",
+    "version": "4307936-ps17-cmp09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-foundation",
+          "version": {
+            "requires": "4307936-ps17-cmp09"
+          }
+        },
+        {
+          "group": "ee.schimke.wearcmp",
+          "module": "wear-compose-material3",
+          "version": {
+            "requires": "1.7.1-cmp01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-material3-metadata-4307936-ps17-cmp09.jar",
+          "url": "remote-material3-4307936-ps17-cmp09.jar",
+          "size": 44362,
+          "sha512": "5527a8fbe68dee92fbf8651ceb5f63ea0f6ddb5ef991e82050d76b397e28c9fe31d1c26f7a2d4d8929c7bda3a4513ab3486a4be9b761d64c01cb1650210a353b",
+          "sha256": "9cd8e9c1e0810f46c2bcdbbb538f1248e8cd58506bafa58996dff0e2e8c36547",
+          "sha1": "61c86dda6435dcb493e036e7df49fbc40044a688",
+          "md5": "25b42b405f69e73a1d1e93285758d50e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "remote-material3-kotlin-4307936-ps17-cmp09-sources.jar",
+          "url": "remote-material3-4307936-ps17-cmp09-sources.jar",
+          "size": 114758,
+          "sha512": "6c0f025e422c8871ea90d9b28a1ccc8f7ceef2430731149a4472dbe23a8b215009e6c3743bd756587a0dbe41050b35a1be451d296974254ee9bb818187ad359b",
+          "sha256": "4d20b72c83ff6a28e4d0f56d294d674aebfe7a379eb4362de1fd5171d885cb6c",
+          "sha1": "b03b78f28145c0319c5ee1c993bdd4d75b0c09b9",
+          "md5": "c11c7f0af36747e39b78ae64fc6d5654"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-android/4307936-ps17-cmp09/remote-material3-android-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-android",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-android/4307936-ps17-cmp09/remote-material3-android-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-android",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-android/4307936-ps17-cmp09/remote-material3-android-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-android",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-jvm/4307936-ps17-cmp09/remote-material3-jvm-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-jvm",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-jvm/4307936-ps17-cmp09/remote-material3-jvm-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-jvm",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../remote-material3-jvm/4307936-ps17-cmp09/remote-material3-jvm-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-jvm",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-material3-wasm-js/4307936-ps17-cmp09/remote-material3-wasm-js-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-wasm-js",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-material3-wasm-js/4307936-ps17-cmp09/remote-material3-wasm-js-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-wasm-js",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-material3-wasm-js/4307936-ps17-cmp09/remote-material3-wasm-js-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-wasm-js",
+        "version": "4307936-ps17-cmp09"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../remote-material3-wasm-js/4307936-ps17-cmp09/remote-material3-wasm-js-4307936-ps17-cmp09.module",
+        "group": "ee.schimke.remotecompose",
+        "module": "remote-material3-wasm-js",
+        "version": "4307936-ps17-cmp09"
+      }
+    }
+  ]
+}

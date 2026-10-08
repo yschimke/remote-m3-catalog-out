@@ -1,0 +1,231 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-material3/4307936-ps17-cmp09/remote-material3-4307936-ps17-cmp09.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-material3",
+    "version": "4307936-ps17-cmp09",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-foundation",
+          "version": {
+            "requires": "4307936-ps17-cmp09"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "ee.schimke.wearcmp",
+          "module": "wear-compose-material3",
+          "version": {
+            "requires": "1.7.1-cmp01"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-material3.aar",
+          "url": "remote-material3-android-4307936-ps17-cmp09.aar",
+          "size": 388279,
+          "sha512": "8d021edf0e57fd3a7d6c8e43fccb1e2e809bbd24041cc5def63066b0a48a064899ca8940835dede766d9ca5b64895edadbfdd8e2391343fb6b79e249ce7862c1",
+          "sha256": "d85c788f6224ea4d4382dae09ea960fd2fbb7cfe4b6477a2d5c26055056662ee",
+          "sha1": "51d852ce63cdb0791aa984acc5b26191315e028d",
+          "md5": "f14eb3e89d693531510213b79e15f948"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-foundation",
+          "version": {
+            "requires": "4307936-ps17-cmp09"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "ee.schimke.wearcmp",
+          "module": "wear-compose-material3",
+          "version": {
+            "requires": "1.7.1-cmp01"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-creation-compose",
+          "version": {
+            "requires": "4307936-ps17-cmp09"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.skiko",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-material3.aar",
+          "url": "remote-material3-android-4307936-ps17-cmp09.aar",
+          "size": 388279,
+          "sha512": "8d021edf0e57fd3a7d6c8e43fccb1e2e809bbd24041cc5def63066b0a48a064899ca8940835dede766d9ca5b64895edadbfdd8e2391343fb6b79e249ce7862c1",
+          "sha256": "d85c788f6224ea4d4382dae09ea960fd2fbb7cfe4b6477a2d5c26055056662ee",
+          "sha1": "51d852ce63cdb0791aa984acc5b26191315e028d",
+          "md5": "f14eb3e89d693531510213b79e15f948"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "remote-material3-android-4307936-ps17-cmp09-sources.jar",
+          "url": "remote-material3-android-4307936-ps17-cmp09-sources.jar",
+          "size": 116331,
+          "sha512": "c12e5e174d2baa166ce3d87698ca7fa7ed42257b3570cb345f8ed9afdb07a372d3550c361c66341733c55d84fed477108a69e6e25b1c3d3c5e369b55a64ac86d",
+          "sha256": "abc4e9719a6aa2548687c33caf5eee945ae2bf2d71ecb936719ffef2109f7cff",
+          "sha1": "2e398f1b639ef76b8fbcd5a7ba8dfa49128339dc",
+          "md5": "7d0c2bf0a52bc1a3d354eed4e3e4abd9"
+        }
+      ]
+    }
+  ]
+}

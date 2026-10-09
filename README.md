@@ -56,7 +56,7 @@ customising the live render are two ends of one workflow.
 | Library | `androidx.wear.compose.remote:remote-material3`<br>`androidx.compose.remote:remote-creation-compose`<br>`androidx.glance.wear:wear` |
 | Renderer | compose-preview 2.35.1 |
 | Schema | `design-parity-catalog/v1` |
-| Generated | 2026-10-08 |
+| Generated | 2026-10-09 |
 
 ## Components by group
 

@@ -151,7 +151,10 @@
             }
         },
         "code": null,
-        "composeSourceExport": null,
+        "composeSourceExport": {
+            "adapter": "remote-compose",
+            "version": 1
+        },
         "templates": [
             "ui-builder/designs/wear-widget-small.json",
             "ui-builder/designs/wear-widget-large.json",

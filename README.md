@@ -38,9 +38,9 @@ customising the live render are two ends of one workflow.
 
 | | |
 | --- | --- |
-| Components | **14** |
-| Rendered images (PNG) | **34** |
-| Editable wireframes (SVG) | **14** |
+| Components | **15** |
+| Rendered images (PNG) | **39** |
+| Editable wireframes (SVG) | **15** |
 | Editable design vectors (figma-svg) | **0** |
 | Components with a11y greenlines | **0** |
 | Library | `androidx.compose.remote:remote-creation-compose`<br>`androidx.compose.remote:foundation` |
@@ -52,9 +52,9 @@ customising the live render are two ends of one workflow.
 
 | Group | Count |
 | --- | ---: |
+| Layout | 5 |
 | Widget | 4 |
 | Text | 4 |
-| Layout | 4 |
 | Containment | 1 |
 | Buttons | 1 |
 

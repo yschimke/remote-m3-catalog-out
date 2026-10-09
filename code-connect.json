@@ -7,7 +7,7 @@
     "ref": "main",
     "module": ":widget-catalog"
   },
-  "generatedAt": "2026-10-09T09:21:51.491Z",
+  "generatedAt": "2026-10-09T10:32:15.034Z",
   "mappings": [
     {
       "componentId": "LauncherWidget/Counter",
@@ -515,6 +515,112 @@
           "type": "() -> Unit",
           "typeFqn": "kotlin.Function0",
           "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "AdaptiveLayout",
+      "figmaLayerName": "AdaptiveLayout",
+      "componentName": "AdaptiveLayout",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/AdaptiveLayout.kt",
+      "label": "Compose",
+      "confidence": "LOW",
+      "previewName": "AdaptiveLayoutSticker",
+      "codeSnippet": "AdaptiveLayout()",
+      "imports": [
+        "import ee.schimke.remotewidgets.AdaptiveLayout"
+      ],
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "compactSize",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "mediumSize",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "expandedSize",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "compact",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": true,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        },
+        {
+          "name": "medium",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": true,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        },
+        {
+          "name": "expanded",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": true,
           "composableSlot": true,
           "composableSlotReceiver": null,
           "nullable": false,

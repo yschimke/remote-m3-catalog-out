@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 5
+        "components": 6
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -34,6 +34,9 @@
                 "Layout"
             ],
             "components": {
+                "remote-widgets/adaptive-layout": {
+                    "group": "Layout"
+                },
                 "remote-widgets/widget-button": {
                     "group": "Buttons"
                 },
@@ -160,6 +163,123 @@
             }
         },
         "components": {
+            "remote-widgets/adaptive-layout": {
+                "record": "widget-catalog/ee.schimke.remotewidgets.AdaptiveLayoutKt.AdaptiveLayout",
+                "catalogId": null,
+                "displayName": "Adaptive layout",
+                "canvas": "launcher/adaptive-layout",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "compactSize",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "1x1",
+                            "2x1",
+                            "2x2",
+                            "3x1",
+                            "3x2",
+                            "4x1",
+                            "4x2",
+                            "4x3",
+                            "5x2"
+                        ],
+                        "notes": "The launcher grid size the `compact` slot is laid out for, as its cell count; default `2x1`. The widget shows whichever authored slot fits it best, Glance's SizeMode.Responsive rule: the closest size that fits, else the smallest."
+                    },
+                    {
+                        "name": "mediumSize",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "1x1",
+                            "2x1",
+                            "2x2",
+                            "3x1",
+                            "3x2",
+                            "4x1",
+                            "4x2",
+                            "4x3",
+                            "5x2"
+                        ],
+                        "notes": "The launcher grid size the `medium` slot is laid out for, as its cell count; default `4x1`. The widget shows whichever authored slot fits it best, Glance's SizeMode.Responsive rule: the closest size that fits, else the smallest."
+                    },
+                    {
+                        "name": "expandedSize",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "1x1",
+                            "2x1",
+                            "2x2",
+                            "3x1",
+                            "3x2",
+                            "4x1",
+                            "4x2",
+                            "4x3",
+                            "5x2"
+                        ],
+                        "notes": "The launcher grid size the `expanded` slot is laid out for, as its cell count; default `4x2`. The widget shows whichever authored slot fits it best, Glance's SizeMode.Responsive rule: the closest size that fits, else the smallest."
+                    }
+                ],
+                "slotCapabilities": [
+                    {
+                        "name": "compact",
+                        "cardinality": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    },
+                    {
+                        "name": "medium",
+                        "cardinality": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    },
+                    {
+                        "name": "expanded",
+                        "cardinality": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "AnyContent"
+                        ]
+                    }
+                ],
+                "modifierCapabilities": null
+            },
             "remote-widgets/widget-button": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetButton",
                 "catalogId": null,

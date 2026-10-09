@@ -1213,6 +1213,162 @@
           "composableSlot": true
         }
       ]
+    },
+    {
+      "componentId": "AdaptiveLayout",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/adaptivelayout/ideal__default__2x1.png",
+          "state": "default",
+          "width": 357,
+          "height": 280,
+          "size": "2x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/adaptivelayout__ideal__default__2x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_2x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=130dp,height=102dp,dpi=440",
+            "widthDp": 130,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/adaptivelayout/ideal__default__3x1.png",
+          "state": "default",
+          "width": 558,
+          "height": 280,
+          "size": "3x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/adaptivelayout__ideal__default__3x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_3x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=102dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/adaptivelayout/ideal__default__4x1.png",
+          "state": "default",
+          "width": 759,
+          "height": 280,
+          "size": "4x1",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/adaptivelayout__ideal__default__4x1",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_4x1",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=102dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 102
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/adaptivelayout/ideal__default__4x2.png",
+          "state": "default",
+          "width": 759,
+          "height": 605,
+          "size": "4x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/adaptivelayout__ideal__default__4x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_4x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=276dp,height=220dp,dpi=440",
+            "widthDp": 276,
+            "heightDp": 220
+          },
+          "density": 2.75
+        },
+        {
+          "variant": "ideal",
+          "path": "images/adaptivelayout/ideal__default__5x2.png",
+          "state": "default",
+          "width": 959,
+          "height": 605,
+          "size": "5x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/adaptivelayout__ideal__default__5x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_5x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=349dp,height=220dp,dpi=440",
+            "widthDp": 349,
+            "heightDp": 220
+          },
+          "density": 2.75
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 33,
+            "y": 33,
+            "width": 288,
+            "height": 211
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Layout",
+      "caption": "Up to three layouts, each authored at a grid size, of which the widget shows the one that fits it: a RemoteStateLayout choosing during playback, so a resize switches layout.",
+      "noReference": "No published design kit covers Remote Compose launcher widgets.",
+      "wireframe": "wireframes/adaptivelayout.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
+      "sourceModule": ":widget-catalog",
+      "bodyLine": 334,
+      "sourceDirectory": "widget-catalog",
+      "sourceFunction": "AdaptiveLayoutSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "compactSize",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "mediumSize",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "expandedSize",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "compact",
+          "type": "() -> Unit",
+          "hasDefault": true,
+          "composableSlot": true
+        },
+        {
+          "name": "medium",
+          "type": "() -> Unit",
+          "hasDefault": true,
+          "composableSlot": true
+        },
+        {
+          "name": "expanded",
+          "type": "() -> Unit",
+          "hasDefault": true,
+          "composableSlot": true
+        }
+      ]
     }
   ],
   "library": [
@@ -1220,7 +1376,7 @@
     "androidx.compose.remote:foundation"
   ],
   "renderer": "compose-preview 2.35.1",
-  "generatedAt": "2026-10-09T09:21:50.905Z",
+  "generatedAt": "2026-10-09T10:32:14.433Z",
   "display": {
     "surface": "light",
     "hero": "LauncherWidget/Counter"

@@ -733,6 +733,16 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 
 | Preview | Image |
 |---------|-------|
+| `AdaptiveDestinationsFixedSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsFixedSticker_2x1-e470e96b.png" width="150" /> |
+| `AdaptiveDestinationsFixedSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsFixedSticker_3x1-7a894c7e.png" width="150" /> |
+| `AdaptiveDestinationsFixedSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsFixedSticker_4x1-4dd832e9.png" width="150" /> |
+| `AdaptiveDestinationsFixedSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsFixedSticker_4x2-be9e7c25.png" width="150" /> |
+| `AdaptiveDestinationsFixedSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsFixedSticker_5x2-897cbba1.png" width="150" /> |
+| `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_2x1-81869350.png" width="150" /> |
+| `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_3x1-e8736bf5.png" width="150" /> |
+| `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_4x1-b41be16a.png" width="150" /> |
+| `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_4x2-5eb81ed0.png" width="150" /> |
+| `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_5x2-7fa1dd19.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x1-aeb34af4.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x2-4ce6dfee.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_3x2-1f356f4c.png" width="150" /> |

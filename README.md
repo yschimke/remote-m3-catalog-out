@@ -743,6 +743,11 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_4x1-b41be16a.png" width="150" /> |
 | `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_4x2-5eb81ed0.png" width="150" /> |
 | `AdaptiveDestinationsSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveDestinationsSticker_5x2-7fa1dd19.png" width="150" /> |
+| `AdaptiveLayoutSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveLayoutSticker_2x1-f5ad4807.png" width="150" /> |
+| `AdaptiveLayoutSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveLayoutSticker_3x1-76cdfb54.png" width="150" /> |
+| `AdaptiveLayoutSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveLayoutSticker_4x1-370b4dfb.png" width="150" /> |
+| `AdaptiveLayoutSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveLayoutSticker_4x2-79ec3ca4.png" width="150" /> |
+| `AdaptiveLayoutSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/AdaptiveLayoutSticker_5x2-b14e944d.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x1-aeb34af4.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_2x2-4ce6dfee.png" width="150" /> |
 | `CounterWidgetSticker` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/widget-catalog/CounterWidgetSticker_3x2-1f356f4c.png" width="150" /> |

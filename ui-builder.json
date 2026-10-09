@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 6
+        "components": 7
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -34,6 +34,9 @@
                 "Layout"
             ],
             "components": {
+                "remote-widgets/remote-text": {
+                    "group": "Text"
+                },
                 "remote-widgets/adaptive-layout": {
                     "group": "Layout"
                 },
@@ -118,6 +121,7 @@
             "ui-builder/designs/launcher-widget-2x1.json",
             "ui-builder/designs/counter-widget.json"
         ],
+        "newDesign": null,
         "colorTokens": null,
         "assetRegistry": null,
         "supersedes": null,
@@ -155,6 +159,7 @@
                     }
                 ],
                 "modifierCapabilities": [],
+                "insertContent": null,
                 "implementation": null,
                 "shelfRole": null,
                 "wasm": null,
@@ -163,6 +168,55 @@
             }
         },
         "components": {
+            "remote-widgets/remote-text": {
+                "record": "widget-catalog/androidx.compose.remote.creation.compose.layout.RemoteTextKt.RemoteText",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "m3/text",
+                "canvasMapping": {
+                    "properties": {
+                        "fontSizeSp": "fontSize"
+                    }
+                },
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "text",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The string the text draws, written as `\"…\".rs`."
+                    },
+                    {
+                        "name": "fontSize",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "Size in sp, written as `<n>.rsp`."
+                    },
+                    {
+                        "name": "color",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A `#AARRGGBB` literal, written as `Color(0x…).rc`. No theme roles: see $comment_colorTokens."
+                    },
+                    {
+                        "name": "maxLines",
+                        "jsonType": "integer",
+                        "required": false,
+                        "notes": "The most lines the text wraps to."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null
+            },
             "remote-widgets/adaptive-layout": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.AdaptiveLayoutKt.AdaptiveLayout",
                 "catalogId": null,
@@ -278,7 +332,8 @@
                         ]
                     }
                 ],
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-widgets/widget-button": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetButton",
@@ -297,7 +352,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-widgets/widget-label": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetLabel",
@@ -316,7 +372,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-widgets/widget-surface": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetSurface",
@@ -339,7 +396,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-widgets/widget-title": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetComponentsKt.WidgetTitle",
@@ -358,7 +416,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-widgets/widget-sticker": {
                 "record": "widget-catalog/ee.schimke.remotewidgets.WidgetStickerKt.WidgetSticker",
@@ -377,7 +436,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             }
         }
     },
@@ -386,11 +446,6 @@
             "code": "component.canvas.unclaimed",
             "subject": "remote-widgets/widget-sticker",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
-        },
-        {
-            "code": "component.policy.orphaned",
-            "subject": "remote-widgets/remote-text",
-            "message": "ui-builder.policy.json states a policy for \"remote-widgets/remote-text\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         }
     ]
 }

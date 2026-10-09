@@ -4,6 +4,488 @@
     "variant": "debug",
     "components": [
         {
+            "canonicalId": "widget-catalog/androidx.compose.remote.creation.compose.layout.RemoteTextKt.RemoteText",
+            "componentIds": [
+                "AdaptiveLayout",
+                "LauncherWidget/Adaptive",
+                "LauncherWidget/AdaptiveFixed",
+                "LauncherWidget/Counter",
+                "LauncherWidget/Grid",
+                "RemoteColumn",
+                "RemoteText",
+                "WidgetButton",
+                "WidgetLabel",
+                "WidgetSurface",
+                "WidgetTitle"
+            ],
+            "symbol": {
+                "jvmOwner": "androidx.compose.remote.creation.compose.layout.RemoteTextKt",
+                "callable": "androidx.compose.remote.creation.compose.layout.RemoteText",
+                "name": "RemoteText",
+                "origin": "LIBRARY",
+                "jvmName": null,
+                "descriptor": null,
+                "sourceFile": null,
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "text",
+                    "type": "RemoteString",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteString",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "RemoteColor",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontSize",
+                    "type": "RemoteTextUnit",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteTextUnit",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "minFontSize",
+                    "type": "Float?",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "maxFontSize",
+                    "type": "Float?",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontStyle",
+                    "type": "FontStyle",
+                    "typeFqn": "androidx.compose.ui.text.font.FontStyle",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontWeight",
+                    "type": "RemoteFloat",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "textAlign",
+                    "type": "TextAlign",
+                    "typeFqn": "androidx.compose.ui.text.style.TextAlign",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontFamily",
+                    "type": "String?",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "overflow",
+                    "type": "TextOverflow",
+                    "typeFqn": "androidx.compose.ui.text.style.TextOverflow",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "maxLines",
+                    "type": "Int",
+                    "typeFqn": "kotlin.Int",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "letterSpacing",
+                    "type": "RemoteFloat",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "lineHeightAdd",
+                    "type": "Float?",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "lineHeightMultiply",
+                    "type": "RemoteFloat",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "lineBreak",
+                    "type": "LineBreak",
+                    "typeFqn": "androidx.compose.ui.text.style.LineBreak",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "hyphens",
+                    "type": "Hyphens",
+                    "typeFqn": "androidx.compose.ui.text.style.Hyphens",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "textDecoration",
+                    "type": "TextDecoration?",
+                    "typeFqn": "androidx.compose.ui.text.style.TextDecoration",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontVariationSettings",
+                    "type": "Settings?",
+                    "typeFqn": "androidx.compose.ui.text.font.FontVariation.Settings",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "fontFeatureSettings",
+                    "type": "String?",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_2x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_3x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_4x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_4x2",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_5x2",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_2x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_3x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_4x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_4x2",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_5x2",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_2x1",
+                    "componentId": "AdaptiveLayout",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_3x1",
+                    "componentId": "AdaptiveLayout",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_4x1",
+                    "componentId": "AdaptiveLayout",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_4x2",
+                    "componentId": "AdaptiveLayout",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveLayoutSticker_5x2",
+                    "componentId": "AdaptiveLayout",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x1",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_3x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x1",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_4x2",
+                    "componentId": "LauncherWidget/Counter",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteColumnSticker_2x2",
+                    "componentId": "RemoteColumn",
+                    "group": "Layout"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.RemoteTextSticker_3x1",
+                    "componentId": "RemoteText",
+                    "group": "Text"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetButtonSticker_2x1",
+                    "componentId": "WidgetButton",
+                    "group": "Buttons"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_1x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_2x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_3x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x1",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_4x3",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetGridSticker_5x2",
+                    "componentId": "LauncherWidget/Grid",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetLabelSticker_3x1",
+                    "componentId": "WidgetLabel",
+                    "group": "Text"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetSurfaceSticker_2x1",
+                    "componentId": "WidgetSurface",
+                    "group": "Containment"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.WidgetTitleSticker_3x1",
+                    "componentId": "WidgetTitle",
+                    "group": "Text"
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "overloads collided under this canonical id, so no single call site identifies one",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": true,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": []
+        },
+        {
             "canonicalId": "widget-catalog/ee.schimke.remotewidgets.AdaptiveLayoutKt.AdaptiveLayout",
             "componentIds": [
                 "AdaptiveLayout"

@@ -161,6 +161,7 @@
             "ui-builder/designs/hello-widget.json",
             "ui-builder/designs/weather-widget.json"
         ],
+        "newDesign": null,
         "colorTokens": {
             "$comment": "The theme roles a colour property may name. Same Material 3 vocabulary as the sibling :catalog, and stated here for the same reason: a Remote design names roles, and a role the canvas cannot resolve is a literal. Every sticker in this catalog is a RemoteDocument carrying explicit dark-first Material colours, so the values behind these names are the document's rather than a theme's — but the names are what a design writes.",
             "roles": [
@@ -275,6 +276,7 @@
                     }
                 ],
                 "modifierCapabilities": [],
+                "insertContent": null,
                 "implementation": null,
                 "shelfRole": null,
                 "wasm": null,
@@ -373,6 +375,7 @@
                     }
                 ],
                 "modifierCapabilities": [],
+                "insertContent": null,
                 "implementation": null,
                 "shelfRole": null,
                 "wasm": null,
@@ -490,6 +493,7 @@
                     }
                 ],
                 "modifierCapabilities": [],
+                "insertContent": null,
                 "implementation": null,
                 "shelfRole": null,
                 "wasm": null,
@@ -525,7 +529,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-button-group": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteButtonGroupKt.RemoteButtonGroup",
@@ -548,7 +553,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteButtonKt.RemoteButton",
@@ -572,9 +578,17 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "containerImageKey",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The key of an asset to fill the container with, as `asset/image`'s `assetKey`: written as the `containerPainter` overload, `containerPainter = painterRemoteImageBitmap(…)`. A plain container when absent. The record carries the overload without a painter, so this is stated rather than derived."
+                    }
+                ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-compact-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteButtonKt.RemoteCompactButton",
@@ -603,7 +617,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-card": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteCardKt.RemoteCard",
@@ -627,9 +642,17 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "containerImageKey",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The key of an asset to fill the container with, as `asset/image`'s `assetKey`: written as the `containerPainter` overload, `containerPainter = painterRemoteImageBitmap(…)`. A plain container when absent. The record carries the overload without a painter, so this is stated rather than derived."
+                    }
+                ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-outlined-card": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteCardKt.RemoteOutlinedCard",
@@ -655,7 +678,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-checkbox-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteCheckboxButtonKt.RemoteCheckboxButton",
@@ -674,7 +698,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-circular-progress-indicator": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteCircularProgressIndicatorKt.RemoteCircularProgressIndicator",
@@ -700,7 +725,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-curved-progress-indicator": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteCurvedProgressIndicatorKt.RemoteCurvedProgressIndicator",
@@ -726,7 +752,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-edge-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteEdgeButtonKt.RemoteEdgeButton",
@@ -749,7 +776,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-icon-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteIconButtonKt.RemoteIconButton",
@@ -775,7 +803,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-icon": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteIconKt.RemoteIcon",
@@ -812,7 +841,10 @@
                     },
                     {
                         "name": "contentDescription",
-                        "jsonType": "string",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
                         "required": false,
                         "notes": "What a screen reader says for the icon. Leave it empty beside a label; set it when the icon is the whole button."
                     },
@@ -824,7 +856,8 @@
                     }
                 ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-linear-progress-indicator": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteLinearProgressIndicatorKt.RemoteLinearProgressIndicator",
@@ -850,7 +883,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-horizontal-page-indicator": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemotePageIndicatorKt.RemoteHorizontalPageIndicator",
@@ -874,9 +908,26 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "pageCount",
+                        "jsonType": "integer",
+                        "required": false,
+                        "notes": "How many pages there are; 4 when absent. `state` is a `RemotePageIndicatorState`, which no design value becomes, so the emitter builds it from this and `selectedPage`."
+                    },
+                    {
+                        "name": "selectedPage",
+                        "jsonType": [
+                            "integer",
+                            "object"
+                        ],
+                        "required": false,
+                        "notes": "The page shown, from zero: a literal or the design's Int state, which is how a pager drives the dots. The first when absent."
+                    }
+                ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-vertical-page-indicator": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemotePageIndicatorKt.RemoteVerticalPageIndicator",
@@ -900,9 +951,26 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "pageCount",
+                        "jsonType": "integer",
+                        "required": false,
+                        "notes": "How many pages there are; 4 when absent. `state` is a `RemotePageIndicatorState`, which no design value becomes, so the emitter builds it from this and `selectedPage`."
+                    },
+                    {
+                        "name": "selectedPage",
+                        "jsonType": [
+                            "integer",
+                            "object"
+                        ],
+                        "required": false,
+                        "notes": "The page shown, from zero: a literal or the design's Int state, which is how a pager drives the dots. The first when absent."
+                    }
+                ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-radio-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteRadioButtonKt.RemoteRadioButton",
@@ -921,7 +989,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-slider": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteSliderKt.RemoteSlider",
@@ -951,7 +1020,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-split-checkbox-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteSplitCheckboxButtonKt.RemoteSplitCheckboxButton",
@@ -970,7 +1040,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-split-radio-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteSplitRadioButtonKt.RemoteSplitRadioButton",
@@ -989,7 +1060,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-split-switch-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteSplitSwitchButtonKt.RemoteSplitSwitchButton",
@@ -1008,7 +1080,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-stepper": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteStepperKt.RemoteStepper",
@@ -1038,7 +1111,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-switch-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteSwitchButtonKt.RemoteSwitchButton",
@@ -1057,7 +1131,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-text-button": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteTextButtonKt.RemoteTextButton",
@@ -1083,7 +1158,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-text": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteTextKt.RemoteText",
@@ -1107,7 +1183,10 @@
                 "propertyCapabilities": [
                     {
                         "name": "text",
-                        "jsonType": "string",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
                         "required": true,
                         "notes": "The string the component draws. `RemoteText` takes a `RemoteString`, so a design's plain string is written as `\"…\".rs` and a binding or a state value as the remote expression it names — what the design carries is the same JSON either way."
                     },
@@ -1179,7 +1258,8 @@
                     }
                 ],
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-title-card": {
                 "record": "remote-catalog/androidx.wear.compose.remote.material3.RemoteTitleCardKt.RemoteTitleCard",
@@ -1208,7 +1288,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/remote-sticker": {
                 "record": "remote-catalog/ee.schimke.wearm3catalog.remote.CatalogThemeKt.RemoteSticker",
@@ -1227,7 +1308,8 @@
                 "excluded": "the catalog's own preview frame, not a Remote Compose component: every sticker is drawn inside one and nobody places one in a design.",
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             },
             "remote-m3/theme-specimen": {
                 "record": "remote-catalog/ee.schimke.wearm3catalog.remote.RemoteThemeSpecimensKt.ThemeSpecimen",
@@ -1246,7 +1328,8 @@
                 "excluded": null,
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
-                "modifierCapabilities": null
+                "modifierCapabilities": null,
+                "insertContent": null
             }
         }
     },

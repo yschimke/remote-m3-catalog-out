@@ -383,6 +383,8 @@
         {
             "canonicalId": "widget-catalog/ee.schimke.remotewidgets.WidgetStickerKt.WidgetSticker",
             "componentIds": [
+                "LauncherWidget/Adaptive",
+                "LauncherWidget/AdaptiveFixed",
                 "LauncherWidget/Counter",
                 "LauncherWidget/Grid",
                 "RemoteBasicText",
@@ -425,6 +427,56 @@
                 }
             ],
             "bindings": [
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_2x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_3x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_4x1",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_4x2",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsFixedSticker_5x2",
+                    "componentId": "LauncherWidget/AdaptiveFixed",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_2x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_3x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_4x1",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_4x2",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
+                {
+                    "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.AdaptiveDestinationsSticker_5x2",
+                    "componentId": "LauncherWidget/Adaptive",
+                    "group": "Widget"
+                },
                 {
                     "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_2x1",
                     "componentId": "LauncherWidget/Counter",

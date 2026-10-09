@@ -7,7 +7,7 @@
     "ref": "main",
     "module": ":widget-catalog"
   },
-  "generatedAt": "2026-10-09T08:33:26.627Z",
+  "generatedAt": "2026-10-09T09:14:08.447Z",
   "mappings": [
     {
       "componentId": "LauncherWidget/Counter",
@@ -17,6 +17,62 @@
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "CounterWidgetSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "LauncherWidget/Adaptive",
+      "figmaLayerName": "LauncherWidget/Adaptive",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "AdaptiveDestinationsSticker",
+      "codeSnippet": "WidgetSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.remotewidgets.WidgetSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ]
+    },
+    {
+      "componentId": "LauncherWidget/AdaptiveFixed",
+      "figmaLayerName": "LauncherWidget/AdaptiveFixed",
+      "componentName": "WidgetSticker",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/widget-catalog/src/main/kotlin/ee/schimke/remotewidgets/WidgetSticker.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "AdaptiveDestinationsFixedSticker",
       "codeSnippet": "WidgetSticker(\n    content = { },\n)",
       "imports": [
         "import ee.schimke.remotewidgets.WidgetSticker"

@@ -106,7 +106,10 @@
             }
         },
         "code": null,
-        "composeSourceExport": null,
+        "composeSourceExport": {
+            "adapter": "remote-compose-launcher-widget",
+            "version": 1
+        },
         "templates": [
             "ui-builder/designs/hello-widget.json",
             "ui-builder/designs/launcher-widget-2x1.json",

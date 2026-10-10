@@ -1,7 +1,7 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 981
+        "byteLength": 1021
     },
     "operations": [
         {
@@ -16,7 +16,7 @@
             "id": 42,
             "srcValues": [
                 "@27",
-                16.0,
+                12.0,
                 "@3211267"
             ],
             "animation": null
@@ -29,23 +29,15 @@
             "id": 43,
             "srcValues": [
                 "@27",
-                12.0,
+                24.0,
                 "@3211267"
             ],
             "animation": null
         },
         {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 44,
-            "srcValues": [
-                "@27",
-                4.0,
-                "@3211267"
-            ],
-            "animation": null
+            "type": "TextData",
+            "textId": 44,
+            "text": "Home"
         },
         {
             "$tags": [
@@ -55,7 +47,7 @@
             "id": 45,
             "srcValues": [
                 "@27",
-                20.0,
+                16.0,
                 "@3211267"
             ],
             "animation": null
@@ -74,9 +66,39 @@
             "animation": null
         },
         {
-            "type": "TextData",
-            "textId": 47,
-            "text": "Home"
+            "$tags": [
+                "EXPRESSION"
+            ],
+            "type": "FloatExpression",
+            "id": 47,
+            "srcValues": [
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.0,
+                "@3211266",
+                0.5,
+                "@3211270",
+                14.0,
+                "@3211267",
+                16.0,
+                "@3211265",
+                "@33",
+                14.0,
+                "@3211268",
+                "@27",
+                "@3211268",
+                1.5,
+                "@3211266",
+                0.0,
+                "@3211271",
+                10.0,
+                "@3211267",
+                "@3211265"
+            ],
+            "animation": null
         },
         {
             "$tags": [
@@ -90,26 +112,8 @@
                 "@3211268",
                 "@27",
                 "@3211268",
-                1.0,
-                "@3211266",
-                0.5,
-                "@3211270",
-                12.0,
-                "@3211267",
-                20.0,
-                "@3211265",
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.5,
-                "@3211266",
-                0.0,
-                "@3211271",
                 16.0,
-                "@3211267",
-                "@3211265"
+                "@3211267"
             ],
             "animation": null
         },
@@ -124,9 +128,7 @@
                 14.0,
                 "@3211268",
                 "@27",
-                "@3211268",
-                20.0,
-                "@3211267"
+                "@3211268"
             ],
             "animation": null
         },
@@ -137,25 +139,10 @@
             "type": "FloatExpression",
             "id": 50,
             "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 51,
-            "srcValues": [
+                "@47",
                 "@48",
-                "@49",
                 1.03,
-                "@50",
+                "@49",
                 "@3211266",
                 "@3211290",
                 "@27",
@@ -165,7 +152,7 @@
         },
         {
             "type": "TextData",
-            "textId": 52,
+            "textId": 51,
             "text": "Work"
         },
         {
@@ -263,30 +250,6 @@
                                             "dimensionModifierType": "FILL"
                                         },
                                         {
-                                            "topStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "topEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "RoundedClipRectModifierOperation",
-                                            "width": 0.0,
-                                            "height": 0.0
-                                        },
-                                        {
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
@@ -308,10 +271,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": "@43",
-                                            "top": "@43",
-                                            "right": "@43",
-                                            "bottom": "@43"
+                                            "left": "@42",
+                                            "top": "@42",
+                                            "right": "@42",
+                                            "bottom": "@42"
                                         }
                                     ]
                                 },
@@ -426,7 +389,7 @@
                                                             "id": -1000005,
                                                             "x": 0.0,
                                                             "y": 0.0,
-                                                            "width": "@42",
+                                                            "width": "@45",
                                                             "height": "@46",
                                                             "visibility": "VISIBLE",
                                                             "list": [
@@ -440,28 +403,46 @@
                                                                             "$tags": [
                                                                                 "MODIFIER"
                                                                             ],
-                                                                            "type": "PaddingModifierOperation",
-                                                                            "left": "@44",
-                                                                            "top": "@44",
-                                                                            "right": "@44",
-                                                                            "bottom": "@44"
+                                                                            "type": "WidthInModifierOperation",
+                                                                            "min": [
+                                                                                48.0,
+                                                                                48.0
+                                                                            ],
+                                                                            "max": [
+                                                                                3.4028235E38,
+                                                                                3.4028235E38
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "$tags": [
+                                                                                "MODIFIER"
+                                                                            ],
+                                                                            "type": "HeightInModifierOperation",
+                                                                            "min": [
+                                                                                48.0,
+                                                                                48.0
+                                                                            ],
+                                                                            "max": [
+                                                                                3.4028235E38,
+                                                                                3.4028235E38
+                                                                            ]
                                                                         },
                                                                         {
                                                                             "topStart": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "topEnd": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "bottomStart": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "bottomEnd": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "$tags": [
                                                                                 "MODIFIER"
@@ -489,12 +470,26 @@
                                                                         },
                                                                         {
                                                                             "$tags": [
+                                                                                "MODIFIER",
+                                                                                "A11Y"
+                                                                            ],
+                                                                            "type": "CoreSemantics",
+                                                                            "contentDescriptionId": 44,
+                                                                            "role": "BUTTON",
+                                                                            "textId": 0,
+                                                                            "stateDescriptionId": 0,
+                                                                            "enabled": true,
+                                                                            "mode": "MERGE",
+                                                                            "clickable": false
+                                                                        },
+                                                                        {
+                                                                            "$tags": [
                                                                                 "MODIFIER"
                                                                             ],
                                                                             "type": "PaddingModifierOperation",
-                                                                            "left": "@42",
+                                                                            "left": "@45",
                                                                             "top": "@46",
-                                                                            "right": "@42",
+                                                                            "right": "@45",
                                                                             "bottom": "@46"
                                                                         }
                                                                     ]
@@ -523,11 +518,11 @@
                                                                     "paddingRight": 0.0,
                                                                     "paddingTop": 0.0,
                                                                     "paddingBottom": 0.0,
-                                                                    "textId": 47,
+                                                                    "textId": 44,
                                                                     "flags": 0,
                                                                     "color": "0xffffffff",
                                                                     "fontSize": [
-                                                                        "@51",
+                                                                        "@50",
                                                                         16.0
                                                                     ],
                                                                     "fontStyle": 0,
@@ -535,11 +530,11 @@
                                                                     "fontFamilyId": -1,
                                                                     "textAlign": 5,
                                                                     "overflow": 1,
-                                                                    "maxLines": 2147483647
+                                                                    "maxLines": 1
                                                                 }
                                                             ],
-                                                            "paddingLeft": "@42",
-                                                            "paddingRight": "@42",
+                                                            "paddingLeft": "@45",
+                                                            "paddingRight": "@45",
                                                             "paddingTop": "@46",
                                                             "paddingBottom": "@46",
                                                             "verticalPositioning": "CENTER",
@@ -553,7 +548,57 @@
                                                             "id": -1000007,
                                                             "x": 0.0,
                                                             "y": 0.0,
-                                                            "width": "@42",
+                                                            "width": 8.0,
+                                                            "height": 8.0,
+                                                            "visibility": "VISIBLE",
+                                                            "list": [
+                                                                {
+                                                                    "$tags": [
+                                                                        "MODIFIER"
+                                                                    ],
+                                                                    "type": "ComponentModifiers",
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "$tags": [
+                                                                                "MODIFIER"
+                                                                            ],
+                                                                            "type": "WidthModifierOperation",
+                                                                            "width": [
+                                                                                8.0,
+                                                                                8.0
+                                                                            ],
+                                                                            "dimensionModifierType": "EXACT_DP"
+                                                                        },
+                                                                        {
+                                                                            "$tags": [
+                                                                                "MODIFIER"
+                                                                            ],
+                                                                            "type": "HeightModifierOperation",
+                                                                            "height": [
+                                                                                8.0,
+                                                                                8.0
+                                                                            ],
+                                                                            "dimensionModifierType": "EXACT_DP"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "paddingLeft": 0.0,
+                                                            "paddingRight": 0.0,
+                                                            "paddingTop": 0.0,
+                                                            "paddingBottom": 0.0,
+                                                            "verticalPositioning": "TOP",
+                                                            "horizontalPositioning": "START"
+                                                        },
+                                                        {
+                                                            "$tags": [
+                                                                "LAYOUT_COMPONENT"
+                                                            ],
+                                                            "type": "BOX",
+                                                            "id": -1000008,
+                                                            "x": 0.0,
+                                                            "y": 0.0,
+                                                            "width": "@45",
                                                             "height": "@46",
                                                             "visibility": "VISIBLE",
                                                             "list": [
@@ -567,28 +612,46 @@
                                                                             "$tags": [
                                                                                 "MODIFIER"
                                                                             ],
-                                                                            "type": "PaddingModifierOperation",
-                                                                            "left": "@44",
-                                                                            "top": "@44",
-                                                                            "right": "@44",
-                                                                            "bottom": "@44"
+                                                                            "type": "WidthInModifierOperation",
+                                                                            "min": [
+                                                                                48.0,
+                                                                                48.0
+                                                                            ],
+                                                                            "max": [
+                                                                                3.4028235E38,
+                                                                                3.4028235E38
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "$tags": [
+                                                                                "MODIFIER"
+                                                                            ],
+                                                                            "type": "HeightInModifierOperation",
+                                                                            "min": [
+                                                                                48.0,
+                                                                                48.0
+                                                                            ],
+                                                                            "max": [
+                                                                                3.4028235E38,
+                                                                                3.4028235E38
+                                                                            ]
                                                                         },
                                                                         {
                                                                             "topStart": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "topEnd": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "bottomStart": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "bottomEnd": [
-                                                                                "@45",
-                                                                                "@45"
+                                                                                "@43",
+                                                                                "@43"
                                                                             ],
                                                                             "$tags": [
                                                                                 "MODIFIER"
@@ -616,12 +679,26 @@
                                                                         },
                                                                         {
                                                                             "$tags": [
+                                                                                "MODIFIER",
+                                                                                "A11Y"
+                                                                            ],
+                                                                            "type": "CoreSemantics",
+                                                                            "contentDescriptionId": 51,
+                                                                            "role": "BUTTON",
+                                                                            "textId": 0,
+                                                                            "stateDescriptionId": 0,
+                                                                            "enabled": true,
+                                                                            "mode": "MERGE",
+                                                                            "clickable": false
+                                                                        },
+                                                                        {
+                                                                            "$tags": [
                                                                                 "MODIFIER"
                                                                             ],
                                                                             "type": "PaddingModifierOperation",
-                                                                            "left": "@42",
+                                                                            "left": "@45",
                                                                             "top": "@46",
-                                                                            "right": "@42",
+                                                                            "right": "@45",
                                                                             "bottom": "@46"
                                                                         }
                                                                     ]
@@ -631,7 +708,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "TEXT_LAYOUT",
-                                                                    "id": -1000008,
+                                                                    "id": -1000009,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 0.0,
@@ -650,11 +727,11 @@
                                                                     "paddingRight": 0.0,
                                                                     "paddingTop": 0.0,
                                                                     "paddingBottom": 0.0,
-                                                                    "textId": 52,
+                                                                    "textId": 51,
                                                                     "flags": 0,
                                                                     "color": "0xffffffff",
                                                                     "fontSize": [
-                                                                        "@51",
+                                                                        "@50",
                                                                         16.0
                                                                     ],
                                                                     "fontStyle": 0,
@@ -662,11 +739,11 @@
                                                                     "fontFamilyId": -1,
                                                                     "textAlign": 5,
                                                                     "overflow": 1,
-                                                                    "maxLines": 2147483647
+                                                                    "maxLines": 1
                                                                 }
                                                             ],
-                                                            "paddingLeft": "@42",
-                                                            "paddingRight": "@42",
+                                                            "paddingLeft": "@45",
+                                                            "paddingRight": "@45",
                                                             "paddingTop": "@46",
                                                             "paddingBottom": "@46",
                                                             "verticalPositioning": "CENTER",
@@ -699,10 +776,10 @@
                                     "horizontalPositioning": "START"
                                 }
                             ],
-                            "paddingLeft": "@43",
-                            "paddingRight": "@43",
-                            "paddingTop": "@43",
-                            "paddingBottom": "@43",
+                            "paddingLeft": "@42",
+                            "paddingRight": "@42",
+                            "paddingTop": "@42",
+                            "paddingBottom": "@42",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "CENTER"
                         }

@@ -1,7 +1,7 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 469
+        "byteLength": 431
     },
     "operations": [
         {
@@ -16,19 +16,6 @@
             "id": 42,
             "srcValues": [
                 "@27",
-                16.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 43,
-            "srcValues": [
-                "@27",
                 12.0,
                 "@3211267"
             ],
@@ -39,7 +26,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 44,
+            "id": 43,
             "srcValues": [
                 "@27",
                 8.0,
@@ -142,30 +129,6 @@
                                             "dimensionModifierType": "FILL"
                                         },
                                         {
-                                            "topStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "topEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "RoundedClipRectModifierOperation",
-                                            "width": 0.0,
-                                            "height": 0.0
-                                        },
-                                        {
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
@@ -187,10 +150,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": "@43",
-                                            "top": "@43",
-                                            "right": "@43",
-                                            "bottom": "@43"
+                                            "left": "@42",
+                                            "top": "@42",
+                                            "right": "@42",
+                                            "bottom": "@42"
                                         }
                                     ]
                                 },
@@ -221,8 +184,8 @@
                                             "id": -1000003,
                                             "x": 0.0,
                                             "y": 0.0,
-                                            "width": 40.0,
-                                            "height": 40.0,
+                                            "width": 32.0,
+                                            "height": 32.0,
                                             "visibility": "VISIBLE",
                                             "list": [
                                                 {
@@ -237,8 +200,8 @@
                                                             ],
                                                             "type": "WidthModifierOperation",
                                                             "width": [
-                                                                40.0,
-                                                                40.0
+                                                                32.0,
+                                                                32.0
                                                             ],
                                                             "dimensionModifierType": "EXACT_DP"
                                                         },
@@ -248,27 +211,27 @@
                                                             ],
                                                             "type": "HeightModifierOperation",
                                                             "height": [
-                                                                40.0,
-                                                                40.0
+                                                                32.0,
+                                                                32.0
                                                             ],
                                                             "dimensionModifierType": "EXACT_DP"
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "topEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -312,8 +275,8 @@
                                             "id": -1000004,
                                             "x": 0.0,
                                             "y": 0.0,
-                                            "width": 20.0,
-                                            "height": 20.0,
+                                            "width": 16.0,
+                                            "height": 16.0,
                                             "visibility": "VISIBLE",
                                             "list": [
                                                 {
@@ -328,8 +291,8 @@
                                                             ],
                                                             "type": "WidthModifierOperation",
                                                             "width": [
-                                                                20.0,
-                                                                20.0
+                                                                16.0,
+                                                                16.0
                                                             ],
                                                             "dimensionModifierType": "EXACT_DP"
                                                         },
@@ -339,27 +302,27 @@
                                                             ],
                                                             "type": "HeightModifierOperation",
                                                             "height": [
-                                                                20.0,
-                                                                20.0
+                                                                16.0,
+                                                                16.0
                                                             ],
                                                             "dimensionModifierType": "EXACT_DP"
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "topEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -404,10 +367,10 @@
                                     "horizontalPositioning": "CENTER"
                                 }
                             ],
-                            "paddingLeft": "@43",
-                            "paddingRight": "@43",
-                            "paddingTop": "@43",
-                            "paddingBottom": "@43",
+                            "paddingLeft": "@42",
+                            "paddingRight": "@42",
+                            "paddingTop": "@42",
+                            "paddingBottom": "@42",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "CENTER"
                         }

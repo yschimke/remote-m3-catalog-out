@@ -1,7 +1,7 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 578
+        "byteLength": 540
     },
     "operations": [
         {
@@ -16,19 +16,6 @@
             "id": 42,
             "srcValues": [
                 "@27",
-                16.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 43,
-            "srcValues": [
-                "@27",
                 12.0,
                 "@3211267"
             ],
@@ -39,7 +26,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 44,
+            "id": 43,
             "srcValues": [
                 "@27",
                 8.0,
@@ -142,30 +129,6 @@
                                             "dimensionModifierType": "FILL"
                                         },
                                         {
-                                            "topStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "topEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "RoundedClipRectModifierOperation",
-                                            "width": 0.0,
-                                            "height": 0.0
-                                        },
-                                        {
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
@@ -187,10 +150,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": "@43",
-                                            "top": "@43",
-                                            "right": "@43",
-                                            "bottom": "@43"
+                                            "left": "@42",
+                                            "top": "@42",
+                                            "right": "@42",
+                                            "bottom": "@42"
                                         }
                                     ]
                                 },
@@ -267,20 +230,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "topEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -358,20 +321,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "topEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -449,20 +412,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "topEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomStart": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@44",
-                                                                "@44"
+                                                                "@43",
+                                                                "@43"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -508,10 +471,10 @@
                                     "spacedBy": 0.0
                                 }
                             ],
-                            "paddingLeft": "@43",
-                            "paddingRight": "@43",
-                            "paddingTop": "@43",
-                            "paddingBottom": "@43",
+                            "paddingLeft": "@42",
+                            "paddingRight": "@42",
+                            "paddingTop": "@42",
+                            "paddingBottom": "@42",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "CENTER"
                         }

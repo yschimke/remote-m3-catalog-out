@@ -1,7 +1,7 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 522
+        "byteLength": 484
     },
     "operations": [
         {
@@ -16,19 +16,6 @@
             "id": 42,
             "srcValues": [
                 "@27",
-                16.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 43,
-            "srcValues": [
-                "@27",
                 12.0,
                 "@3211267"
             ],
@@ -36,7 +23,7 @@
         },
         {
             "type": "TextData",
-            "textId": 44,
+            "textId": 43,
             "text": "Next: Standup"
         },
         {
@@ -44,7 +31,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 45,
+            "id": 44,
             "srcValues": [
                 "@33",
                 14.0,
@@ -79,7 +66,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 46,
+            "id": 45,
             "srcValues": [
                 "@33",
                 14.0,
@@ -96,7 +83,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 47,
+            "id": 46,
             "srcValues": [
                 "@33",
                 14.0,
@@ -111,12 +98,12 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 48,
+            "id": 47,
             "srcValues": [
+                "@44",
                 "@45",
-                "@46",
                 1.03,
-                "@47",
+                "@46",
                 "@3211266",
                 "@3211290",
                 "@27",
@@ -219,30 +206,6 @@
                                             "dimensionModifierType": "FILL"
                                         },
                                         {
-                                            "topStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "topEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomStart": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "bottomEnd": [
-                                                "@42",
-                                                "@42"
-                                            ],
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "RoundedClipRectModifierOperation",
-                                            "width": 0.0,
-                                            "height": 0.0
-                                        },
-                                        {
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
@@ -264,10 +227,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": "@43",
-                                            "top": "@43",
-                                            "right": "@43",
-                                            "bottom": "@43"
+                                            "left": "@42",
+                                            "top": "@42",
+                                            "right": "@42",
+                                            "bottom": "@42"
                                         }
                                     ]
                                 },
@@ -295,11 +258,11 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 44,
+                                    "textId": 43,
                                     "flags": 0,
                                     "color": "0xff1d1b20",
                                     "fontSize": [
-                                        "@48",
+                                        "@47",
                                         16.0
                                     ],
                                     "fontStyle": 0,
@@ -310,10 +273,10 @@
                                     "maxLines": 1
                                 }
                             ],
-                            "paddingLeft": "@43",
-                            "paddingRight": "@43",
-                            "paddingTop": "@43",
-                            "paddingBottom": "@43",
+                            "paddingLeft": "@42",
+                            "paddingRight": "@42",
+                            "paddingTop": "@42",
+                            "paddingBottom": "@42",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "START"
                         }

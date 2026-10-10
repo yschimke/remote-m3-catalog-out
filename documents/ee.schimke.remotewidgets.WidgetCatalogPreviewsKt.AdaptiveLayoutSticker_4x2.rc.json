@@ -1,7 +1,7 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 1635
+        "byteLength": 1563
     },
     "operations": [
         {
@@ -279,19 +279,6 @@
             "id": 53,
             "srcValues": [
                 "@27",
-                16.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 54,
-            "srcValues": [
-                "@27",
                 12.0,
                 "@3211267"
             ],
@@ -299,7 +286,7 @@
         },
         {
             "type": "TextData",
-            "textId": 55,
+            "textId": 54,
             "text": "Compact"
         },
         {
@@ -307,7 +294,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 56,
+            "id": 55,
             "srcValues": [
                 "@33",
                 14.0,
@@ -342,7 +329,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 57,
+            "id": 56,
             "srcValues": [
                 "@33",
                 14.0,
@@ -359,7 +346,7 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 58,
+            "id": 57,
             "srcValues": [
                 "@33",
                 14.0,
@@ -374,12 +361,12 @@
                 "EXPRESSION"
             ],
             "type": "FloatExpression",
-            "id": 59,
+            "id": 58,
             "srcValues": [
+                "@55",
                 "@56",
-                "@57",
                 1.03,
-                "@58",
+                "@57",
                 "@3211266",
                 "@3211290",
                 "@27",
@@ -389,12 +376,12 @@
         },
         {
             "type": "TextData",
-            "textId": 60,
+            "textId": 59,
             "text": "Medium"
         },
         {
             "type": "TextData",
-            "textId": 61,
+            "textId": 60,
             "text": "Expanded"
         },
         {
@@ -534,30 +521,6 @@
                                                     "dimensionModifierType": "FILL"
                                                 },
                                                 {
-                                                    "topStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "topEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "$tags": [
-                                                        "MODIFIER"
-                                                    ],
-                                                    "type": "RoundedClipRectModifierOperation",
-                                                    "width": 0.0,
-                                                    "height": 0.0
-                                                },
-                                                {
                                                     "$tags": [
                                                         "MODIFIER"
                                                     ],
@@ -579,10 +542,10 @@
                                                         "MODIFIER"
                                                     ],
                                                     "type": "PaddingModifierOperation",
-                                                    "left": "@54",
-                                                    "top": "@54",
-                                                    "right": "@54",
-                                                    "bottom": "@54"
+                                                    "left": "@53",
+                                                    "top": "@53",
+                                                    "right": "@53",
+                                                    "bottom": "@53"
                                                 }
                                             ]
                                         },
@@ -610,11 +573,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 55,
+                                            "textId": 54,
                                             "flags": 0,
                                             "color": "0xff1d1b20",
                                             "fontSize": [
-                                                "@59",
+                                                "@58",
                                                 16.0
                                             ],
                                             "fontStyle": 0,
@@ -625,10 +588,10 @@
                                             "maxLines": 1
                                         }
                                     ],
-                                    "paddingLeft": "@54",
-                                    "paddingRight": "@54",
-                                    "paddingTop": "@54",
-                                    "paddingBottom": "@54",
+                                    "paddingLeft": "@53",
+                                    "paddingRight": "@53",
+                                    "paddingTop": "@53",
+                                    "paddingBottom": "@53",
                                     "verticalPositioning": "CENTER",
                                     "horizontalPositioning": "CENTER"
                                 },
@@ -673,30 +636,6 @@
                                                     "dimensionModifierType": "FILL"
                                                 },
                                                 {
-                                                    "topStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "topEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "$tags": [
-                                                        "MODIFIER"
-                                                    ],
-                                                    "type": "RoundedClipRectModifierOperation",
-                                                    "width": 0.0,
-                                                    "height": 0.0
-                                                },
-                                                {
                                                     "$tags": [
                                                         "MODIFIER"
                                                     ],
@@ -718,10 +657,10 @@
                                                         "MODIFIER"
                                                     ],
                                                     "type": "PaddingModifierOperation",
-                                                    "left": "@54",
-                                                    "top": "@54",
-                                                    "right": "@54",
-                                                    "bottom": "@54"
+                                                    "left": "@53",
+                                                    "top": "@53",
+                                                    "right": "@53",
+                                                    "bottom": "@53"
                                                 }
                                             ]
                                         },
@@ -749,11 +688,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 60,
+                                            "textId": 59,
                                             "flags": 0,
                                             "color": "0xff1d1b20",
                                             "fontSize": [
-                                                "@59",
+                                                "@58",
                                                 16.0
                                             ],
                                             "fontStyle": 0,
@@ -764,10 +703,10 @@
                                             "maxLines": 1
                                         }
                                     ],
-                                    "paddingLeft": "@54",
-                                    "paddingRight": "@54",
-                                    "paddingTop": "@54",
-                                    "paddingBottom": "@54",
+                                    "paddingLeft": "@53",
+                                    "paddingRight": "@53",
+                                    "paddingTop": "@53",
+                                    "paddingBottom": "@53",
                                     "verticalPositioning": "CENTER",
                                     "horizontalPositioning": "CENTER"
                                 },
@@ -812,30 +751,6 @@
                                                     "dimensionModifierType": "FILL"
                                                 },
                                                 {
-                                                    "topStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "topEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomStart": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "bottomEnd": [
-                                                        "@53",
-                                                        "@53"
-                                                    ],
-                                                    "$tags": [
-                                                        "MODIFIER"
-                                                    ],
-                                                    "type": "RoundedClipRectModifierOperation",
-                                                    "width": 0.0,
-                                                    "height": 0.0
-                                                },
-                                                {
                                                     "$tags": [
                                                         "MODIFIER"
                                                     ],
@@ -857,10 +772,10 @@
                                                         "MODIFIER"
                                                     ],
                                                     "type": "PaddingModifierOperation",
-                                                    "left": "@54",
-                                                    "top": "@54",
-                                                    "right": "@54",
-                                                    "bottom": "@54"
+                                                    "left": "@53",
+                                                    "top": "@53",
+                                                    "right": "@53",
+                                                    "bottom": "@53"
                                                 }
                                             ]
                                         },
@@ -888,11 +803,11 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 61,
+                                            "textId": 60,
                                             "flags": 0,
                                             "color": "0xff1d1b20",
                                             "fontSize": [
-                                                "@59",
+                                                "@58",
                                                 16.0
                                             ],
                                             "fontStyle": 0,
@@ -903,10 +818,10 @@
                                             "maxLines": 1
                                         }
                                     ],
-                                    "paddingLeft": "@54",
-                                    "paddingRight": "@54",
-                                    "paddingTop": "@54",
-                                    "paddingBottom": "@54",
+                                    "paddingLeft": "@53",
+                                    "paddingRight": "@53",
+                                    "paddingTop": "@53",
+                                    "paddingBottom": "@53",
                                     "verticalPositioning": "CENTER",
                                     "horizontalPositioning": "CENTER"
                                 }

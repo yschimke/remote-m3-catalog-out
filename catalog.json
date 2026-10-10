@@ -92,8 +92,39 @@
           "density": 2.75
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"Increase count\"",
+          "detail": {
+            "role": "button",
+            "label": "Increase count",
+            "bounds": {
+              "x": 189,
+              "y": 73,
+              "width": 132,
+              "height": 132
+            }
+          },
+          "bounds": {
+            "x": 189,
+            "y": 73,
+            "width": 132,
+            "height": 132
+          }
+        }
+      ],
       "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
         {
           "bounds": {
             "x": 33,
@@ -110,40 +141,28 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 189,
+            "y": 73,
+            "width": 132,
+            "height": 132
           },
+          "role": "Button",
+          "label": "Increase count",
           "padding": {
-            "start": 4,
-            "top": 4,
-            "end": 4,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          },
-          "padding": {
-            "start": 4,
-            "top": 4,
-            "end": 4,
-            "bottom": 4
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
           }
         }
       ],
       "group": "Widget",
-      "caption": "The worked sample: AndroidX's MyWidget counter rebuilt from this sheet's WidgetSurface and WidgetButton, drawn at 3x2 and resized across the grid as a launcher would.",
+      "caption": "The worked sample: AndroidX's MyWidget counter rebuilt from this sheet's WidgetSurface and WidgetButton. The smallest size keeps the increment action; taller sizes add a title and both controls, all with 48dp targets.",
       "noReference": "No published design kit covers Remote Compose launcher widgets.",
       "wireframe": "wireframes/launcherwidget-counter.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 58,
+      "bodyLine": 59,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "CounterWidgetSticker",
       "parameters": [
@@ -243,8 +262,39 @@
           "density": 2.75
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"Home\"",
+          "detail": {
+            "role": "button",
+            "label": "Home",
+            "bounds": {
+              "x": 74,
+              "y": 73,
+              "width": 206,
+              "height": 132
+            }
+          },
+          "bounds": {
+            "x": 74,
+            "y": 73,
+            "width": 206,
+            "height": 132
+          }
+        }
+      ],
       "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
         {
           "bounds": {
             "x": 33,
@@ -261,16 +311,18 @@
         },
         {
           "bounds": {
-            "x": 104,
-            "y": 107,
-            "width": 147,
-            "height": 64
+            "x": 74,
+            "y": 73,
+            "width": 206,
+            "height": 132
           },
+          "role": "Button",
+          "label": "Home",
           "padding": {
-            "start": 4,
-            "top": 4,
-            "end": 4,
-            "bottom": 4
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
           }
         }
       ],
@@ -280,7 +332,7 @@
       "wireframe": "wireframes/launcherwidget-adaptive.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 74,
+      "bodyLine": 75,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "AdaptiveDestinationsSticker",
       "parameters": [
@@ -380,8 +432,39 @@
           "density": 2.75
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"Home\"",
+          "detail": {
+            "role": "button",
+            "label": "Home",
+            "bounds": {
+              "x": 74,
+              "y": 73,
+              "width": 206,
+              "height": 132
+            }
+          },
+          "bounds": {
+            "x": 74,
+            "y": 73,
+            "width": 206,
+            "height": 132
+          }
+        }
+      ],
       "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
         {
           "bounds": {
             "x": 33,
@@ -398,16 +481,18 @@
         },
         {
           "bounds": {
-            "x": 104,
-            "y": 107,
-            "width": 147,
-            "height": 64
+            "x": 74,
+            "y": 73,
+            "width": 206,
+            "height": 132
           },
+          "role": "Button",
+          "label": "Home",
           "padding": {
-            "start": 4,
-            "top": 4,
-            "end": 4,
-            "bottom": 4
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
           }
         }
       ],
@@ -417,7 +502,7 @@
       "wireframe": "wireframes/launcherwidget-adaptivefixed.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 95,
+      "bodyLine": 96,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "AdaptiveDestinationsFixedSticker",
       "parameters": [
@@ -589,6 +674,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 154,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 88,
@@ -608,7 +702,7 @@
       "wireframe": "wireframes/launcherwidget-grid.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 128,
+      "bodyLine": 129,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "WidgetGridSticker",
       "parameters": [
@@ -644,6 +738,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 288,
@@ -658,12 +761,12 @@
         }
       ],
       "group": "Containment",
-      "caption": "The widget background: fills the cell, rounds it to Android 12's 16dp widget radius and pads its content by 12dp.",
+      "caption": "The widget background: fills the cell and pads its content by 12dp, leaving the outer corner radius to the launcher.",
       "noReference": "No published design kit covers Remote Compose launcher widgets.",
       "wireframe": "wireframes/widgetsurface.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 157,
+      "bodyLine": 158,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "WidgetSurfaceSticker",
       "parameters": [
@@ -710,20 +813,53 @@
           "density": 2.75
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"Open\"",
+          "detail": {
+            "role": "button",
+            "label": "Open",
+            "bounds": {
+              "x": 82,
+              "y": 73,
+              "width": 190,
+              "height": 132
+            }
+          },
+          "bounds": {
+            "x": 82,
+            "y": 73,
+            "width": 190,
+            "height": 132
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
-            "x": 113,
-            "y": 107,
-            "width": 128,
-            "height": 64
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
           },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
+            "x": 82,
+            "y": 73,
+            "width": 190,
+            "height": 132
+          },
+          "role": "Button",
+          "label": "Open",
           "padding": {
-            "start": 4,
-            "top": 4,
-            "end": 4,
-            "bottom": 4
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
           }
         }
       ],
@@ -733,7 +869,7 @@
       "wireframe": "wireframes/widgetbutton.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 171,
+      "bodyLine": 172,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "WidgetButtonSticker",
       "parameters": [
@@ -754,6 +890,11 @@
         {
           "name": "contentColor",
           "type": "Color",
+          "hasDefault": true
+        },
+        {
+          "name": "contentDescription",
+          "type": "String",
           "hasDefault": true
         },
         {
@@ -788,6 +929,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 555,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 489,
@@ -807,7 +957,7 @@
       "wireframe": "wireframes/widgettitle.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 183,
+      "bodyLine": 184,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "WidgetTitleSticker",
       "parameters": [
@@ -852,6 +1002,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 555,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 489,
@@ -871,7 +1030,7 @@
       "wireframe": "wireframes/widgetlabel.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 195,
+      "bodyLine": 196,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "WidgetLabelSticker",
       "parameters": [
@@ -916,6 +1075,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 555,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 489,
@@ -935,7 +1103,7 @@
       "wireframe": "wireframes/remotetext.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 211,
+      "bodyLine": 212,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteTextSticker",
       "parameters": [
@@ -971,6 +1139,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 555,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 489,
@@ -990,7 +1167,7 @@
       "wireframe": "wireframes/remotebasictext.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 225,
+      "bodyLine": 226,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteBasicTextSticker",
       "parameters": [
@@ -1026,6 +1203,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 555,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 489,
@@ -1045,7 +1231,7 @@
       "wireframe": "wireframes/remoterow.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 252,
+      "bodyLine": 253,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteRowSticker",
       "parameters": [
@@ -1081,6 +1267,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 605
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 288,
@@ -1100,7 +1295,7 @@
       "wireframe": "wireframes/remotecolumn.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 274,
+      "bodyLine": 275,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteColumnSticker"
     },
@@ -1129,6 +1324,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 154,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 88,
@@ -1148,7 +1352,7 @@
       "wireframe": "wireframes/remotebox.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 293,
+      "bodyLine": 295,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteBoxSticker",
       "parameters": [
@@ -1184,6 +1388,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 288,
@@ -1203,7 +1416,7 @@
       "wireframe": "wireframes/remotespacer.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 310,
+      "bodyLine": 312,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "RemoteSpacerSticker",
       "parameters": [
@@ -1307,6 +1520,15 @@
       "redlines": [
         {
           "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 354,
+            "height": 277
+          },
+          "cornerRadius": 28
+        },
+        {
+          "bounds": {
             "x": 33,
             "y": 33,
             "width": 288,
@@ -1326,7 +1548,7 @@
       "wireframe": "wireframes/adaptivelayout.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/remotewidgets/WidgetCatalogPreviews.kt",
       "sourceModule": ":widget-catalog",
-      "bodyLine": 334,
+      "bodyLine": 336,
       "sourceDirectory": "widget-catalog",
       "sourceFunction": "AdaptiveLayoutSticker",
       "parameters": [
@@ -1376,7 +1598,7 @@
     "androidx.compose.remote:foundation"
   ],
   "renderer": "compose-preview 2.40.0",
-  "generatedAt": "2026-10-10T14:04:30.175Z",
+  "generatedAt": "2026-10-10T15:44:19.050Z",
   "display": {
     "surface": "light",
     "hero": "LauncherWidget/Counter"

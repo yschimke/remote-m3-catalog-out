@@ -67956,11 +67956,55 @@
     "androidx.glance.wear:wear"
   ],
   "renderer": "compose-preview 2.42.0",
-  "generatedAt": "2026-10-10T16:18:40.189Z",
+  "generatedAt": "2026-10-10T17:51:56.184Z",
   "display": {
     "surface": "dark",
     "hero": "AppCard"
   },
+  "themes": [
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteAndroidMakersThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remoteandroidmakersthemecatalog.dtcg.json",
+      "name": "AndroidMakers",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteConfettiDefaultThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remoteconfettidefaultthemecatalog.dtcg.json",
+      "name": "Confetti (default)",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteDevFestThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotedevfestthemecatalog.dtcg.json",
+      "name": "DevFest",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteDroidconThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotedroidconthemecatalog.dtcg.json",
+      "name": "Droidcon",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteGoogleSansFlexThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotegooglesansflexthemecatalog.dtcg.json",
+      "name": "Google Sans Flex",
+      "group": "Wear M3",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteKotlinConfThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotekotlinconfthemecatalog.dtcg.json",
+      "name": "KotlinConf",
+      "group": "Confetti",
+      "dark": true
+    }
+  ],
   "compareWith": {
     "system": "wear-m3-catalog",
     "repo": "yschimke/wear-m3-catalog-out"
@@ -67982,7 +68026,7 @@
   "uiBuilderGuidelinesFile": "ui-builder.guidelines.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "remote-m3-p3-cbf224e670aa",
+    "runtimeId": "remote-m3-p3-4dca85d4b641",
     "protocolVersion": 2,
     "integritySha256": "f1820a925550222ee03a606a7c3826db7b0b1b844b6055045b8b8553fe1ef41d"
   },

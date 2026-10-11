@@ -1859,68 +1859,16 @@
                 "name": "RemoteCircularProgressIndicator",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteCircularProgressIndicator",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/state/RemoteFloat;Landroidx/compose/remote/creation/compose/state/RemoteFloat;Landroidx/wear/compose/remote/material3/RemoteProgressIndicatorColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteProgressIndicatorColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
             },
             "parameters": [
                 {
-                    "name": "progress",
-                    "type": "RemoteFloat",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
-                    "hasDefault": false,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
                     "name": "modifier",
                     "type": "RemoteModifier",
                     "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "enabled",
-                    "type": "RemoteBoolean",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "startAngle",
-                    "type": "RemoteFloat",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "endAngle",
-                    "type": "RemoteFloat",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteFloat",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2414,9 +2362,11 @@
                 }
             ],
             "code": {
-                "call": null,
-                "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `progress: RemoteFloat`",
+                "call": "RemoteCircularProgressIndicator()",
+                "imports": [
+                    "androidx.wear.compose.remote.material3.RemoteCircularProgressIndicator"
+                ],
+                "refusedReason": null,
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },

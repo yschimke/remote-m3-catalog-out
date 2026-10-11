@@ -924,7 +924,50 @@
                     }
                 ],
                 "modifierCapabilities": [],
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "headline": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Headline"
+                                    }
+                                }
+                            }
+                        ],
+                        "supporting": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Supporting text"
+                                    }
+                                }
+                            }
+                        ],
+                        "action": [
+                            {
+                                "componentId": "remote-m3/remote-button",
+                                "slots": {
+                                    "content": [
+                                        {
+                                            "componentId": "remote-m3/remote-text",
+                                            "properties": {
+                                                "text": {
+                                                    "type": "string",
+                                                    "value": "Open"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
                 "implementation": null,
                 "shelfRole": null,
                 "wasm": null,
@@ -961,7 +1004,43 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "appName": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "App"
+                                    }
+                                }
+                            }
+                        ],
+                        "title": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Title"
+                                    }
+                                }
+                            }
+                        ],
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Card"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-button-group": {
@@ -986,7 +1065,44 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-button",
+                                "slots": {
+                                    "content": [
+                                        {
+                                            "componentId": "remote-m3/remote-text",
+                                            "properties": {
+                                                "text": {
+                                                    "type": "string",
+                                                    "value": "Button"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "componentId": "remote-m3/remote-button",
+                                "slots": {
+                                    "content": [
+                                        {
+                                            "componentId": "remote-m3/remote-text",
+                                            "properties": {
+                                                "text": {
+                                                    "type": "string",
+                                                    "value": "Button"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-button": {
@@ -1021,7 +1137,21 @@
                 ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Button"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-compact-button": {
@@ -1052,7 +1182,21 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Compact"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-card": {
@@ -1087,7 +1231,21 @@
                 ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Card"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-outlined-card": {
@@ -1115,7 +1273,21 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Card"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-checkbox-button": {
@@ -1136,7 +1308,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "checked": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Checkbox"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-circular-progress-indicator": {
@@ -1164,7 +1356,14 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "progress": {
+                            "type": "float",
+                            "value": 0.6
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-curved-progress-indicator": {
@@ -1192,7 +1391,14 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "progress": {
+                            "type": "float",
+                            "value": 0.6
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-edge-button": {
@@ -1217,7 +1423,21 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Done"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-icon-button": {
@@ -1245,7 +1465,21 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "+"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-icon": {
@@ -1327,7 +1561,14 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "progress": {
+                            "type": "float",
+                            "value": 0.6
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-horizontal-page-indicator": {
@@ -1436,7 +1677,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "selected": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Option"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-slider": {
@@ -1468,7 +1729,14 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "value": {
+                            "type": "float",
+                            "value": 0.5
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-split-checkbox-button": {
@@ -1489,7 +1757,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "checked": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Checkbox"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-split-radio-button": {
@@ -1510,7 +1798,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "selected": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Option"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-split-switch-button": {
@@ -1531,7 +1839,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "checked": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Switch"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-stepper": {
@@ -1563,7 +1891,14 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "value": {
+                            "type": "float",
+                            "value": 0.5
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-switch-button": {
@@ -1584,7 +1919,27 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "checked": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    },
+                    "slots": {
+                        "label": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Switch"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-text-button": {
@@ -1612,7 +1967,21 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "OK"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-text": {
@@ -1713,7 +2082,14 @@
                 ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "properties": {
+                        "text": {
+                            "type": "string",
+                            "value": "Text"
+                        }
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-title-card": {
@@ -1744,7 +2120,32 @@
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
-                "insertContent": null,
+                "insertContent": {
+                    "slots": {
+                        "title": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Title"
+                                    }
+                                }
+                            }
+                        ],
+                        "content": [
+                            {
+                                "componentId": "remote-m3/remote-text",
+                                "properties": {
+                                    "text": {
+                                        "type": "string",
+                                        "value": "Card"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
                 "shelfRole": null
             },
             "remote-m3/remote-sticker": {

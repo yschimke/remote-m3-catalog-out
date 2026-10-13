@@ -7,7 +7,7 @@
     "ref": "main",
     "module": ":remote-catalog"
   },
-  "generatedAt": "2026-10-12T15:11:56.799Z",
+  "generatedAt": "2026-10-13T22:59:28.026Z",
   "mappings": [
     {
       "componentId": "Button/Filled",
@@ -35,7 +35,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-filled.svg"
     },
     {
       "componentId": "Button/Outlined",
@@ -63,7 +64,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-outlined.svg"
     },
     {
       "componentId": "Button/CustomShape",
@@ -91,7 +93,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-customshape.svg"
     },
     {
       "componentId": "Button/NamedLabel",
@@ -119,7 +122,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-namedlabel.svg"
     },
     {
       "componentId": "TextButton",
@@ -147,7 +151,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/textbutton.svg"
     },
     {
       "componentId": "IconButton/Standard",
@@ -175,7 +180,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/iconbutton-standard.svg"
     },
     {
       "componentId": "Button/Compact",
@@ -184,7 +190,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/CatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "CompactRemoteButton"
+      "previewName": "CompactRemoteButton",
+      "figmaSvg": "figma/button-compact.svg"
     },
     {
       "componentId": "ButtonGroup",
@@ -212,7 +219,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/buttongroup.svg"
     },
     {
       "componentId": "Button/Tonal",
@@ -240,7 +248,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-tonal.svg"
     },
     {
       "componentId": "Button/FilledVariant",
@@ -268,7 +277,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-filledvariant.svg"
     },
     {
       "componentId": "Button/Child",
@@ -296,7 +306,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/button-child__ideal__default__compact.svg"
     },
     {
       "componentId": "Button/ImageBackground",
@@ -324,7 +335,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/button-imagebackground.svg"
     },
     {
       "componentId": "IconButton/Filled",
@@ -352,7 +364,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/iconbutton-filled.svg"
     },
     {
       "componentId": "IconButton/FilledVariant",
@@ -380,7 +393,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/iconbutton-filledvariant.svg"
     },
     {
       "componentId": "IconButton/Tonal",
@@ -408,7 +422,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/iconbutton-tonal.svg"
     },
     {
       "componentId": "IconButton/Outlined",
@@ -436,7 +451,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/iconbutton-outlined.svg"
     },
     {
       "componentId": "Button/Loading",
@@ -445,7 +461,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/LoadingButtonPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "LoadingRemoteButton"
+      "previewName": "LoadingRemoteButton",
+      "figmaSvg": "figma/button-loading.svg"
     },
     {
       "componentId": "Card",
@@ -473,7 +490,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/card.svg"
     },
     {
       "componentId": "Card/Outlined",
@@ -501,7 +519,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/card-outlined.svg"
     },
     {
       "componentId": "TitleCard",
@@ -529,7 +548,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/titlecard.svg"
     },
     {
       "componentId": "AppCard",
@@ -538,7 +558,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/CatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "AppCardRemote"
+      "previewName": "AppCardRemote",
+      "figmaSvg": "figma/appcard.svg"
     },
     {
       "componentId": "Scaffold",
@@ -566,7 +587,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/scaffold.svg"
     },
     {
       "componentId": "CircularProgressIndicator",
@@ -594,7 +616,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/circularprogressindicator__ideal__default__192dp.svg"
     },
     {
       "componentId": "ArcProgressIndicator",
@@ -622,7 +645,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/arcprogressindicator__ideal__default__compact.svg"
     },
     {
       "componentId": "PageIndicator/Horizontal",
@@ -650,7 +674,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/pageindicator-horizontal__ideal__default__192dp.svg"
     },
     {
       "componentId": "PageIndicator/Vertical",
@@ -678,7 +703,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/pageindicator-vertical__ideal__default__192dp.svg"
     },
     {
       "componentId": "PageIndicator/Interactive",
@@ -706,7 +732,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/pageindicator-interactive__ideal__default__192dp.svg"
     },
     {
       "componentId": "LinearProgressIndicator",
@@ -734,7 +761,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/linearprogressindicator__ideal__default__compact.svg"
     },
     {
       "componentId": "Icon",
@@ -762,7 +790,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/icon.svg"
     },
     {
       "componentId": "Text/Body",
@@ -790,7 +819,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/text-body__ideal__default__compact.svg"
     },
     {
       "componentId": "Text/Caption",
@@ -818,7 +848,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/text-caption__ideal__default__compact.svg"
     },
     {
       "componentId": "Text/MaxLines-Truncated",
@@ -846,7 +877,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/text-maxlines-truncated__ideal__default__compact.svg"
     },
     {
       "componentId": "Text/Branded",
@@ -874,7 +906,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/text-branded__ideal__default__compact.svg"
     },
     {
       "componentId": "ListHeader",
@@ -902,7 +935,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/listheader__ideal__default__compact.svg"
     },
     {
       "componentId": "ListSubHeader",
@@ -930,7 +964,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/listsubheader__ideal__default__compact.svg"
     },
     {
       "componentId": "Typeface/Specimen",
@@ -958,7 +993,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/typeface-specimen__ideal__default__compact.svg"
     },
     {
       "componentId": "Typeface/VariableWeight",
@@ -986,7 +1022,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/typeface-variableweight__ideal__default__compact.svg"
     },
     {
       "componentId": "Typeface/VariableWidth",
@@ -1014,7 +1051,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/typeface-variablewidth__ideal__default__compact.svg"
     },
     {
       "componentId": "Theme/Typography",
@@ -1042,7 +1080,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/theme-typography__ideal__default__compact.svg"
     },
     {
       "componentId": "Theme/ColorScheme",
@@ -1070,7 +1109,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-colorscheme.svg"
     },
     {
       "componentId": "Theme/Specimen-ConfettiDefault",
@@ -1098,7 +1138,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-confettidefault.svg"
     },
     {
       "componentId": "Theme/Specimen-KotlinConf",
@@ -1126,7 +1167,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-kotlinconf.svg"
     },
     {
       "componentId": "Theme/Specimen-AndroidMakers",
@@ -1154,7 +1196,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-androidmakers.svg"
     },
     {
       "componentId": "Theme/Specimen-Droidcon",
@@ -1182,7 +1225,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-droidcon.svg"
     },
     {
       "componentId": "Theme/Specimen-DevFest",
@@ -1210,7 +1254,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-devfest.svg"
     },
     {
       "componentId": "Theme/Specimen-GoogleSansFlex",
@@ -1238,7 +1283,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": null
         }
-      ]
+      ],
+      "figmaSvg": "figma/theme-specimen-googlesansflex.svg"
     },
     {
       "componentId": "Theme/SystemThemeSwatches",
@@ -1266,7 +1312,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/theme-systemthemeswatches__ideal__default__compact.svg"
     },
     {
       "componentId": "Shader/LinearGradient",
@@ -1294,7 +1341,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/shader-lineargradient.svg"
     },
     {
       "componentId": "EdgeButton",
@@ -1322,7 +1370,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/edgebutton.svg"
     },
     {
       "componentId": "ScrollIndicator",
@@ -1350,7 +1399,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/scrollindicator__ideal__default__192dp.svg"
     },
     {
       "componentId": "LevelIndicator",
@@ -1378,7 +1428,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "https://preview.coo.ee/remote-m3/render/levelindicator__ideal__default__192dp.svg"
     },
     {
       "componentId": "CheckboxButton",
@@ -1406,7 +1457,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/checkboxbutton.svg"
     },
     {
       "componentId": "SwitchButton",
@@ -1434,7 +1486,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/switchbutton.svg"
     },
     {
       "componentId": "RadioButton",
@@ -1462,7 +1515,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/radiobutton.svg"
     },
     {
       "componentId": "Shape/MaterialShapes",
@@ -1490,7 +1544,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/shape-materialshapes.svg"
     },
     {
       "componentId": "Slider",
@@ -1518,7 +1573,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/slider.svg"
     },
     {
       "componentId": "Stepper",
@@ -1546,7 +1602,8 @@
           "scopeDslReceiver": null,
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
-      ]
+      ],
+      "figmaSvg": "figma/stepper.svg"
     },
     {
       "componentId": "WidgetContainer/Small",
@@ -1555,7 +1612,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "WidgetContainerSmallRemote"
+      "previewName": "WidgetContainerSmallRemote",
+      "figmaSvg": "figma/widgetcontainer-small.svg"
     },
     {
       "componentId": "WidgetContainer/Large",
@@ -1564,7 +1622,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "WidgetContainerLargeRemote"
+      "previewName": "WidgetContainerLargeRemote",
+      "figmaSvg": "figma/widgetcontainer-large.svg"
     },
     {
       "componentId": "WidgetContainer/RoundSmall",
@@ -1573,7 +1632,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "WidgetContainerRoundSmallRemote"
+      "previewName": "WidgetContainerRoundSmallRemote",
+      "figmaSvg": "figma/widgetcontainer-roundsmall.svg"
     },
     {
       "componentId": "WidgetContainer/RoundLarge",
@@ -1582,7 +1642,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "WidgetContainerRoundLargeRemote"
+      "previewName": "WidgetContainerRoundLargeRemote",
+      "figmaSvg": "figma/widgetcontainer-roundlarge.svg"
     },
     {
       "componentId": "WidgetContainer/GradientBackground",
@@ -1591,7 +1652,8 @@
       "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
-      "previewName": "WidgetContainerGradientRemote"
+      "previewName": "WidgetContainerGradientRemote",
+      "figmaSvg": "figma/widgetcontainer-gradientbackground.svg"
     }
   ]
 }

@@ -256,6 +256,51 @@
                         "name": "containerImageKey",
                         "jsonType": "string",
                         "notes": "The key of an asset to fill the container with, as `asset/image`'s `assetKey`: written as the `containerPainter` overload, `containerPainter = painterRemoteImageBitmap(…)`. A plain container when absent."
+                    },
+                    {
+                        "name": "border",
+                        "jsonType": "number",
+                        "notes": "`RemoteButton`'s `border: RemoteDp?`, the outline's width in dp."
+                    },
+                    {
+                        "name": "containerColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `containerColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "contentColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `contentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "secondaryContentColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `secondaryContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "iconColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `iconColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledContainerColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledContainerColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledContentColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledSecondaryContentColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledSecondaryContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledIconColor",
+                        "jsonType": "string",
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledIconColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
                     }
                 ],
                 "modifierCapabilities": [
@@ -1135,6 +1180,54 @@
                         "jsonType": "string",
                         "required": false,
                         "notes": "The key of an asset to fill the container with, as `asset/image`'s `assetKey`: written as the `containerPainter` overload, `containerPainter = painterRemoteImageBitmap(…)`. A plain container when absent. The record carries the overload without a painter, so this is stated rather than derived."
+                    },
+                    {
+                        "name": "containerColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `containerColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "contentColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `contentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "secondaryContentColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `secondaryContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "iconColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `iconColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledContainerColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledContainerColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledContentColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledSecondaryContentColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledSecondaryContentColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
+                    },
+                    {
+                        "name": "disabledIconColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`RemoteButtonDefaults.buttonColors`' `disabledIconColor`: a theme role (`primary`), `transparent` or `#AARRGGBB`. The roles a node leaves out keep the factory's defaults; stated rather than derived, because `colors` is a bundle the record cannot type."
                     }
                 ],
                 "slotCapabilities": null,
@@ -1275,7 +1368,20 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "borderColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The outline's colour, written as `border = RemoteBorderStroke(borderWidthDp.rdp, …)`: a theme role (`outline`), `transparent` or `#AARRGGBB`. Absent, the card keeps `RemoteCardDefaults.outlinedCardBorder()`."
+                    },
+                    {
+                        "name": "borderWidthDp",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The outline's width in dp, with `borderColor`; 1dp when absent."
+                    }
+                ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
                 "insertContent": {
@@ -1360,7 +1466,14 @@
                 "variantProperty": null,
                 "variants": {},
                 "excluded": null,
-                "propertyCapabilities": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "indeterminate",
+                        "jsonType": "boolean",
+                        "required": false,
+                        "notes": "Draws the indeterminate `RemoteCircularProgressIndicator`, the overload without `progress`: the record carries only the determinate one, so this is stated rather than derived. Takes no `progress` or `enabled`."
+                    }
+                ],
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
                 "insertContent": {

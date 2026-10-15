@@ -126,9 +126,6 @@
                 },
                 "remote-m3/remote-title-card": {
                     "group": "Containment"
-                },
-                "remote-m3/theme-specimen": {
-                    "group": "Theme"
                 }
             }
         },
@@ -2407,7 +2404,7 @@
                 "starter": {},
                 "variantProperty": null,
                 "variants": {},
-                "excluded": null,
+                "excluded": "the catalog's theme showcase, not an authorable Remote Compose component: it is a preview specimen that the design exporter cannot write.",
                 "propertyCapabilities": null,
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
@@ -2425,9 +2422,9 @@
             "message": "kept off the builder's shelf: the catalog's own preview frame, not a Remote Compose component: every sticker is drawn inside one and nobody places one in a design."
         },
         {
-            "code": "component.canvas.unclaimed",
+            "code": "component.excluded",
             "subject": "remote-m3/theme-specimen",
-            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+            "message": "kept off the builder's shelf: the catalog's theme showcase, not an authorable Remote Compose component: it is a preview specimen that the design exporter cannot write."
         },
         {
             "code": "component.policy.orphaned",

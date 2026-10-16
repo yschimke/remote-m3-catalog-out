@@ -68270,12 +68270,56 @@
     "androidx.compose.remote:remote-creation-compose",
     "androidx.glance.wear:wear"
   ],
-  "renderer": "compose-preview 2.61.2",
-  "generatedAt": "2026-10-15T14:47:56.734Z",
+  "renderer": "compose-preview 2.64.2",
+  "generatedAt": "2026-10-16T03:56:48.194Z",
   "display": {
     "surface": "dark",
     "hero": "AppCard"
   },
+  "themes": [
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteAndroidMakersThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remoteandroidmakersthemecatalog.dtcg.json",
+      "name": "AndroidMakers",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteConfettiDefaultThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remoteconfettidefaultthemecatalog.dtcg.json",
+      "name": "Confetti (default)",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteDevFestThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotedevfestthemecatalog.dtcg.json",
+      "name": "DevFest",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteDroidconThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotedroidconthemecatalog.dtcg.json",
+      "name": "Droidcon",
+      "group": "Confetti",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteGoogleSansFlexThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotegooglesansflexthemecatalog.dtcg.json",
+      "name": "Google Sans Flex",
+      "group": "Wear M3",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.wearm3catalog.remote.RemoteKotlinConfThemeCatalog",
+      "tokensFile": "themes/ee.schimke.wearm3catalog.remote.remotekotlinconfthemecatalog.dtcg.json",
+      "name": "KotlinConf",
+      "group": "Confetti",
+      "dark": true
+    }
+  ],
   "compareWith": {
     "system": "wear-m3-catalog",
     "repo": "yschimke/wear-m3-catalog-out"
@@ -68297,9 +68341,9 @@
   "uiBuilderGuidelinesFile": "ui-builder.guidelines.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "remote-m3-p3-dd2537513cdc",
+    "runtimeId": "remote-m3-p3-8a17cf052d46",
     "protocolVersion": 2,
-    "integritySha256": "f6955f39d2a2085cf2e1334687603e23150b4f1643086bfce3b53a27394dc38a"
+    "integritySha256": "5b7818e7bead29b86491073ce73e0c326350ff527c6a6e0623fdf8814082fcd3"
   },
   "source": {
     "repo": "yschimke/remote-m3-catalog",

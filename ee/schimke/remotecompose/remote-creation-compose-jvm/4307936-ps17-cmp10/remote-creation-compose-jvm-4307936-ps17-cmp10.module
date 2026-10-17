@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../remote-creation-compose/4307936-ps17-cmp10/remote-creation-compose-4307936-ps17-cmp10.module",
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-creation-compose",
+    "version": "4307936-ps17-cmp10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-core",
+          "version": {
+            "requires": "4307936-ps17-cmp10"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-jvm-4307936-ps17-cmp10.jar",
+          "url": "remote-creation-compose-jvm-4307936-ps17-cmp10.jar",
+          "size": 1528120,
+          "sha512": "55fe805fe0c10c2374a340e60ee06fa49513136b70c5959beda5c0cd0fd3d7d5dd85d51cfa3015f723f79181310d9da8b8a9e4271fa0719468904e9cea86f930",
+          "sha256": "59dd285f079c999ead5f178be9ae379d1a93fada028b3d2fa514596b608e33be",
+          "sha1": "c1acac02d7a4042302e954fc358304aa6381a213",
+          "md5": "2a5fb4ec1285ca8304eeee9fd1d3429e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-core",
+          "version": {
+            "requires": "4307936-ps17-cmp10"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ee.schimke.remotecompose",
+          "module": "remote-write-core",
+          "version": {
+            "requires": "4307936-ps17-cmp10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.2"
+          }
+        },
+        {
+          "group": "androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-creation-compose-jvm-4307936-ps17-cmp10.jar",
+          "url": "remote-creation-compose-jvm-4307936-ps17-cmp10.jar",
+          "size": 1528120,
+          "sha512": "55fe805fe0c10c2374a340e60ee06fa49513136b70c5959beda5c0cd0fd3d7d5dd85d51cfa3015f723f79181310d9da8b8a9e4271fa0719468904e9cea86f930",
+          "sha256": "59dd285f079c999ead5f178be9ae379d1a93fada028b3d2fa514596b608e33be",
+          "sha1": "c1acac02d7a4042302e954fc358304aa6381a213",
+          "md5": "2a5fb4ec1285ca8304eeee9fd1d3429e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remote-creation-compose-jvm-4307936-ps17-cmp10-sources.jar",
+          "url": "remote-creation-compose-jvm-4307936-ps17-cmp10-sources.jar",
+          "size": 330478,
+          "sha512": "7a4c4f0aa6ff6728e19836e826a764b2a43789c0f790c6ddfeec2c1d9eb642ae5b3a953ff883e57cd27b8707aa8afbf91d7341d0aa6bc7929eee09ff9e0cc492",
+          "sha256": "c1cb03879e9e2dde74293c0c941bb306e93a514e9b8df2dbfae834db7d9a36cc",
+          "sha1": "f5cfcb098d4f2ae4ae9b65be90dd8d3089cbf8d0",
+          "md5": "47b5f023e46c8d9305bc2c9e15035a87"
+        }
+      ]
+    }
+  ]
+}

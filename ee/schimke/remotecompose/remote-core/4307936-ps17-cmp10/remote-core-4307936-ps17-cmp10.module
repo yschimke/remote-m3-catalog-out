@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ee.schimke.remotecompose",
+    "module": "remote-core",
+    "version": "4307936-ps17-cmp10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-core-4307936-ps17-cmp10.jar",
+          "url": "remote-core-4307936-ps17-cmp10.jar",
+          "size": 1595362,
+          "sha512": "c537a083763cc105731cac11efbd82e419049263af06479b0389c6cb80ee832db3d0a3f290ee33de5fa688221ffa5c9e27f9bb5ff7ddbcee051355fea8dee225",
+          "sha256": "becb19d3d53690defe105158f14063c4f54e8c58195d589e2309b4925bd99ada",
+          "sha1": "bf9d991c7b34d85936a8ccea35ef28e17d8228dc",
+          "md5": "4dbf2c9b57953715f1d3b984898b7495"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "remote-core-4307936-ps17-cmp10.jar",
+          "url": "remote-core-4307936-ps17-cmp10.jar",
+          "size": 1595362,
+          "sha512": "c537a083763cc105731cac11efbd82e419049263af06479b0389c6cb80ee832db3d0a3f290ee33de5fa688221ffa5c9e27f9bb5ff7ddbcee051355fea8dee225",
+          "sha256": "becb19d3d53690defe105158f14063c4f54e8c58195d589e2309b4925bd99ada",
+          "sha1": "bf9d991c7b34d85936a8ccea35ef28e17d8228dc",
+          "md5": "4dbf2c9b57953715f1d3b984898b7495"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "remote-core-4307936-ps17-cmp10-sources.jar",
+          "url": "remote-core-4307936-ps17-cmp10-sources.jar",
+          "size": 880690,
+          "sha512": "9ba408ca2502c8e3049da1030d1c784549aa2495df2e55188379b15f8064ce66d428d88d81cd0e33c1fa08f789f2dc5102904b16e9c93139a9189ec36f892704",
+          "sha256": "d4c1ea05b9ead770bb3e83e5f0b287e47585cdad0ecace4c3da5e7cabb60edd6",
+          "sha1": "3d9d6efb876a5170f71bfc638f2d44f79181e632",
+          "md5": "378c440f690a1d4ccf8f87c3fb06f69c"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3047
+        "byteLength": 3088
     },
     "operations": [
         {
@@ -1002,6 +1002,17 @@
                                                                     "type": "MatrixScale"
                                                                 },
                                                                 {
+                                                                    "type": "ColorConstant",
+                                                                    "color": "0xffe9ddff",
+                                                                    "colorId": 90
+                                                                },
+                                                                {
+                                                                    "type": "NamedVariable",
+                                                                    "varId": 90,
+                                                                    "varName": "USER:WearM3.primary",
+                                                                    "varType": "COLOR_TYPE"
+                                                                },
+                                                                {
                                                                     "type": "PaintData",
                                                                     "paintBundle": {
                                                                         "type": "PaintBundle",
@@ -1015,7 +1026,7 @@
                                                                             "{type=FontFamily, fontFamily=0}",
                                                                             "{type=FontWeight, weight=400.0}",
                                                                             "{type=TypeFace, italic=false}",
-                                                                            "{type=ColorFilterID, id=74, mode=SRC_IN}",
+                                                                            "{type=ColorFilterID, id=90, mode=SRC_IN}",
                                                                             "{type=BlendMode, mode=SRC_OVER}",
                                                                             "{type=FilterBitmap, enabled=true}",
                                                                             "{type=Shader, id=0}"
@@ -1024,7 +1035,7 @@
                                                                 },
                                                                 {
                                                                     "type": "PathData",
-                                                                    "id": 90,
+                                                                    "id": 91,
                                                                     "path": [
                                                                         "@10",
                                                                         19.0,
@@ -1094,7 +1105,7 @@
                                                                 },
                                                                 {
                                                                     "type": "DrawPath",
-                                                                    "id": 90,
+                                                                    "id": 91,
                                                                     "start": 0.0,
                                                                     "end": 1.0
                                                                 },

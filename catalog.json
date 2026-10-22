@@ -68152,7 +68152,7 @@
       "wireframe": "wireframes/widgetcontainer-small.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 189,
+      "bodyLine": 190,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerSmallRemote"
     },
@@ -68179,7 +68179,7 @@
       "wireframe": "wireframes/widgetcontainer-large.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 208,
+      "bodyLine": 209,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerLargeRemote"
     },
@@ -68201,12 +68201,12 @@
       "greenlines": [],
       "redlines": [],
       "group": "Widget Container",
-      "caption": "The Small widget container on the round host Pixel Watch draws — 999dp (fully round) corners, 200×60dp content at 15dp/8dp padding → a 230×76dp frame, against Samsung's 26dp squircle.",
-      "noReference": "The Glance Wear widget *host* frame at the round (Pixel Watch) corner — `WearWidgetParams.cornerRadiusDp = 999`, from the platform's own `RoundSmallWidgetPreviewParams` provider. The kit publishes app components, not the widget host.",
+      "caption": "The Small widget container on the round host Samsung draws — 999dp (fully round) corners, 200×60dp content at 15dp/8dp padding → a 230×76dp frame, against the Pixel Watch's 26dp squircle.",
+      "noReference": "The Glance Wear widget *host* frame at the round (Samsung) corner — `WearWidgetParams.cornerRadiusDp = 999`, from the platform's own `RoundSmallWidgetPreviewParams` provider. The kit publishes app components, not the widget host.",
       "wireframe": "wireframes/widgetcontainer-roundsmall.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 239,
+      "bodyLine": 241,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerRoundSmallRemote"
     },
@@ -68228,12 +68228,12 @@
       "greenlines": [],
       "redlines": [],
       "group": "Widget Container",
-      "caption": "The Large widget container on the round host Pixel Watch draws — 999dp (fully round) corners, 160×136dp content at 35dp/16dp padding → a 230×168dp frame, carrying the same title + supporting line as the squircle Large.",
-      "noReference": "The Glance Wear widget *host* frame at the round (Pixel Watch) Large size — `WearWidgetParams.cornerRadiusDp = 999`, from the platform's own `RoundLargeWidgetPreviewParams` provider. The kit publishes app components, not the widget host.",
+      "caption": "The Large widget container on the round host Samsung draws — 999dp (fully round) corners, 160×136dp content at 35dp/16dp padding → a 230×168dp frame, carrying the same title + supporting line as the squircle Large.",
+      "noReference": "The Glance Wear widget *host* frame at the round (Samsung) Large size — `WearWidgetParams.cornerRadiusDp = 999`, from the platform's own `RoundLargeWidgetPreviewParams` provider. The kit publishes app components, not the widget host.",
       "wireframe": "wireframes/widgetcontainer-roundlarge.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 265,
+      "bodyLine": 267,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerRoundLargeRemote"
     },
@@ -68260,7 +68260,7 @@
       "wireframe": "wireframes/widgetcontainer-gradientbackground.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 294,
+      "bodyLine": 296,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerGradientRemote"
     }
@@ -68271,7 +68271,7 @@
     "androidx.glance.wear:wear"
   ],
   "renderer": "compose-preview 2.70.7",
-  "generatedAt": "2026-10-22T19:11:15.689Z",
+  "generatedAt": "2026-10-22T22:57:12.807Z",
   "display": {
     "surface": "dark",
     "hero": "AppCard"
@@ -68341,9 +68341,9 @@
   "uiBuilderGuidelinesFile": "ui-builder.guidelines.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "remote-m3-p3-38b1cc4988a7",
+    "runtimeId": "remote-m3-p3-d877a04b2c6e",
     "protocolVersion": 2,
-    "integritySha256": "94099dcd4f9da7d723f0245cbf618760db241278260bd540f9483c8fc9a84283"
+    "integritySha256": "a6c31eed3d606e35bfb7400b7686c4738f05d7de686f0fffb79ac4ca566a68e4"
   },
   "source": {
     "repo": "yschimke/remote-m3-catalog",

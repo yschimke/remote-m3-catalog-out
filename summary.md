@@ -1,6 +1,10 @@
-## Remote Compose snapshot probe — androidx.dev build [16718948](https://androidx.dev/snapshots/builds/16718948/artifacts)
+## Remote Compose snapshot probe — androidx.dev build [16795178](https://androidx.dev/snapshots/builds/16795178/artifacts)
 
-Snapshot artifacts last updated `20261025191458`. Compiled: **yes**.
+Snapshot artifacts last updated `20261102070531`. Compiled: **no**.
+
+**Why this is being reported**
+
+- the snapshot no longer compiles against this catalog
 
 | issue | preview | still byte-identical to the known-broken capture | drawn, by density | measured |
 | --- | --- | --- | --- | --- |

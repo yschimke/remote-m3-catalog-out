@@ -8,6 +8,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/launcherwidget-counter/ideal__default__3x2.png",
+          "state": "default",
+          "width": 558,
+          "height": 605,
+          "size": "3x2",
+          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__3x2",
+          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_3x2",
+          "previewParams": {
+            "capturePlayer": "androidx-embedded",
+            "device": "spec:width=203dp,height=220dp,dpi=440",
+            "widthDp": 203,
+            "heightDp": 220
+          },
+          "density": 2.75,
+          "figmaSvg": "https://preview.coo.ee/remote-widgets/render/launcherwidget-counter__ideal__default__3x2.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/launcherwidget-counter/ideal__default__2x1.png",
           "state": "default",
           "width": 357,
@@ -41,24 +59,6 @@
           },
           "density": 2.75,
           "figmaSvg": "https://preview.coo.ee/remote-widgets/render/launcherwidget-counter__ideal__default__2x2.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/launcherwidget-counter/ideal__default__3x2.png",
-          "state": "default",
-          "width": 558,
-          "height": 605,
-          "size": "3x2",
-          "livePreview": "https://preview.coo.ee/remote-widgets/p/launcherwidget-counter__ideal__default__3x2",
-          "previewId": "ee.schimke.remotewidgets.WidgetCatalogPreviewsKt.CounterWidgetSticker_3x2",
-          "previewParams": {
-            "capturePlayer": "androidx-embedded",
-            "device": "spec:width=203dp,height=220dp,dpi=440",
-            "widthDp": 203,
-            "heightDp": 220
-          },
-          "density": 2.75,
-          "figmaSvg": "https://preview.coo.ee/remote-widgets/render/launcherwidget-counter__ideal__default__3x2.svg"
         },
         {
           "variant": "ideal",
@@ -101,20 +101,41 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "button \"Increase count\"",
+          "message": "button \"Decrease count\"",
           "detail": {
             "role": "button",
-            "label": "Increase count",
+            "label": "Decrease count",
             "bounds": {
-              "x": 189,
-              "y": 73,
+              "x": 135,
+              "y": 393,
               "width": 132,
               "height": 132
             }
           },
           "bounds": {
-            "x": 189,
-            "y": 73,
+            "x": 135,
+            "y": 393,
+            "width": 132,
+            "height": 132
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"Increase count\"",
+          "detail": {
+            "role": "button",
+            "label": "Increase count",
+            "bounds": {
+              "x": 289,
+              "y": 393,
+              "width": 132,
+              "height": 132
+            }
+          },
+          "bounds": {
+            "x": 289,
+            "y": 393,
             "width": 132,
             "height": 132
           }
@@ -125,8 +146,8 @@
           "bounds": {
             "x": 0,
             "y": 0,
-            "width": 354,
-            "height": 277
+            "width": 555,
+            "height": 605
           },
           "cornerRadius": 28
         },
@@ -134,8 +155,8 @@
           "bounds": {
             "x": 33,
             "y": 33,
-            "width": 288,
-            "height": 211
+            "width": 489,
+            "height": 539
           },
           "padding": {
             "start": 12,
@@ -146,8 +167,24 @@
         },
         {
           "bounds": {
-            "x": 189,
-            "y": 73,
+            "x": 135,
+            "y": 393,
+            "width": 132,
+            "height": 132
+          },
+          "role": "Button",
+          "label": "Decrease count",
+          "padding": {
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
+          }
+        },
+        {
+          "bounds": {
+            "x": 289,
+            "y": 393,
             "width": 132,
             "height": 132
           },
@@ -1636,8 +1673,8 @@
     "androidx.compose.remote:remote-creation-compose",
     "androidx.compose.remote:foundation"
   ],
-  "renderer": "compose-preview 2.74.1",
-  "generatedAt": "2026-11-07T13:10:21.554Z",
+  "renderer": "compose-preview 2.86.0",
+  "generatedAt": "2026-11-07T13:30:41.801Z",
   "display": {
     "surface": "light",
     "hero": "LauncherWidget/Counter"

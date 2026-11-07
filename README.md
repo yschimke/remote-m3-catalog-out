@@ -722,6 +722,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `WidgetContainerRoundLargeRemote` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/WidgetContainerRoundLargeRemote-e48f0c26.png" width="150" /> |
 | `WidgetContainerRoundSmallRemote` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/WidgetContainerRoundSmallRemote-88666b16.png" width="150" /> |
 | `WidgetContainerSmallRemote` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/WidgetContainerSmallRemote-8c4118e7.png" width="150" /> |
+| `WidgetContainerTileRemote` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/WidgetContainerTileRemote_width_240dp_height_240dp_dpi_320-237beb02.png" width="150" /> |
 | `AndroidMakers theme` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/wearthemecatalog__AndroidMakers.png" width="150" /> |
 | `Confetti (default) theme` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/wearthemecatalog__Confetti__default_.png" width="150" /> |
 | `DevFest theme` | <img src="https://raw.githubusercontent.com/yschimke/remote-m3-catalog-out/compose-preview/main/renders/remote-catalog/wearthemecatalog__DevFest.png" width="150" /> |

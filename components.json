@@ -12134,7 +12134,8 @@
                 "WidgetContainer/Large",
                 "WidgetContainer/RoundLarge",
                 "WidgetContainer/RoundSmall",
-                "WidgetContainer/Small"
+                "WidgetContainer/Small",
+                "WidgetContainer/Tile"
             ],
             "symbol": {
                 "jvmOwner": "androidx.wear.compose.remote.material3.RemoteTextKt",
@@ -13855,6 +13856,11 @@
                 {
                     "previewId": "ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.WidgetContainerSmallRemote",
                     "componentId": "WidgetContainer/Small",
+                    "group": "Widget Container"
+                },
+                {
+                    "previewId": "ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.WidgetContainerTileRemote_width_240dp_height_240dp_dpi_320",
+                    "componentId": "WidgetContainer/Tile",
                     "group": "Widget Container"
                 }
             ],
@@ -18057,6 +18063,68 @@
                     "previewId": "ee.schimke.wearm3catalog.remote.RemoteThemeSpecimensKt.ThemeSpecimenKotlinConfRemote_width_227dp_height_200dp_dpi_320",
                     "componentId": "Theme/Specimen-KotlinConf",
                     "group": "Theme"
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "remote-catalog/ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.PixelWatchTileScreen",
+            "componentIds": [
+                "WidgetContainer/Tile"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt",
+                "callable": "ee.schimke.wearm3catalog.remote.PixelWatchTileScreen",
+                "name": "PixelWatchTileScreen",
+                "origin": "PROJECT",
+                "jvmName": "PixelWatchTileScreen",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.WidgetContainerTileRemote_width_240dp_height_240dp_dpi_320",
+                    "componentId": "WidgetContainer/Tile",
+                    "group": "Widget Container"
                 }
             ],
             "code": {

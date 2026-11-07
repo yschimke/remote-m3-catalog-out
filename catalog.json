@@ -68152,7 +68152,7 @@
       "wireframe": "wireframes/widgetcontainer-small.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 190,
+      "bodyLine": 252,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerSmallRemote"
     },
@@ -68179,7 +68179,7 @@
       "wireframe": "wireframes/widgetcontainer-large.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 209,
+      "bodyLine": 271,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerLargeRemote"
     },
@@ -68206,7 +68206,7 @@
       "wireframe": "wireframes/widgetcontainer-roundsmall.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 241,
+      "bodyLine": 303,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerRoundSmallRemote"
     },
@@ -68233,9 +68233,73 @@
       "wireframe": "wireframes/widgetcontainer-roundlarge.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 267,
+      "bodyLine": 329,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerRoundLargeRemote"
+    },
+    {
+      "componentId": "WidgetContainer/Tile",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/widgetcontainer-tile/ideal__default__240dp.png",
+          "state": "default",
+          "width": 480,
+          "height": 480,
+          "size": "240dp",
+          "livePreview": "https://preview.coo.ee/remote-m3/p/widgetcontainer-tile__ideal__default__240dp",
+          "previewId": "ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.WidgetContainerTileRemote_width_240dp_height_240dp_dpi_320",
+          "previewParams": {
+            "device": "spec:width=240dp,height=240dp,dpi=320",
+            "widthDp": 240,
+            "heightDp": 240
+          },
+          "density": 2
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 480,
+            "height": 480
+          },
+          "cornerRadius": 120
+        },
+        {
+          "bounds": {
+            "x": 216,
+            "y": 6,
+            "width": 48,
+            "height": 48
+          },
+          "padding": {
+            "start": 0,
+            "top": 3,
+            "end": 0,
+            "bottom": 0
+          },
+          "cornerRadius": 12
+        }
+      ],
+      "group": "Widget Container",
+      "caption": "The Large widget container as a Pixel Watch shows it as a tile — the full round screen, the system's 24dp app icon slot 3dp from the top, the 200×108dp squircle centred. The screen and icon placeholder are drawn around the capture; the document is the widget's alone.",
+      "noReference": "A widget in the Glance Wear tile-compat host (`ContainerInfo.CONTAINER_TYPE_TILE_COMPAT`): the tile page around it is drawn by the system renderer, not a kit component.",
+      "wireframe": "wireframes/widgetcontainer-tile.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
+      "sourceModule": ":remote-catalog",
+      "bodyLine": 360,
+      "sourceDirectory": "remote-catalog",
+      "sourceFunction": "WidgetContainerTileRemote",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
     },
     {
       "componentId": "WidgetContainer/GradientBackground",
@@ -68260,7 +68324,7 @@
       "wireframe": "wireframes/widgetcontainer-gradientbackground.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/wearm3catalog/remote/WidgetContainerPreviews.kt",
       "sourceModule": ":remote-catalog",
-      "bodyLine": 296,
+      "bodyLine": 391,
       "sourceDirectory": "remote-catalog",
       "sourceFunction": "WidgetContainerGradientRemote"
     }
@@ -68271,7 +68335,7 @@
     "androidx.glance.wear:wear"
   ],
   "renderer": "compose-preview 2.74.1",
-  "generatedAt": "2026-11-06T04:14:37.786Z",
+  "generatedAt": "2026-11-07T11:10:11.480Z",
   "display": {
     "surface": "dark",
     "hero": "AppCard"
@@ -68341,9 +68405,9 @@
   "uiBuilderGuidelinesFile": "ui-builder.guidelines.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "remote-m3-p3-923feab85fcb",
+    "runtimeId": "remote-m3-p3-427eead0169a",
     "protocolVersion": 2,
-    "integritySha256": "03d37092b415b5564b99f6762b2b7ed05d5995b947e409af06bfea25459cf72d"
+    "integritySha256": "c7025e6ff1932707d91ace4970c9283d935060c599e4d5e97fc3d07dd93da7ec"
   },
   "source": {
     "repo": "yschimke/remote-m3-catalog",

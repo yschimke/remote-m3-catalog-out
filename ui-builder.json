@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 27
+        "components": 28
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -126,6 +126,9 @@
                 },
                 "remote-m3/remote-title-card": {
                     "group": "Containment"
+                },
+                "remote-m3/pixel-watch-tile-screen": {
+                    "group": "Widget Container"
                 }
             }
         },
@@ -2465,6 +2468,28 @@
                 "insertContent": null,
                 "shelfRole": null,
                 "exportProjection": null
+            },
+            "remote-m3/pixel-watch-tile-screen": {
+                "record": "remote-catalog/ee.schimke.wearm3catalog.remote.WidgetContainerPreviewsKt.PixelWatchTileScreen",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
             }
         },
         "designTokens": null
@@ -2479,6 +2504,11 @@
             "code": "component.excluded",
             "subject": "remote-m3/theme-specimen",
             "message": "kept off the builder's shelf: the catalog's theme showcase, not an authorable Remote Compose component: it is a preview specimen that the design exporter cannot write."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "remote-m3/pixel-watch-tile-screen",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
             "code": "component.policy.orphaned",

@@ -14,11 +14,6 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 200\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
-            "type": "TextData",
-            "textId": 42,
-            "text": "Add"
-        },
-        {
             "$tags": [
                 "COMPONENT"
             ],
@@ -35,13 +30,18 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
                     "height": 0.0,
                     "visibility": "VISIBLE",
                     "list": [
+                        {
+                            "type": "TextData",
+                            "textId": 42,
+                            "text": "Add"
+                        },
                         {
                             "$tags": [
                                 "MODIFIER"
@@ -77,7 +77,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 48.0,
@@ -133,7 +133,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CANVAS",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -141,20 +141,26 @@
                                     "visibility": "VISIBLE",
                                     "list": [
                                         {
-                                            "type": "MatrixSave"
-                                        },
-                                        {
                                             "type": "ComponentValue",
                                             "valueId": 43,
                                             "componentValueType": "WIDTH",
-                                            "componentId": -1000002
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 44,
+                                            "componentValueType": "HEIGHT",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "MatrixSave"
                                         },
                                         {
                                             "$tags": [
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 44,
+                                            "id": 45,
                                             "srcValues": [
                                                 "@43",
                                                 24.0,
@@ -163,19 +169,13 @@
                                             "animation": null
                                         },
                                         {
-                                            "type": "ComponentValue",
-                                            "valueId": 45,
-                                            "componentValueType": "HEIGHT",
-                                            "componentId": -1000002
-                                        },
-                                        {
                                             "$tags": [
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
                                             "id": 46,
                                             "srcValues": [
-                                                "@45",
+                                                "@44",
                                                 24.0,
                                                 "@3211268"
                                             ],
@@ -183,8 +183,8 @@
                                         },
                                         {
                                             "scaleX": [
-                                                "@44",
-                                                "@44"
+                                                "@45",
+                                                "@45"
                                             ],
                                             "scaleY": [
                                                 "@46",

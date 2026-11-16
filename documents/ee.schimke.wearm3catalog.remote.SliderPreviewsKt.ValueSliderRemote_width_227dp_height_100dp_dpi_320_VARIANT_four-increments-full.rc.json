@@ -6,427 +6,12 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 3931
+        "byteLength": 3365
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 200\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 42,
-            "componentValueType": "WIDTH",
-            "componentId": -1000000
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 43,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000000
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 44,
-            "srcValues": [
-                "@42",
-                "@43",
-                "@3211270",
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 45,
-            "componentValueType": "WIDTH",
-            "componentId": -1000001
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 46,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000001
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 47,
-            "srcValues": [
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 48,
-            "srcValues": [
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@45",
-                "@46",
-                "@3211270",
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@3211265",
-                1.0E-4,
-                "@3211271",
-                "@3211268",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 49,
-            "srcValues": [
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@45",
-                "@46",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 50,
-            "srcValues": [
-                "@45",
-                "@46",
-                "@3211270"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 51,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@49",
-                "@50",
-                "@3211266",
-                "@3211290",
-                0.0,
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 52,
-            "srcValues": [
-                "@45",
-                "@51",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 53,
-            "srcValues": [
-                "@52",
-                "@51",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 54,
-            "srcValues": [
-                "@51",
-                "@51",
-                0.5522848,
-                "@3211267",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 55,
-            "srcValues": [
-                "@46",
-                "@51",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 56,
-            "srcValues": [
-                "@55",
-                "@51",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 57,
-            "srcValues": [
-                4.0
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 58,
-            "srcValues": [
-                "@57",
-                1.0,
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 59,
-            "srcValues": [
-                "@57",
-                1.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 60,
-            "srcValues": [
-                "@57",
-                "@3211281",
-                4.0,
-                "@3211268",
-                0.0,
-                "@3211271",
-                1.0,
-                "@3211270"
-            ],
-            "animation": {
-                "type": "FloatAnimation",
-                "initialValue": "NaN",
-                "targetValue": "NaN",
-                "duration": 0.15,
-                "easing": "INVALID_CURVE_TYPE[0]"
-            }
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 61,
-            "srcValues": [
-                "@27",
-                2.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 62,
-            "componentValueType": "WIDTH",
-            "componentId": -1000005
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 63,
-            "srcValues": [
-                "@62",
-                "@27",
-                4.0,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 64,
-            "srcValues": [
-                "@27",
-                4.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 65,
-            "srcValues": [
-                0.0,
-                "@63",
-                "@60",
-                "@3211267",
-                "@64",
-                "@3211265",
-                "@62",
-                "@3211270",
-                "@60",
-                0.0,
-                "@3211266",
-                "@3211290"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 66,
-            "srcValues": [
-                "@27",
-                12.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 67,
-            "srcValues": [
-                "@27",
-                6.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 68,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000005
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 69,
-            "srcValues": [
-                "@68",
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 70,
-            "srcValues": [
-                "@68",
-                "@64",
-                "@3211266",
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 71,
-            "srcValues": [
-                "@68",
-                "@66",
-                "@3211266",
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
         },
         {
             "$tags": [
@@ -445,13 +30,40 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
                     "height": 0.0,
                     "visibility": "VISIBLE",
                     "list": [
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 42,
+                            "componentValueType": "WIDTH",
+                            "componentId": -3
+                        },
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 43,
+                            "componentValueType": "HEIGHT",
+                            "componentId": -3
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 44,
+                            "srcValues": [
+                                "@42",
+                                "@43",
+                                "@3211270",
+                                2.0,
+                                "@3211268"
+                            ],
+                            "animation": null
+                        },
                         {
                             "$tags": [
                                 "MODIFIER"
@@ -487,13 +99,50 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "ROW",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 180.0,
                             "height": 52.0,
                             "visibility": "VISIBLE",
                             "list": [
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 49,
+                                    "srcValues": [
+                                        4.0
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 50,
+                                    "srcValues": [
+                                        "@49",
+                                        1.0,
+                                        "@3211266"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 92,
+                                    "srcValues": [
+                                        "@49",
+                                        1.0,
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
                                 {
                                     "$tags": [
                                         "MODIFIER"
@@ -559,7 +208,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "BOX",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 48.0,
@@ -635,7 +284,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000003,
+                                            "id": -9,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 24.0,
@@ -691,7 +340,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CANVAS",
-                                                    "id": -1000004,
+                                                    "id": -11,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -699,41 +348,41 @@
                                                     "visibility": "VISIBLE",
                                                     "list": [
                                                         {
-                                                            "type": "MatrixSave"
+                                                            "type": "ComponentValue",
+                                                            "valueId": 51,
+                                                            "componentValueType": "WIDTH",
+                                                            "componentId": -11
                                                         },
                                                         {
                                                             "type": "ComponentValue",
-                                                            "valueId": 74,
-                                                            "componentValueType": "WIDTH",
-                                                            "componentId": -1000004
+                                                            "valueId": 52,
+                                                            "componentValueType": "HEIGHT",
+                                                            "componentId": -11
+                                                        },
+                                                        {
+                                                            "type": "MatrixSave"
                                                         },
                                                         {
                                                             "$tags": [
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 75,
+                                                            "id": 53,
                                                             "srcValues": [
-                                                                "@74",
+                                                                "@51",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
                                                             "animation": null
                                                         },
                                                         {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 76,
-                                                            "componentValueType": "HEIGHT",
-                                                            "componentId": -1000004
-                                                        },
-                                                        {
                                                             "$tags": [
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 77,
+                                                            "id": 54,
                                                             "srcValues": [
-                                                                "@76",
+                                                                "@52",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
@@ -741,12 +390,12 @@
                                                         },
                                                         {
                                                             "scaleX": [
-                                                                "@75",
-                                                                "@75"
+                                                                "@53",
+                                                                "@53"
                                                             ],
                                                             "scaleY": [
-                                                                "@77",
-                                                                "@77"
+                                                                "@54",
+                                                                "@54"
                                                             ],
                                                             "pivotX": [
                                                                 "NaN",
@@ -761,11 +410,11 @@
                                                         {
                                                             "type": "ColorConstant",
                                                             "color": "0xfff6edff",
-                                                            "colorId": 78
+                                                            "colorId": 55
                                                         },
                                                         {
                                                             "type": "NamedVariable",
-                                                            "varId": 78,
+                                                            "varId": 55,
                                                             "varName": "USER:WearM3.onSurface",
                                                             "varType": "COLOR_TYPE"
                                                         },
@@ -783,7 +432,7 @@
                                                                     "{type=FontFamily, fontFamily=0}",
                                                                     "{type=FontWeight, weight=400.0}",
                                                                     "{type=TypeFace, italic=false}",
-                                                                    "{type=ColorFilterID, id=78, mode=SRC_IN}",
+                                                                    "{type=ColorFilterID, id=55, mode=SRC_IN}",
                                                                     "{type=BlendMode, mode=SRC_OVER}",
                                                                     "{type=FilterBitmap, enabled=true}",
                                                                     "{type=Shader, id=0}"
@@ -792,7 +441,7 @@
                                                         },
                                                         {
                                                             "type": "PathData",
-                                                            "id": 79,
+                                                            "id": 56,
                                                             "path": [
                                                                 "@10",
                                                                 6.0,
@@ -868,7 +517,7 @@
                                                         },
                                                         {
                                                             "type": "DrawPath",
-                                                            "id": 79,
+                                                            "id": 56,
                                                             "start": 0.0,
                                                             "end": 1.0
                                                         },
@@ -944,7 +593,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CANVAS",
-                                    "id": -1000005,
+                                    "id": -13,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -952,50 +601,218 @@
                                     "visibility": "VISIBLE",
                                     "list": [
                                         {
+                                            "type": "ComponentValue",
+                                            "valueId": 57,
+                                            "componentValueType": "WIDTH",
+                                            "componentId": -13
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 58,
+                                            "componentValueType": "HEIGHT",
+                                            "componentId": -13
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 59,
+                                            "srcValues": [
+                                                "@49",
+                                                "@3211281",
+                                                4.0,
+                                                "@3211268",
+                                                0.0,
+                                                "@3211271",
+                                                1.0,
+                                                "@3211270"
+                                            ],
+                                            "animation": {
+                                                "type": "FloatAnimation",
+                                                "initialValue": "NaN",
+                                                "targetValue": "NaN",
+                                                "duration": 0.15,
+                                                "easing": "INVALID_CURVE_TYPE[0]"
+                                            }
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 60,
+                                            "srcValues": [
+                                                "@27",
+                                                2.0,
+                                                "@3211267"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 61,
+                                            "srcValues": [
+                                                "@57",
+                                                "@27",
+                                                4.0,
+                                                "@3211267",
+                                                "@3211265"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 62,
+                                            "srcValues": [
+                                                "@27",
+                                                4.0,
+                                                "@3211267"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 63,
+                                            "srcValues": [
+                                                0.0,
+                                                "@61",
+                                                "@59",
+                                                "@3211267",
+                                                "@62",
+                                                "@3211265",
+                                                "@57",
+                                                "@3211270",
+                                                "@59",
+                                                0.0,
+                                                "@3211266",
+                                                "@3211290"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 64,
+                                            "srcValues": [
+                                                "@27",
+                                                12.0,
+                                                "@3211267"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 65,
+                                            "srcValues": [
+                                                "@27",
+                                                6.0,
+                                                "@3211267"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 66,
+                                            "srcValues": [
+                                                "@58",
+                                                2.0,
+                                                "@3211268"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 67,
+                                            "srcValues": [
+                                                "@58",
+                                                "@62",
+                                                "@3211266",
+                                                2.0,
+                                                "@3211268"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 68,
+                                            "srcValues": [
+                                                "@58",
+                                                "@64",
+                                                "@3211266",
+                                                2.0,
+                                                "@3211268"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
                                             "type": "ColorConstant",
                                             "color": "0xff000000",
-                                            "colorId": 80
+                                            "colorId": 69
                                         },
                                         {
                                             "type": "NamedVariable",
-                                            "varId": 80,
+                                            "varId": 69,
                                             "varName": "USER:WearM3.background",
                                             "varType": "COLOR_TYPE"
                                         },
                                         {
                                             "type": "COLOR_RED",
-                                            "id": 81,
-                                            "colorId": 80
+                                            "id": 70,
+                                            "colorId": 69
                                         },
                                         {
                                             "type": "COLOR_GREEN",
-                                            "id": 82,
-                                            "colorId": 80
+                                            "id": 71,
+                                            "colorId": 69
                                         },
                                         {
                                             "type": "COLOR_BLUE",
-                                            "id": 83,
-                                            "colorId": 80
+                                            "id": 72,
+                                            "colorId": 69
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 84,
+                                            "id": 73,
                                             "mode": "ARGB",
                                             "a": [
                                                 0.2998047,
                                                 0.2998047
                                             ],
                                             "r": [
-                                                "@81",
-                                                "@81"
+                                                "@70",
+                                                "@70"
                                             ],
                                             "g": [
-                                                "@82",
-                                                "@82"
+                                                "@71",
+                                                "@71"
                                             ],
                                             "b": [
-                                                "@83",
-                                                "@83"
+                                                "@72",
+                                                "@72"
                                             ]
                                         },
                                         {
@@ -1003,7 +820,7 @@
                                             "paintBundle": {
                                                 "type": "PaintBundle",
                                                 "operations": [
-                                                    "{type=ColorId, id=84}",
+                                                    "{type=ColorId, id=73}",
                                                     "{type=StrokeWidth, width={type=Value, value=0.0}}",
                                                     "{type=StrokeCap, cap=0}",
                                                     "{type=StrokeJoin, strokeJoin=0}",
@@ -1024,11 +841,11 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 85,
+                                            "id": 74,
                                             "srcValues": [
-                                                "@65",
-                                                "@62",
-                                                "@65",
+                                                "@63",
+                                                "@57",
+                                                "@63",
                                                 "@3211266",
                                                 0.0,
                                                 "@3211271",
@@ -1041,9 +858,69 @@
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 86,
+                                            "id": 75,
                                             "srcValues": [
-                                                "@70",
+                                                "@67",
+                                                "@62",
+                                                "@3211265"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "left": [
+                                                "@63",
+                                                "@63"
+                                            ],
+                                            "top": [
+                                                "@67",
+                                                "@67"
+                                            ],
+                                            "right": [
+                                                "@74",
+                                                "@74"
+                                            ],
+                                            "bottom": [
+                                                "@75",
+                                                "@75"
+                                            ],
+                                            "rx": [
+                                                "@60",
+                                                "@60"
+                                            ],
+                                            "ry": [
+                                                "@60",
+                                                "@60"
+                                            ],
+                                            "type": "DrawRoundRect"
+                                        },
+                                        {
+                                            "type": "ColorConstant",
+                                            "color": "0xffe9ddff",
+                                            "colorId": 76
+                                        },
+                                        {
+                                            "type": "NamedVariable",
+                                            "varId": 76,
+                                            "varName": "USER:WearM3.primary",
+                                            "varType": "COLOR_TYPE"
+                                        },
+                                        {
+                                            "type": "PaintData",
+                                            "paintBundle": {
+                                                "type": "PaintBundle",
+                                                "operations": [
+                                                    "{type=ColorId, id=76}"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 77,
+                                            "srcValues": [
+                                                "@68",
                                                 "@64",
                                                 "@3211265"
                                             ],
@@ -1051,41 +928,183 @@
                                         },
                                         {
                                             "left": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "top": [
+                                                "@68",
+                                                "@68"
+                                            ],
+                                            "right": [
+                                                "@63",
+                                                "@63"
+                                            ],
+                                            "bottom": [
+                                                "@77",
+                                                "@77"
+                                            ],
+                                            "rx": [
                                                 "@65",
                                                 "@65"
                                             ],
-                                            "top": [
-                                                "@70",
-                                                "@70"
-                                            ],
-                                            "right": [
-                                                "@85",
-                                                "@85"
-                                            ],
-                                            "bottom": [
-                                                "@86",
-                                                "@86"
-                                            ],
-                                            "rx": [
-                                                "@61",
-                                                "@61"
-                                            ],
                                             "ry": [
-                                                "@61",
-                                                "@61"
+                                                "@65",
+                                                "@65"
                                             ],
                                             "type": "DrawRoundRect"
                                         },
                                         {
+                                            "type": "COLOR_RED",
+                                            "id": 78,
+                                            "colorId": 76
+                                        },
+                                        {
+                                            "type": "COLOR_GREEN",
+                                            "id": 79,
+                                            "colorId": 76
+                                        },
+                                        {
+                                            "type": "COLOR_BLUE",
+                                            "id": 80,
+                                            "colorId": 76
+                                        },
+                                        {
+                                            "type": "ColorExpression",
+                                            "id": 81,
+                                            "mode": "ARGB",
+                                            "a": [
+                                                0.5,
+                                                0.5
+                                            ],
+                                            "r": [
+                                                "@78",
+                                                "@78"
+                                            ],
+                                            "g": [
+                                                "@79",
+                                                "@79"
+                                            ],
+                                            "b": [
+                                                "@80",
+                                                "@80"
+                                            ]
+                                        },
+                                        {
                                             "type": "ColorConstant",
-                                            "color": "0xffe9ddff",
-                                            "colorId": 87
+                                            "color": "0xff4d3d76",
+                                            "colorId": 82
                                         },
                                         {
                                             "type": "NamedVariable",
-                                            "varId": 87,
-                                            "varName": "USER:WearM3.primary",
+                                            "varId": 82,
+                                            "varName": "USER:WearM3.primaryContainer",
                                             "varType": "COLOR_TYPE"
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 83,
+                                            "srcValues": [
+                                                1.0,
+                                                0.0,
+                                                0.25,
+                                                "@59",
+                                                "@3211266",
+                                                "@3211290"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "type": "ColorExpression",
+                                            "id": 84,
+                                            "mode": "TWEEN",
+                                            "startColor": [
+                                                81.0,
+                                                81.0
+                                            ],
+                                            "endColor": [
+                                                82.0,
+                                                82.0
+                                            ],
+                                            "tween": [
+                                                "@83",
+                                                "@83"
+                                            ]
+                                        },
+                                        {
+                                            "type": "PaintData",
+                                            "paintBundle": {
+                                                "type": "PaintBundle",
+                                                "operations": [
+                                                    "{type=ColorId, id=84}",
+                                                    "{type=BlendMode, mode=SRC}"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 85,
+                                            "srcValues": [
+                                                "@61",
+                                                4.0,
+                                                "@3211268",
+                                                "@60",
+                                                "@3211266"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "cx": [
+                                                "@85",
+                                                "@85"
+                                            ],
+                                            "cy": [
+                                                "@66",
+                                                "@66"
+                                            ],
+                                            "radius": [
+                                                "@60",
+                                                "@60"
+                                            ],
+                                            "type": "DrawCircle"
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 86,
+                                            "srcValues": [
+                                                1.0,
+                                                0.0,
+                                                0.5,
+                                                "@59",
+                                                "@3211266",
+                                                "@3211290"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "type": "ColorExpression",
+                                            "id": 87,
+                                            "mode": "TWEEN",
+                                            "startColor": [
+                                                81.0,
+                                                81.0
+                                            ],
+                                            "endColor": [
+                                                82.0,
+                                                82.0
+                                            ],
+                                            "tween": [
+                                                "@86",
+                                                "@86"
+                                            ]
                                         },
                                         {
                                             "type": "PaintData",
@@ -1103,300 +1122,98 @@
                                             "type": "FloatExpression",
                                             "id": 88,
                                             "srcValues": [
-                                                "@71",
-                                                "@66",
-                                                "@3211265"
+                                                "@61",
+                                                0.5,
+                                                "@3211267",
+                                                "@60",
+                                                "@3211266"
                                             ],
                                             "animation": null
                                         },
                                         {
-                                            "left": [
-                                                0.0,
-                                                0.0
-                                            ],
-                                            "top": [
-                                                "@71",
-                                                "@71"
-                                            ],
-                                            "right": [
-                                                "@65",
-                                                "@65"
-                                            ],
-                                            "bottom": [
+                                            "cx": [
                                                 "@88",
                                                 "@88"
                                             ],
-                                            "rx": [
-                                                "@67",
-                                                "@67"
+                                            "cy": [
+                                                "@66",
+                                                "@66"
                                             ],
-                                            "ry": [
-                                                "@67",
-                                                "@67"
+                                            "radius": [
+                                                "@60",
+                                                "@60"
                                             ],
-                                            "type": "DrawRoundRect"
+                                            "type": "DrawCircle"
                                         },
                                         {
-                                            "type": "COLOR_RED",
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
                                             "id": 89,
-                                            "colorId": 87
-                                        },
-                                        {
-                                            "type": "COLOR_GREEN",
-                                            "id": 90,
-                                            "colorId": 87
-                                        },
-                                        {
-                                            "type": "COLOR_BLUE",
-                                            "id": 91,
-                                            "colorId": 87
+                                            "srcValues": [
+                                                1.0,
+                                                0.0,
+                                                0.75,
+                                                "@59",
+                                                "@3211266",
+                                                "@3211290"
+                                            ],
+                                            "animation": null
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 92,
-                                            "mode": "ARGB",
-                                            "a": [
-                                                0.5,
-                                                0.5
+                                            "id": 90,
+                                            "mode": "TWEEN",
+                                            "startColor": [
+                                                81.0,
+                                                81.0
                                             ],
-                                            "r": [
+                                            "endColor": [
+                                                82.0,
+                                                82.0
+                                            ],
+                                            "tween": [
                                                 "@89",
                                                 "@89"
+                                            ]
+                                        },
+                                        {
+                                            "type": "PaintData",
+                                            "paintBundle": {
+                                                "type": "PaintBundle",
+                                                "operations": [
+                                                    "{type=ColorId, id=90}"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
                                             ],
-                                            "g": [
-                                                "@90",
-                                                "@90"
+                                            "type": "FloatExpression",
+                                            "id": 91,
+                                            "srcValues": [
+                                                "@61",
+                                                0.75,
+                                                "@3211267",
+                                                "@60",
+                                                "@3211266"
                                             ],
-                                            "b": [
+                                            "animation": null
+                                        },
+                                        {
+                                            "cx": [
                                                 "@91",
                                                 "@91"
-                                            ]
-                                        },
-                                        {
-                                            "type": "ColorConstant",
-                                            "color": "0xff4d3d76",
-                                            "colorId": 93
-                                        },
-                                        {
-                                            "type": "NamedVariable",
-                                            "varId": 93,
-                                            "varName": "USER:WearM3.primaryContainer",
-                                            "varType": "COLOR_TYPE"
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 94,
-                                            "srcValues": [
-                                                1.0,
-                                                0.0,
-                                                0.25,
-                                                "@60",
-                                                "@3211266",
-                                                "@3211290"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "type": "ColorExpression",
-                                            "id": 95,
-                                            "mode": "TWEEN",
-                                            "startColor": [
-                                                92.0,
-                                                92.0
-                                            ],
-                                            "endColor": [
-                                                93.0,
-                                                93.0
-                                            ],
-                                            "tween": [
-                                                "@94",
-                                                "@94"
-                                            ]
-                                        },
-                                        {
-                                            "type": "PaintData",
-                                            "paintBundle": {
-                                                "type": "PaintBundle",
-                                                "operations": [
-                                                    "{type=ColorId, id=95}",
-                                                    "{type=BlendMode, mode=SRC}"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 96,
-                                            "srcValues": [
-                                                "@63",
-                                                4.0,
-                                                "@3211268",
-                                                "@61",
-                                                "@3211266"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "cx": [
-                                                "@96",
-                                                "@96"
                                             ],
                                             "cy": [
-                                                "@69",
-                                                "@69"
+                                                "@66",
+                                                "@66"
                                             ],
                                             "radius": [
-                                                "@61",
-                                                "@61"
-                                            ],
-                                            "type": "DrawCircle"
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 97,
-                                            "srcValues": [
-                                                1.0,
-                                                0.0,
-                                                0.5,
                                                 "@60",
-                                                "@3211266",
-                                                "@3211290"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "type": "ColorExpression",
-                                            "id": 98,
-                                            "mode": "TWEEN",
-                                            "startColor": [
-                                                92.0,
-                                                92.0
-                                            ],
-                                            "endColor": [
-                                                93.0,
-                                                93.0
-                                            ],
-                                            "tween": [
-                                                "@97",
-                                                "@97"
-                                            ]
-                                        },
-                                        {
-                                            "type": "PaintData",
-                                            "paintBundle": {
-                                                "type": "PaintBundle",
-                                                "operations": [
-                                                    "{type=ColorId, id=98}"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 99,
-                                            "srcValues": [
-                                                "@63",
-                                                0.5,
-                                                "@3211267",
-                                                "@61",
-                                                "@3211266"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "cx": [
-                                                "@99",
-                                                "@99"
-                                            ],
-                                            "cy": [
-                                                "@69",
-                                                "@69"
-                                            ],
-                                            "radius": [
-                                                "@61",
-                                                "@61"
-                                            ],
-                                            "type": "DrawCircle"
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 100,
-                                            "srcValues": [
-                                                1.0,
-                                                0.0,
-                                                0.75,
-                                                "@60",
-                                                "@3211266",
-                                                "@3211290"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "type": "ColorExpression",
-                                            "id": 101,
-                                            "mode": "TWEEN",
-                                            "startColor": [
-                                                92.0,
-                                                92.0
-                                            ],
-                                            "endColor": [
-                                                93.0,
-                                                93.0
-                                            ],
-                                            "tween": [
-                                                "@100",
-                                                "@100"
-                                            ]
-                                        },
-                                        {
-                                            "type": "PaintData",
-                                            "paintBundle": {
-                                                "type": "PaintBundle",
-                                                "operations": [
-                                                    "{type=ColorId, id=101}"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "$tags": [
-                                                "EXPRESSION"
-                                            ],
-                                            "type": "FloatExpression",
-                                            "id": 102,
-                                            "srcValues": [
-                                                "@63",
-                                                0.75,
-                                                "@3211267",
-                                                "@61",
-                                                "@3211266"
-                                            ],
-                                            "animation": null
-                                        },
-                                        {
-                                            "cx": [
-                                                "@102",
-                                                "@102"
-                                            ],
-                                            "cy": [
-                                                "@69",
-                                                "@69"
-                                            ],
-                                            "radius": [
-                                                "@61",
-                                                "@61"
+                                                "@60"
                                             ],
                                             "type": "DrawCircle"
                                         },
@@ -1443,7 +1260,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "BOX",
-                                    "id": -1000006,
+                                    "id": -15,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 48.0,
@@ -1519,7 +1336,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000007,
+                                            "id": -17,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 24.0,
@@ -1575,7 +1392,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CANVAS",
-                                                    "id": -1000008,
+                                                    "id": -19,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1583,41 +1400,41 @@
                                                     "visibility": "VISIBLE",
                                                     "list": [
                                                         {
-                                                            "type": "MatrixSave"
+                                                            "type": "ComponentValue",
+                                                            "valueId": 93,
+                                                            "componentValueType": "WIDTH",
+                                                            "componentId": -19
                                                         },
                                                         {
                                                             "type": "ComponentValue",
-                                                            "valueId": 103,
-                                                            "componentValueType": "WIDTH",
-                                                            "componentId": -1000008
+                                                            "valueId": 94,
+                                                            "componentValueType": "HEIGHT",
+                                                            "componentId": -19
+                                                        },
+                                                        {
+                                                            "type": "MatrixSave"
                                                         },
                                                         {
                                                             "$tags": [
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 104,
+                                                            "id": 95,
                                                             "srcValues": [
-                                                                "@103",
+                                                                "@93",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
                                                             "animation": null
                                                         },
                                                         {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 105,
-                                                            "componentValueType": "HEIGHT",
-                                                            "componentId": -1000008
-                                                        },
-                                                        {
                                                             "$tags": [
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 106,
+                                                            "id": 96,
                                                             "srcValues": [
-                                                                "@105",
+                                                                "@94",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
@@ -1625,12 +1442,12 @@
                                                         },
                                                         {
                                                             "scaleX": [
-                                                                "@104",
-                                                                "@104"
+                                                                "@95",
+                                                                "@95"
                                                             ],
                                                             "scaleY": [
-                                                                "@106",
-                                                                "@106"
+                                                                "@96",
+                                                                "@96"
                                                             ],
                                                             "pivotX": [
                                                                 "NaN",
@@ -1656,7 +1473,7 @@
                                                                     "{type=FontFamily, fontFamily=0}",
                                                                     "{type=FontWeight, weight=400.0}",
                                                                     "{type=TypeFace, italic=false}",
-                                                                    "{type=ColorFilterID, id=78, mode=SRC_IN}",
+                                                                    "{type=ColorFilterID, id=55, mode=SRC_IN}",
                                                                     "{type=BlendMode, mode=SRC_OVER}",
                                                                     "{type=FilterBitmap, enabled=true}",
                                                                     "{type=Shader, id=0}"
@@ -1665,7 +1482,7 @@
                                                         },
                                                         {
                                                             "type": "PathData",
-                                                            "id": 107,
+                                                            "id": 97,
                                                             "path": [
                                                                 "@10",
                                                                 11.0,
@@ -1827,7 +1644,7 @@
                                                         },
                                                         {
                                                             "type": "DrawPath",
-                                                            "id": 107,
+                                                            "id": 97,
                                                             "start": 0.0,
                                                             "end": 1.0
                                                         },

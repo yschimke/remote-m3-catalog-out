@@ -14,234 +14,6 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 400\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
-            "type": "TextData",
-            "textId": 42,
-            "text": "Confetti (default)"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 43,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.0,
-                "@3211266",
-                0.5,
-                "@3211270",
-                14.0,
-                "@3211267",
-                16.0,
-                "@3211265",
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.5,
-                "@3211266",
-                0.0,
-                "@3211271",
-                10.0,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 44,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                16.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 45,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 46,
-            "srcValues": [
-                "@43",
-                "@44",
-                1.03,
-                "@45",
-                "@3211266",
-                "@3211290",
-                "@27",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "TextData",
-            "textId": 47,
-            "text": "google:Roboto Flex"
-        },
-        {
-            "type": "TextData",
-            "textId": 48,
-            "text": "wdth"
-        },
-        {
-            "type": "TextData",
-            "textId": 49,
-            "text": "wght"
-        },
-        {
-            "type": "TextData",
-            "textId": 50,
-            "text": "pnum"
-        },
-        {
-            "type": "TextData",
-            "textId": 51,
-            "text": "0123456789"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 52,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.5,
-                "@3211266",
-                0.0,
-                "@3211271",
-                16.0,
-                "@3211267",
-                30.0,
-                "@3211265",
-                "@45",
-                30.0,
-                "@3211267",
-                1.03,
-                "@45",
-                "@3211266",
-                "@3211290",
-                "@27",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "TextData",
-            "textId": 53,
-            "text": "Body Large"
-        },
-        {
-            "type": "TextData",
-            "textId": 54,
-            "text": "google:Inter"
-        },
-        {
-            "type": "TextData",
-            "textId": 55,
-            "text": "Label Medium"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 56,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.0,
-                "@3211266",
-                0.5,
-                "@3211270",
-                15.0,
-                "@3211267",
-                15.0,
-                "@3211265",
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.5,
-                "@3211266",
-                0.0,
-                "@3211271",
-                9.0,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 57,
-            "srcValues": [
-                "@45",
-                15.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 58,
-            "srcValues": [
-                "@56",
-                "@57",
-                1.03,
-                "@45",
-                "@3211266",
-                "@3211290",
-                "@27",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
             "$tags": [
                 "COMPONENT"
             ],
@@ -258,7 +30,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -300,13 +72,241 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "COLUMN",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
                             "height": 0.0,
                             "visibility": "VISIBLE",
                             "list": [
+                                {
+                                    "type": "TextData",
+                                    "textId": 42,
+                                    "text": "Confetti (default)"
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 43,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.0,
+                                        "@3211266",
+                                        0.5,
+                                        "@3211270",
+                                        14.0,
+                                        "@3211267",
+                                        16.0,
+                                        "@3211265",
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.5,
+                                        "@3211266",
+                                        0.0,
+                                        "@3211271",
+                                        10.0,
+                                        "@3211267",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 44,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        16.0,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 45,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 46,
+                                    "srcValues": [
+                                        "@43",
+                                        "@44",
+                                        1.03,
+                                        "@45",
+                                        "@3211266",
+                                        "@3211290",
+                                        "@27",
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 47,
+                                    "text": "google:Roboto Flex"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 48,
+                                    "text": "wdth"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 49,
+                                    "text": "wght"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 50,
+                                    "text": "pnum"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 51,
+                                    "text": "0123456789"
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 52,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.5,
+                                        "@3211266",
+                                        0.0,
+                                        "@3211271",
+                                        16.0,
+                                        "@3211267",
+                                        30.0,
+                                        "@3211265",
+                                        "@45",
+                                        30.0,
+                                        "@3211267",
+                                        1.03,
+                                        "@45",
+                                        "@3211266",
+                                        "@3211290",
+                                        "@27",
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 53,
+                                    "text": "Body Large"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 54,
+                                    "text": "google:Inter"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 55,
+                                    "text": "Label Medium"
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 56,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.0,
+                                        "@3211266",
+                                        0.5,
+                                        "@3211270",
+                                        15.0,
+                                        "@3211267",
+                                        15.0,
+                                        "@3211265",
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.5,
+                                        "@3211266",
+                                        0.0,
+                                        "@3211271",
+                                        9.0,
+                                        "@3211267",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 57,
+                                    "srcValues": [
+                                        "@45",
+                                        15.0,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 58,
+                                    "srcValues": [
+                                        "@56",
+                                        "@57",
+                                        1.03,
+                                        "@45",
+                                        "@3211266",
+                                        "@3211290",
+                                        "@27",
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
                                 {
                                     "$tags": [
                                         "MODIFIER"
@@ -319,7 +319,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -355,7 +355,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000003,
+                                    "id": -9,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -391,7 +391,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000004,
+                                    "id": -11,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -427,7 +427,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000005,
+                                    "id": -13,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -463,7 +463,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "ROW",
-                                    "id": -1000006,
+                                    "id": -15,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -482,7 +482,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000007,
+                                            "id": -17,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 28.0,
@@ -538,7 +538,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000008,
+                                            "id": -19,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 28.0,

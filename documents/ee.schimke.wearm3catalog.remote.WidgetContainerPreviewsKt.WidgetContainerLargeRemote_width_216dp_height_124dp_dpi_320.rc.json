@@ -13,47 +13,6 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 400\n  DOC_HEIGHT 216\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 2048\n  DENSITY_BEHAVIOR 0"
         },
         {
-            "type": "TextData",
-            "textId": 42,
-            "text": "Morning run"
-        },
-        {
-            "type": "TextData",
-            "textId": 43,
-            "text": "google:Roboto Flex"
-        },
-        {
-            "type": "TextData",
-            "textId": 44,
-            "text": "wdth"
-        },
-        {
-            "type": "TextData",
-            "textId": 45,
-            "text": "wght"
-        },
-        {
-            "type": "TextData",
-            "textId": 46,
-            "text": "pnum"
-        },
-        {
-            "type": "TextData",
-            "textId": 47,
-            "text": "5.2 km · 28 min"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 48,
-            "srcValues": [
-                52.0
-            ],
-            "animation": null
-        },
-        {
             "$tags": [
                 "COMPONENT"
             ],
@@ -70,7 +29,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -118,7 +77,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
@@ -170,7 +129,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "BOX",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -212,13 +171,43 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "COLUMN",
-                                            "id": -1000003,
+                                            "id": -9,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 0.0,
                                             "visibility": "VISIBLE",
                                             "list": [
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 45,
+                                                    "text": "Morning run"
+                                                },
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 46,
+                                                    "text": "google:Roboto Flex"
+                                                },
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 47,
+                                                    "text": "wdth"
+                                                },
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 48,
+                                                    "text": "wght"
+                                                },
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 49,
+                                                    "text": "pnum"
+                                                },
+                                                {
+                                                    "type": "TextData",
+                                                    "textId": 50,
+                                                    "text": "5.2 km · 28 min"
+                                                },
                                                 {
                                                     "$tags": [
                                                         "MODIFIER"
@@ -231,7 +220,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "TEXT_LAYOUT",
-                                                    "id": -1000004,
+                                                    "id": -11,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -250,7 +239,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 42,
+                                                    "textId": 45,
                                                     "flags": 0,
                                                     "color": "0xffffffff",
                                                     "fontSize": [
@@ -259,7 +248,7 @@
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 450.0,
-                                                    "fontFamilyId": 43,
+                                                    "fontFamilyId": 46,
                                                     "textAlign": 1,
                                                     "overflow": 1,
                                                     "maxLines": 2147483647
@@ -269,7 +258,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "TEXT_LAYOUT",
-                                                    "id": -1000005,
+                                                    "id": -13,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -288,7 +277,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 47,
+                                                    "textId": 50,
                                                     "flags": 0,
                                                     "color": "0xffffffff",
                                                     "fontSize": [
@@ -297,7 +286,7 @@
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 500.0,
-                                                    "fontFamilyId": 43,
+                                                    "fontFamilyId": 46,
                                                     "textAlign": 1,
                                                     "overflow": 1,
                                                     "maxLines": 2147483647

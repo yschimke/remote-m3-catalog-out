@@ -6,369 +6,12 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 1593
+        "byteLength": 1027
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 454\n  DOC_HEIGHT 200\n  DOC_DENSITY_AT_GENERATION 2.0\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 42,
-            "componentValueType": "WIDTH",
-            "componentId": -1000000
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 43,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000000
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 44,
-            "srcValues": [
-                "@42",
-                "@43",
-                "@3211270",
-                2.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 45,
-            "srcValues": [
-                0.0
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 46,
-            "srcValues": [
-                "@45",
-                -1.0,
-                "@3211267",
-                1.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 47,
-            "componentValueType": "WIDTH",
-            "componentId": -1000001
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 48,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000001
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 49,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 50,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@47",
-                "@48",
-                "@3211270",
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@3211265",
-                1.0E-4,
-                "@3211271",
-                "@3211268",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 51,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@47",
-                "@48",
-                "@3211270",
-                0.5,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 52,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@3211270"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 53,
-            "srcValues": [
-                "@49",
-                "@50",
-                "@51",
-                "@52",
-                "@3211266",
-                "@3211290",
-                0.0,
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 54,
-            "srcValues": [
-                "@47",
-                "@53",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 55,
-            "srcValues": [
-                "@54",
-                "@53",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 56,
-            "srcValues": [
-                "@53",
-                "@53",
-                0.5522848,
-                "@3211267",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 57,
-            "srcValues": [
-                "@48",
-                "@53",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 58,
-            "srcValues": [
-                "@57",
-                "@53",
-                0.5522848,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "type": "TextData",
-            "textId": 59,
-            "text": "MMM"
-        },
-        {
-            "type": "ColorConstant",
-            "color": "0xfff6edff",
-            "colorId": 60
-        },
-        {
-            "type": "NamedVariable",
-            "varId": 60,
-            "varName": "USER:WearM3.onSurface",
-            "varType": "COLOR_TYPE"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 61,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.0,
-                "@3211266",
-                0.5,
-                "@3211270",
-                12.0,
-                "@3211267",
-                20.0,
-                "@3211265",
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                1.5,
-                "@3211266",
-                0.0,
-                "@3211271",
-                16.0,
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 62,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268",
-                20.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 63,
-            "srcValues": [
-                "@33",
-                14.0,
-                "@3211268",
-                "@27",
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 64,
-            "srcValues": [
-                "@61",
-                "@62",
-                1.03,
-                "@63",
-                "@3211266",
-                "@3211290",
-                "@27",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "TextData",
-            "textId": 65,
-            "text": "google:Roboto Flex"
-        },
-        {
-            "type": "TextData",
-            "textId": 66,
-            "text": "wght"
-        },
-        {
-            "type": "TextData",
-            "textId": 67,
-            "text": "wdth"
-        },
-        {
-            "type": "TextData",
-            "textId": 68,
-            "text": "pnum"
         },
         {
             "$tags": [
@@ -387,13 +30,66 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
                     "height": 0.0,
                     "visibility": "VISIBLE",
                     "list": [
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 42,
+                            "componentValueType": "WIDTH",
+                            "componentId": -3
+                        },
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 43,
+                            "componentValueType": "HEIGHT",
+                            "componentId": -3
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 44,
+                            "srcValues": [
+                                "@42",
+                                "@43",
+                                "@3211270",
+                                2.0,
+                                "@3211268"
+                            ],
+                            "animation": null
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 45,
+                            "srcValues": [
+                                0.0
+                            ],
+                            "animation": null
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 46,
+                            "srcValues": [
+                                "@45",
+                                -1.0,
+                                "@3211267",
+                                1.0,
+                                "@3211265"
+                            ],
+                            "animation": null
+                        },
                         {
                             "$tags": [
                                 "MODIFIER"
@@ -429,13 +125,128 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 60.0,
                             "height": 60.0,
                             "visibility": "VISIBLE",
                             "list": [
+                                {
+                                    "type": "TextData",
+                                    "textId": 54,
+                                    "text": "MMM"
+                                },
+                                {
+                                    "type": "ColorConstant",
+                                    "color": "0xfff6edff",
+                                    "colorId": 55
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 56,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.0,
+                                        "@3211266",
+                                        0.5,
+                                        "@3211270",
+                                        12.0,
+                                        "@3211267",
+                                        20.0,
+                                        "@3211265",
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        1.5,
+                                        "@3211266",
+                                        0.0,
+                                        "@3211271",
+                                        16.0,
+                                        "@3211267",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 57,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268",
+                                        20.0,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 58,
+                                    "srcValues": [
+                                        "@33",
+                                        14.0,
+                                        "@3211268",
+                                        "@27",
+                                        "@3211268"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 59,
+                                    "srcValues": [
+                                        "@56",
+                                        "@57",
+                                        1.03,
+                                        "@58",
+                                        "@3211266",
+                                        "@3211290",
+                                        "@27",
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 60,
+                                    "text": "google:Roboto Flex"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 61,
+                                    "text": "wght"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 62,
+                                    "text": "wdth"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 63,
+                                    "text": "pnum"
+                                },
                                 {
                                     "$tags": [
                                         "MODIFIER"
@@ -535,7 +346,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -554,19 +365,19 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 59,
+                                    "textId": 54,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        "@64",
+                                        "@59",
                                         36.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 500.0,
-                                    "fontFamilyId": 65,
+                                    "fontFamilyId": 60,
                                     "textAlign": 1
                                 }
                             ],

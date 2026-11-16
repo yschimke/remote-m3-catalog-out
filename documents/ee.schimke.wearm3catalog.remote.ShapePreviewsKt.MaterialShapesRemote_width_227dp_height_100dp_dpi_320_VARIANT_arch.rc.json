@@ -30,7 +30,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -72,7 +72,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "CANVAS",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 72.0,
@@ -80,19 +80,19 @@
                             "visibility": "VISIBLE",
                             "list": [
                                 {
-                                    "type": "MatrixSave"
-                                },
-                                {
                                     "type": "ComponentValue",
                                     "valueId": 42,
                                     "componentValueType": "WIDTH",
-                                    "componentId": -1000001
+                                    "componentId": -5
                                 },
                                 {
                                     "type": "ComponentValue",
                                     "valueId": 43,
                                     "componentValueType": "HEIGHT",
-                                    "componentId": -1000001
+                                    "componentId": -5
+                                },
+                                {
+                                    "type": "MatrixSave"
                                 },
                                 {
                                     "scaleX": [

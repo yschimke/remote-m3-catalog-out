@@ -15,567 +15,6 @@
         },
         {
             "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 42,
-            "srcValues": [
-                "@27",
-                6.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 43,
-            "componentValueType": "WIDTH",
-            "componentId": -1000001
-        },
-        {
-            "type": "ComponentValue",
-            "valueId": 44,
-            "componentValueType": "HEIGHT",
-            "componentId": -1000001
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 45,
-            "srcValues": [
-                "@43",
-                "@44",
-                "@3211270",
-                2.0,
-                "@3211268",
-                "@27",
-                2.0,
-                "@3211267",
-                "@3211266",
-                "@27",
-                3.0,
-                "@3211267",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 46,
-            "srcValues": [
-                "@43",
-                2.0,
-                "@3211268",
-                "@45",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 47,
-            "srcValues": [
-                "@44",
-                2.0,
-                "@3211268",
-                "@45",
-                "@3211266"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 48,
-            "srcValues": [
-                0.0,
-                "@45",
-                2.0,
-                "@3211267",
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 49,
-            "srcValues": [
-                "@46",
-                "@48",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 50,
-            "srcValues": [
-                "@47",
-                "@48",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 51,
-            "srcValues": [
-                "@42",
-                0.001,
-                "@45",
-                "@3211271",
-                "@3211268",
-                57.295776,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 52,
-            "srcValues": [
-                "@42",
-                0.001,
-                "@45",
-                "@3211271",
-                "@3211268",
-                28.647888,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 53,
-            "srcValues": [
-                "@51",
-                2.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 54,
-            "srcValues": [
-                "@53",
-                72.0,
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 55,
-            "srcValues": [
-                "@53",
-                -72.0,
-                "@3211268",
-                1.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 56,
-            "srcValues": [
-                "@55",
-                -1.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 57,
-            "srcValues": [
-                "@52",
-                144.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 58,
-            "srcValues": [
-                0.001,
-                "@54",
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 59,
-            "srcValues": [
-                2.0,
-                0.001,
-                "@53",
-                "@3211271",
-                "@3211268"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 60,
-            "srcValues": [
-                0.0,
-                1.0,
-                0.6,
-                "@58",
-                "@3211268",
-                "@3211291"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 61,
-            "srcValues": [
-                0.001,
-                "@59",
-                -1.0,
-                "@3211267",
-                1.0,
-                "@3211265",
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 62,
-            "srcValues": [
-                0.0,
-                1.0,
-                0.001,
-                "@54",
-                "@3211271",
-                0.6,
-                "@3211266",
-                "@3211290"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 63,
-            "srcValues": [
-                0.0,
-                1.0,
-                0.6,
-                "@53",
-                -72.0,
-                "@3211268",
-                1.0,
-                "@3211265",
-                "@3211266",
-                "@3211290"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 64,
-            "srcValues": [
-                0.0,
-                1.0,
-                "@58",
-                -1.0,
-                "@3211267",
-                0.6,
-                "@3211265",
-                0.001,
-                "@55",
-                "@58",
-                "@3211266",
-                "@3211271",
-                "@3211268",
-                "@3211291",
-                0.0,
-                "@42",
-                0.001,
-                "@45",
-                "@3211271",
-                "@3211268",
-                -114.59155,
-                "@3211267",
-                70.0,
-                "@3211265",
-                "@3211271",
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 65,
-            "srcValues": [
-                0.0,
-                1.0,
-                "@56",
-                0.6,
-                "@3211265",
-                0.001,
-                "@56",
-                1.0,
-                "@3211265",
-                "@3211271",
-                "@3211268",
-                "@3211291"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 66,
-            "srcValues": [
-                0.0,
-                1.0,
-                0.0,
-                1.0,
-                "@65",
-                0.001,
-                "@61",
-                "@3211271",
-                "@3211268",
-                -1.0,
-                "@3211267",
-                1.0,
-                "@3211265",
-                "@3211291",
-                "@3211313"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 67,
-            "srcValues": [
-                "@66",
-                -1.0,
-                "@3211267",
-                1.0,
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 68,
-            "srcValues": [
-                0.001,
-                "@59",
-                "@3211271"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 69,
-            "srcValues": [
-                0.05,
-                72.0,
-                "@64",
-                "@64",
-                "@51",
-                "@67",
-                "@3211267",
-                "@3211265",
-                0.0,
-                1.0,
-                "@65",
-                "@61",
-                "@3211266",
-                "@68",
-                "@3211268",
-                "@3211291",
-                2.0,
-                "@3211267",
-                "@3211265",
-                0.6,
-                "@55",
-                "@3211266",
-                "@3211290",
-                0.05,
-                "@58",
-                0.6,
-                "@3211266",
-                "@3211290",
-                "@3211291"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 70,
-            "srcValues": [
-                "@52",
-                216.0,
-                "@3211265",
-                "@51",
-                "@3211266",
-                "@52",
-                "@67",
-                "@3211267",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 71,
-            "srcValues": [
-                0.0,
-                1.0,
-                0.0,
-                1.0,
-                "@60",
-                "@59",
-                "@3211266",
-                "@61",
-                "@3211268",
-                "@3211291",
-                "@3211313"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 72,
-            "srcValues": [
-                "@57",
-                "@69",
-                2.0,
-                "@3211265",
-                "@51",
-                "@3211265",
-                0.0,
-                1.0,
-                0.0,
-                1.0,
-                "@60",
-                "@68",
-                "@3211268",
-                "@3211291",
-                "@3211313",
-                2.0,
-                "@3211267",
-                "@51",
-                "@71",
-                "@3211267",
-                "@3211265",
-                "@58",
-                0.6,
-                "@3211266",
-                "@3211290",
-                "@3211265"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 73,
-            "srcValues": [
-                "@72",
-                "@70",
-                0.6,
-                "@55",
-                "@3211266",
-                "@3211290"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
                 "COMPONENT"
             ],
             "type": "RootLayoutComponent",
@@ -591,7 +30,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -633,13 +72,574 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "CANVAS",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
                             "height": 0.0,
                             "visibility": "VISIBLE",
                             "list": [
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 42,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 43,
+                                    "componentValueType": "HEIGHT",
+                                    "componentId": -5
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 44,
+                                    "srcValues": [
+                                        "@27",
+                                        6.0,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 45,
+                                    "srcValues": [
+                                        "@42",
+                                        "@43",
+                                        "@3211270",
+                                        2.0,
+                                        "@3211268",
+                                        "@27",
+                                        2.0,
+                                        "@3211267",
+                                        "@3211266",
+                                        "@27",
+                                        3.0,
+                                        "@3211267",
+                                        "@3211266"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 46,
+                                    "srcValues": [
+                                        "@42",
+                                        2.0,
+                                        "@3211268",
+                                        "@45",
+                                        "@3211266"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 47,
+                                    "srcValues": [
+                                        "@43",
+                                        2.0,
+                                        "@3211268",
+                                        "@45",
+                                        "@3211266"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 48,
+                                    "srcValues": [
+                                        0.0,
+                                        "@45",
+                                        2.0,
+                                        "@3211267",
+                                        "@3211271"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 49,
+                                    "srcValues": [
+                                        "@46",
+                                        "@48",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 50,
+                                    "srcValues": [
+                                        "@47",
+                                        "@48",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 51,
+                                    "srcValues": [
+                                        "@44",
+                                        0.001,
+                                        "@45",
+                                        "@3211271",
+                                        "@3211268",
+                                        57.295776,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 52,
+                                    "srcValues": [
+                                        "@44",
+                                        0.001,
+                                        "@45",
+                                        "@3211271",
+                                        "@3211268",
+                                        28.647888,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 53,
+                                    "srcValues": [
+                                        "@51",
+                                        2.0,
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 54,
+                                    "srcValues": [
+                                        "@53",
+                                        72.0,
+                                        "@3211268"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 55,
+                                    "srcValues": [
+                                        "@53",
+                                        -72.0,
+                                        "@3211268",
+                                        1.0,
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 56,
+                                    "srcValues": [
+                                        "@55",
+                                        -1.0,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 57,
+                                    "srcValues": [
+                                        "@52",
+                                        144.0,
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 58,
+                                    "srcValues": [
+                                        0.001,
+                                        "@54",
+                                        "@3211271"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 59,
+                                    "srcValues": [
+                                        2.0,
+                                        0.001,
+                                        "@53",
+                                        "@3211271",
+                                        "@3211268"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 60,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        0.6,
+                                        "@58",
+                                        "@3211268",
+                                        "@3211291"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 61,
+                                    "srcValues": [
+                                        0.001,
+                                        "@59",
+                                        -1.0,
+                                        "@3211267",
+                                        1.0,
+                                        "@3211265",
+                                        "@3211271"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 62,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        0.001,
+                                        "@54",
+                                        "@3211271",
+                                        0.6,
+                                        "@3211266",
+                                        "@3211290"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 63,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        0.6,
+                                        "@53",
+                                        -72.0,
+                                        "@3211268",
+                                        1.0,
+                                        "@3211265",
+                                        "@3211266",
+                                        "@3211290"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 64,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        "@58",
+                                        -1.0,
+                                        "@3211267",
+                                        0.6,
+                                        "@3211265",
+                                        0.001,
+                                        "@55",
+                                        "@58",
+                                        "@3211266",
+                                        "@3211271",
+                                        "@3211268",
+                                        "@3211291",
+                                        0.0,
+                                        "@44",
+                                        0.001,
+                                        "@45",
+                                        "@3211271",
+                                        "@3211268",
+                                        -114.59155,
+                                        "@3211267",
+                                        70.0,
+                                        "@3211265",
+                                        "@3211271",
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 65,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        "@56",
+                                        0.6,
+                                        "@3211265",
+                                        0.001,
+                                        "@56",
+                                        1.0,
+                                        "@3211265",
+                                        "@3211271",
+                                        "@3211268",
+                                        "@3211291"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 66,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        1.0,
+                                        "@65",
+                                        0.001,
+                                        "@61",
+                                        "@3211271",
+                                        "@3211268",
+                                        -1.0,
+                                        "@3211267",
+                                        1.0,
+                                        "@3211265",
+                                        "@3211291",
+                                        "@3211313"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 67,
+                                    "srcValues": [
+                                        "@66",
+                                        -1.0,
+                                        "@3211267",
+                                        1.0,
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 68,
+                                    "srcValues": [
+                                        0.001,
+                                        "@59",
+                                        "@3211271"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 69,
+                                    "srcValues": [
+                                        0.05,
+                                        72.0,
+                                        "@64",
+                                        "@64",
+                                        "@51",
+                                        "@67",
+                                        "@3211267",
+                                        "@3211265",
+                                        0.0,
+                                        1.0,
+                                        "@65",
+                                        "@61",
+                                        "@3211266",
+                                        "@68",
+                                        "@3211268",
+                                        "@3211291",
+                                        2.0,
+                                        "@3211267",
+                                        "@3211265",
+                                        0.6,
+                                        "@55",
+                                        "@3211266",
+                                        "@3211290",
+                                        0.05,
+                                        "@58",
+                                        0.6,
+                                        "@3211266",
+                                        "@3211290",
+                                        "@3211291"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 70,
+                                    "srcValues": [
+                                        "@52",
+                                        216.0,
+                                        "@3211265",
+                                        "@51",
+                                        "@3211266",
+                                        "@52",
+                                        "@67",
+                                        "@3211267",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 71,
+                                    "srcValues": [
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        1.0,
+                                        "@60",
+                                        "@59",
+                                        "@3211266",
+                                        "@61",
+                                        "@3211268",
+                                        "@3211291",
+                                        "@3211313"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 72,
+                                    "srcValues": [
+                                        "@57",
+                                        "@69",
+                                        2.0,
+                                        "@3211265",
+                                        "@51",
+                                        "@3211265",
+                                        0.0,
+                                        1.0,
+                                        0.0,
+                                        1.0,
+                                        "@60",
+                                        "@68",
+                                        "@3211268",
+                                        "@3211291",
+                                        "@3211313",
+                                        2.0,
+                                        "@3211267",
+                                        "@51",
+                                        "@71",
+                                        "@3211267",
+                                        "@3211265",
+                                        "@58",
+                                        0.6,
+                                        "@3211266",
+                                        "@3211290",
+                                        "@3211265"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 73,
+                                    "srcValues": [
+                                        "@72",
+                                        "@70",
+                                        0.6,
+                                        "@55",
+                                        "@3211266",
+                                        "@3211290"
+                                    ],
+                                    "animation": null
+                                },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xfff6edff",
@@ -785,7 +785,7 @@
                                     "type": "FloatExpression",
                                     "id": 85,
                                     "srcValues": [
-                                        "@42",
+                                        "@44",
                                         "@66",
                                         "@3211267"
                                     ],
@@ -970,7 +970,7 @@
                                     "type": "FloatExpression",
                                     "id": 92,
                                     "srcValues": [
-                                        "@42",
+                                        "@44",
                                         "@71",
                                         "@3211267"
                                     ],
@@ -994,7 +994,7 @@
                                     "id": 93,
                                     "srcValues": [
                                         "@57",
-                                        "@42",
+                                        "@44",
                                         0.001,
                                         "@45",
                                         "@3211271",

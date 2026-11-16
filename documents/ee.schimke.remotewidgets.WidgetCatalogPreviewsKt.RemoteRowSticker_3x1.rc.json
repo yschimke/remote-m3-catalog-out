@@ -1,38 +1,12 @@
 {
     "header": {
         "version": "1.0.0",
-        "byteLength": 540
+        "byteLength": 618
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.0.0, 558 x 280 [0]"
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 42,
-            "srcValues": [
-                "@27",
-                12.0,
-                "@3211267"
-            ],
-            "animation": null
-        },
-        {
-            "$tags": [
-                "EXPRESSION"
-            ],
-            "type": "FloatExpression",
-            "id": 43,
-            "srcValues": [
-                "@27",
-                8.0,
-                "@3211267"
-            ],
-            "animation": null
         },
         {
             "$tags": [
@@ -51,13 +25,26 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -1000000,
+                    "id": -3,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
                     "height": 0.0,
                     "visibility": "VISIBLE",
                     "list": [
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 42,
+                            "srcValues": [
+                                "@27",
+                                12.0,
+                                "@3211267"
+                            ],
+                            "animation": null
+                        },
                         {
                             "$tags": [
                                 "MODIFIER"
@@ -93,7 +80,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -1000001,
+                            "id": -5,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
@@ -162,13 +149,62 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "ROW",
-                                    "id": -1000002,
+                                    "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
                                     "visibility": "VISIBLE",
                                     "list": [
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 43,
+                                            "componentValueType": "WIDTH",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 44,
+                                            "componentValueType": "HEIGHT",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "$tags": [
+                                                "EXPRESSION"
+                                            ],
+                                            "type": "FloatExpression",
+                                            "id": 45,
+                                            "srcValues": [
+                                                "@27",
+                                                8.0,
+                                                "@3211267"
+                                            ],
+                                            "animation": null
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 46,
+                                            "componentValueType": "WIDTH",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 47,
+                                            "componentValueType": "HEIGHT",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 48,
+                                            "componentValueType": "WIDTH",
+                                            "componentId": -7
+                                        },
+                                        {
+                                            "type": "ComponentValue",
+                                            "valueId": 49,
+                                            "componentValueType": "HEIGHT",
+                                            "componentId": -7
+                                        },
                                         {
                                             "$tags": [
                                                 "MODIFIER"
@@ -193,7 +229,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000003,
+                                            "id": -9,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 32.0,
@@ -230,20 +266,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "topEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -284,7 +320,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000004,
+                                            "id": -11,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 32.0,
@@ -321,20 +357,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "topEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"
@@ -375,7 +411,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -1000005,
+                                            "id": -13,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 32.0,
@@ -412,20 +448,20 @@
                                                         },
                                                         {
                                                             "topStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "topEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomStart": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "bottomEnd": [
-                                                                "@43",
-                                                                "@43"
+                                                                "@45",
+                                                                "@45"
                                                             ],
                                                             "$tags": [
                                                                 "MODIFIER"

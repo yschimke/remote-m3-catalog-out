@@ -33,23 +33,11 @@
                     "visibility": "VISIBLE",
                     "list": [
                         {
-                            "type": "ComponentValue",
-                            "valueId": 42,
-                            "componentValueType": "WIDTH",
-                            "componentId": -3
-                        },
-                        {
-                            "type": "ComponentValue",
-                            "valueId": 43,
-                            "componentValueType": "HEIGHT",
-                            "componentId": -3
-                        },
-                        {
                             "$tags": [
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 44,
+                            "id": 42,
                             "srcValues": [
                                 "@27",
                                 24.0,
@@ -59,7 +47,7 @@
                         },
                         {
                             "type": "TextData",
-                            "textId": 45,
+                            "textId": 43,
                             "text": "Open"
                         },
                         {
@@ -67,7 +55,7 @@
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 46,
+                            "id": 44,
                             "srcValues": [
                                 "@27",
                                 16.0,
@@ -80,7 +68,7 @@
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 47,
+                            "id": 45,
                             "srcValues": [
                                 "@27",
                                 8.0,
@@ -126,8 +114,8 @@
                             "id": -5,
                             "x": 0.0,
                             "y": 0.0,
-                            "width": "@46",
-                            "height": "@47",
+                            "width": "@44",
+                            "height": "@45",
                             "visibility": "VISIBLE",
                             "list": [
                                 {
@@ -216,6 +204,18 @@
                                     "animation": null
                                 },
                                 {
+                                    "type": "ComponentValue",
+                                    "valueId": 46,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 47,
+                                    "componentValueType": "HEIGHT",
+                                    "componentId": -5
+                                },
+                                {
                                     "$tags": [
                                         "MODIFIER"
                                     ],
@@ -251,20 +251,20 @@
                                         },
                                         {
                                             "topStart": [
-                                                "@44",
-                                                "@44"
+                                                "@42",
+                                                "@42"
                                             ],
                                             "topEnd": [
-                                                "@44",
-                                                "@44"
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomStart": [
-                                                "@44",
-                                                "@44"
+                                                "@42",
+                                                "@42"
                                             ],
                                             "bottomEnd": [
-                                                "@44",
-                                                "@44"
+                                                "@42",
+                                                "@42"
                                             ],
                                             "$tags": [
                                                 "MODIFIER"
@@ -296,7 +296,7 @@
                                                 "A11Y"
                                             ],
                                             "type": "CoreSemantics",
-                                            "contentDescriptionId": 45,
+                                            "contentDescriptionId": 43,
                                             "role": "BUTTON",
                                             "textId": 0,
                                             "stateDescriptionId": 0,
@@ -309,10 +309,10 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": "@46",
-                                            "top": "@47",
-                                            "right": "@46",
-                                            "bottom": "@47"
+                                            "left": "@44",
+                                            "top": "@45",
+                                            "right": "@44",
+                                            "bottom": "@45"
                                         }
                                     ]
                                 },
@@ -340,7 +340,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 45,
+                                    "textId": 43,
                                     "flags": 0,
                                     "color": "0xffffffff",
                                     "fontSize": [
@@ -350,15 +350,15 @@
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
                                     "fontFamilyId": -1,
-                                    "textAlign": 1,
+                                    "textAlign": 5,
                                     "overflow": 1,
                                     "maxLines": 1
                                 }
                             ],
-                            "paddingLeft": "@46",
-                            "paddingRight": "@46",
-                            "paddingTop": "@47",
-                            "paddingBottom": "@47",
+                            "paddingLeft": "@44",
+                            "paddingRight": "@44",
+                            "paddingTop": "@45",
+                            "paddingBottom": "@45",
                             "verticalPositioning": "CENTER",
                             "horizontalPositioning": "CENTER"
                         }

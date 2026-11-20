@@ -423,7 +423,7 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 500.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1,
+                                                    "textAlign": 5,
                                                     "overflow": 1,
                                                     "maxLines": 1
                                                 },
@@ -440,23 +440,11 @@
                                                     "visibility": "VISIBLE",
                                                     "list": [
                                                         {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 48,
-                                                            "componentValueType": "WIDTH",
-                                                            "componentId": -13
-                                                        },
-                                                        {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 49,
-                                                            "componentValueType": "HEIGHT",
-                                                            "componentId": -13
-                                                        },
-                                                        {
                                                             "$tags": [
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 50,
+                                                            "id": 48,
                                                             "srcValues": [
                                                                 "@27",
                                                                 24.0,
@@ -466,7 +454,7 @@
                                                         },
                                                         {
                                                             "type": "TextData",
-                                                            "textId": 51,
+                                                            "textId": 49,
                                                             "text": "Home"
                                                         },
                                                         {
@@ -474,7 +462,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 52,
+                                                            "id": 50,
                                                             "srcValues": [
                                                                 "@27",
                                                                 16.0,
@@ -487,7 +475,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 53,
+                                                            "id": 51,
                                                             "srcValues": [
                                                                 "@27",
                                                                 8.0,
@@ -496,20 +484,8 @@
                                                             "animation": null
                                                         },
                                                         {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 57,
-                                                            "componentValueType": "WIDTH",
-                                                            "componentId": -13
-                                                        },
-                                                        {
-                                                            "type": "ComponentValue",
-                                                            "valueId": 58,
-                                                            "componentValueType": "HEIGHT",
-                                                            "componentId": -13
-                                                        },
-                                                        {
                                                             "type": "TextData",
-                                                            "textId": 59,
+                                                            "textId": 57,
                                                             "text": "Work"
                                                         },
                                                         {
@@ -527,8 +503,8 @@
                                                             "id": -15,
                                                             "x": 0.0,
                                                             "y": 0.0,
-                                                            "width": "@52",
-                                                            "height": "@53",
+                                                            "width": "@50",
+                                                            "height": "@51",
                                                             "visibility": "VISIBLE",
                                                             "list": [
                                                                 {
@@ -598,6 +574,18 @@
                                                                     "animation": null
                                                                 },
                                                                 {
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 52,
+                                                                    "componentValueType": "WIDTH",
+                                                                    "componentId": -15
+                                                                },
+                                                                {
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 53,
+                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentId": -15
+                                                                },
+                                                                {
                                                                     "$tags": [
                                                                         "MODIFIER"
                                                                     ],
@@ -633,20 +621,20 @@
                                                                         },
                                                                         {
                                                                             "topStart": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "topEnd": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "bottomStart": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "bottomEnd": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "$tags": [
                                                                                 "MODIFIER"
@@ -678,7 +666,7 @@
                                                                                 "A11Y"
                                                                             ],
                                                                             "type": "CoreSemantics",
-                                                                            "contentDescriptionId": 51,
+                                                                            "contentDescriptionId": 49,
                                                                             "role": "BUTTON",
                                                                             "textId": 0,
                                                                             "stateDescriptionId": 0,
@@ -691,10 +679,10 @@
                                                                                 "MODIFIER"
                                                                             ],
                                                                             "type": "PaddingModifierOperation",
-                                                                            "left": "@52",
-                                                                            "top": "@53",
-                                                                            "right": "@52",
-                                                                            "bottom": "@53"
+                                                                            "left": "@50",
+                                                                            "top": "@51",
+                                                                            "right": "@50",
+                                                                            "bottom": "@51"
                                                                         }
                                                                     ]
                                                                 },
@@ -722,7 +710,7 @@
                                                                     "paddingRight": 0.0,
                                                                     "paddingTop": 0.0,
                                                                     "paddingBottom": 0.0,
-                                                                    "textId": 51,
+                                                                    "textId": 49,
                                                                     "flags": 0,
                                                                     "color": "0xffffffff",
                                                                     "fontSize": [
@@ -732,15 +720,15 @@
                                                                     "fontStyle": 0,
                                                                     "fontWeight": 400.0,
                                                                     "fontFamilyId": -1,
-                                                                    "textAlign": 1,
+                                                                    "textAlign": 5,
                                                                     "overflow": 1,
                                                                     "maxLines": 1
                                                                 }
                                                             ],
-                                                            "paddingLeft": "@52",
-                                                            "paddingRight": "@52",
-                                                            "paddingTop": "@53",
-                                                            "paddingBottom": "@53",
+                                                            "paddingLeft": "@50",
+                                                            "paddingRight": "@50",
+                                                            "paddingTop": "@51",
+                                                            "paddingBottom": "@51",
                                                             "verticalPositioning": "CENTER",
                                                             "horizontalPositioning": "CENTER"
                                                         },
@@ -802,10 +790,22 @@
                                                             "id": -21,
                                                             "x": 0.0,
                                                             "y": 0.0,
-                                                            "width": "@52",
-                                                            "height": "@53",
+                                                            "width": "@50",
+                                                            "height": "@51",
                                                             "visibility": "VISIBLE",
                                                             "list": [
+                                                                {
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 58,
+                                                                    "componentValueType": "WIDTH",
+                                                                    "componentId": -21
+                                                                },
+                                                                {
+                                                                    "type": "ComponentValue",
+                                                                    "valueId": 59,
+                                                                    "componentValueType": "HEIGHT",
+                                                                    "componentId": -21
+                                                                },
                                                                 {
                                                                     "$tags": [
                                                                         "MODIFIER"
@@ -842,20 +842,20 @@
                                                                         },
                                                                         {
                                                                             "topStart": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "topEnd": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "bottomStart": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "bottomEnd": [
-                                                                                "@50",
-                                                                                "@50"
+                                                                                "@48",
+                                                                                "@48"
                                                                             ],
                                                                             "$tags": [
                                                                                 "MODIFIER"
@@ -887,7 +887,7 @@
                                                                                 "A11Y"
                                                                             ],
                                                                             "type": "CoreSemantics",
-                                                                            "contentDescriptionId": 59,
+                                                                            "contentDescriptionId": 57,
                                                                             "role": "BUTTON",
                                                                             "textId": 0,
                                                                             "stateDescriptionId": 0,
@@ -900,10 +900,10 @@
                                                                                 "MODIFIER"
                                                                             ],
                                                                             "type": "PaddingModifierOperation",
-                                                                            "left": "@52",
-                                                                            "top": "@53",
-                                                                            "right": "@52",
-                                                                            "bottom": "@53"
+                                                                            "left": "@50",
+                                                                            "top": "@51",
+                                                                            "right": "@50",
+                                                                            "bottom": "@51"
                                                                         }
                                                                     ]
                                                                 },
@@ -931,7 +931,7 @@
                                                                     "paddingRight": 0.0,
                                                                     "paddingTop": 0.0,
                                                                     "paddingBottom": 0.0,
-                                                                    "textId": 59,
+                                                                    "textId": 57,
                                                                     "flags": 0,
                                                                     "color": "0xffffffff",
                                                                     "fontSize": [
@@ -941,15 +941,15 @@
                                                                     "fontStyle": 0,
                                                                     "fontWeight": 400.0,
                                                                     "fontFamilyId": -1,
-                                                                    "textAlign": 1,
+                                                                    "textAlign": 5,
                                                                     "overflow": 1,
                                                                     "maxLines": 1
                                                                 }
                                                             ],
-                                                            "paddingLeft": "@52",
-                                                            "paddingRight": "@52",
-                                                            "paddingTop": "@53",
-                                                            "paddingBottom": "@53",
+                                                            "paddingLeft": "@50",
+                                                            "paddingRight": "@50",
+                                                            "paddingTop": "@51",
+                                                            "paddingBottom": "@51",
                                                             "verticalPositioning": "CENTER",
                                                             "horizontalPositioning": "CENTER"
                                                         }
@@ -996,7 +996,7 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 400.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1,
+                                                    "textAlign": 5,
                                                     "overflow": 1,
                                                     "maxLines": 2147483647
                                                 }

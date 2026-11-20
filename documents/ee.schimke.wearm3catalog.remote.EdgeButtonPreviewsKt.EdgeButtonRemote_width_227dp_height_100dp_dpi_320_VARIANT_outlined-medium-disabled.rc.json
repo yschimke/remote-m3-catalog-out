@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2647
+        "byteLength": 2630
     },
     "operations": [
         {
@@ -178,6 +178,12 @@
                                     "animation": null
                                 },
                                 {
+                                    "type": "ComponentValue",
+                                    "valueId": 42,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
                                     "$tags": [
                                         "MODIFIER"
                                     ],
@@ -229,20 +235,6 @@
                                         },
                                         {
                                             "$tags": [
-                                                "MODIFIER",
-                                                "A11Y"
-                                            ],
-                                            "type": "CoreSemantics",
-                                            "contentDescriptionId": 0,
-                                            "role": "BUTTON",
-                                            "textId": 0,
-                                            "stateDescriptionId": 0,
-                                            "enabled": false,
-                                            "mode": "SET",
-                                            "clickable": false
-                                        },
-                                        {
-                                            "$tags": [
                                                 "MODIFIER"
                                             ],
                                             "type": "DrawContentOperation"
@@ -278,9 +270,9 @@
                                                 "@73",
                                                 "@73"
                                             ],
-                                            "digitsBefore": 255,
+                                            "digitsBefore": 40,
                                             "digitsAfter": 0,
-                                            "flags": 533
+                                            "flags": 21
                                         },
                                         {
                                             "type": "TextMerge",
@@ -308,7 +300,7 @@
                                             "type": "IdListData",
                                             "id": 2097194,
                                             "ids": [
-                                                "[I@19d481b"
+                                                "[I@4cc8eb05"
                                             ]
                                         },
                                         {

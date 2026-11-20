@@ -7,7 +7,7 @@
     "ref": "main",
     "module": ":remote-catalog"
   },
-  "generatedAt": "2026-11-20T00:28:50.191Z",
+  "generatedAt": "2026-11-20T08:40:01.126Z",
   "mappings": [
     {
       "componentId": "Button/Filled",
@@ -128,30 +128,11 @@
     {
       "componentId": "TextButton",
       "figmaLayerName": "TextButton",
-      "componentName": "RemoteSticker",
-      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/CatalogTheme.kt",
+      "componentName": "TextRemoteButton",
+      "source": "https://github.com/yschimke/remote-m3-catalog/blob/main/remote-catalog/src/main/kotlin/ee/schimke/wearm3catalog/remote/CatalogPreviews.kt",
       "label": "Compose",
-      "confidence": "LOW",
+      "confidence": "preview-fallback",
       "previewName": "TextRemoteButton",
-      "codeSnippet": "RemoteSticker(\n    content = { },\n)",
-      "imports": [
-        "import ee.schimke.wearm3catalog.remote.RemoteSticker"
-      ],
-      "parameters": [
-        {
-          "name": "content",
-          "type": "() -> Unit",
-          "typeFqn": "kotlin.Function0",
-          "hasDefault": false,
-          "composableSlot": true,
-          "composableSlotReceiver": null,
-          "nullable": false,
-          "noArgConstructible": false,
-          "noArgFactory": null,
-          "scopeDslReceiver": null,
-          "lambdaReturnTypeFqn": "kotlin.Unit"
-        }
-      ],
       "figmaSvg": "figma/textbutton.svg"
     },
     {
@@ -336,7 +317,7 @@
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
       ],
-      "figmaSvg": "https://preview.coo.ee/remote-m3/render/button-imagebackground__ideal__default__compact.svg"
+      "figmaSvg": "figma/button-imagebackground.svg"
     },
     {
       "componentId": "IconButton/Filled",

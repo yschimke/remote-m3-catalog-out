@@ -14,7 +14,7 @@
                 "name": "RemoteAppCard",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteAppCard",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -22,8 +22,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -294,7 +294,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -308,12 +308,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -481,7 +481,7 @@
                 "name": "RemoteButtonGroup",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteButtonGroup",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/layout/RemoteAlignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/layout/RemoteAlignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -502,6 +502,19 @@
                 },
                 {
                     "name": "spacing",
+                    "type": "RemoteDp",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "expansionWidth",
                     "type": "RemoteDp",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                     "hasDefault": true,
@@ -541,11 +554,11 @@
                 },
                 {
                     "name": "content",
-                    "type": "RemoteRowScope.() -> Unit",
+                    "type": "RemoteButtonGroupScope.() -> Unit",
                     "typeFqn": "kotlin.Function1",
                     "hasDefault": false,
                     "composableSlot": true,
-                    "composableSlotReceiver": "androidx.compose.remote.creation.compose.layout.RemoteRowScope",
+                    "composableSlotReceiver": "androidx.wear.compose.remote.material3.RemoteButtonGroupScope",
                     "nullable": false,
                     "noArgConstructible": false,
                     "noArgFactory": null,
@@ -557,7 +570,7 @@
                 {
                     "name": "content",
                     "required": true,
-                    "receiverScope": "androidx.compose.remote.creation.compose.layout.RemoteRowScope"
+                    "receiverScope": "androidx.wear.compose.remote.material3.RemoteButtonGroupScope"
                 }
             ],
             "bindings": [
@@ -586,7 +599,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/layout/RemoteAlignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/layout/RemoteAlignment$Vertical;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "modifier",
@@ -603,6 +616,19 @@
                         },
                         {
                             "name": "spacing",
+                            "type": "RemoteDp",
+                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "expansionWidth",
                             "type": "RemoteDp",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                             "hasDefault": true,
@@ -642,11 +668,11 @@
                         },
                         {
                             "name": "content",
-                            "type": "RemoteRowScope.() -> Unit",
+                            "type": "RemoteButtonGroupScope.() -> Unit",
                             "typeFqn": "kotlin.Function1",
                             "hasDefault": false,
                             "composableSlot": true,
-                            "composableSlotReceiver": "androidx.compose.remote.creation.compose.layout.RemoteRowScope",
+                            "composableSlotReceiver": "androidx.wear.compose.remote.material3.RemoteButtonGroupScope",
                             "nullable": false,
                             "noArgConstructible": false,
                             "noArgFactory": null,
@@ -677,7 +703,7 @@
                 "name": "RemoteButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -685,8 +711,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -723,19 +749,6 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "colors",
-                    "type": "RemoteButtonColors",
-                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
                     "name": "shape",
                     "type": "RemoteShape",
                     "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
@@ -749,9 +762,9 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "contentPadding",
-                    "type": "RemotePaddingValues",
-                    "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
+                    "name": "colors",
+                    "type": "RemoteButtonColors",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -763,8 +776,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -775,13 +788,13 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "name": "contentPadding",
+                    "type": "RemotePaddingValues",
+                    "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
-                    "nullable": true,
+                    "nullable": false,
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
@@ -1188,7 +1201,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -1202,12 +1215,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1244,19 +1257,6 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "colors",
-                            "type": "RemoteButtonColors",
-                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
                             "name": "shape",
                             "type": "RemoteShape",
                             "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
@@ -1270,9 +1270,9 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "contentPadding",
-                            "type": "RemotePaddingValues",
-                            "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
+                            "name": "colors",
+                            "type": "RemoteButtonColors",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1284,8 +1284,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1296,13 +1296,13 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "name": "contentPadding",
+                            "type": "RemotePaddingValues",
+                            "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
-                            "nullable": true,
+                            "nullable": false,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -1324,12 +1324,12 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1418,6 +1418,19 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
+                            "name": "shape",
+                            "type": "RemoteShape",
+                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
                             "name": "colors",
                             "type": "RemoteButtonColors",
                             "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
@@ -1432,38 +1445,12 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
                             "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "shape",
-                            "type": "RemoteShape",
-                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -1498,12 +1485,12 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1566,6 +1553,19 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
+                            "name": "shape",
+                            "type": "RemoteShape",
+                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
                             "name": "colors",
                             "type": "RemoteButtonColors",
                             "typeFqn": "androidx.wear.compose.remote.material3.RemoteButtonColors",
@@ -1580,38 +1580,12 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
                             "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "shape",
-                            "type": "RemoteShape",
-                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -1658,7 +1632,7 @@
                 "name": "RemoteCompactButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteCompactButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -1666,8 +1640,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1744,21 +1718,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1785,7 +1746,7 @@
                     "name": "label",
                     "type": "(RemoteRowScope.() -> Unit)?",
                     "typeFqn": "kotlin.Function1",
-                    "hasDefault": false,
+                    "hasDefault": true,
                     "composableSlot": true,
                     "composableSlotReceiver": "androidx.compose.remote.creation.compose.layout.RemoteRowScope",
                     "nullable": true,
@@ -1803,7 +1764,7 @@
                 },
                 {
                     "name": "label",
-                    "required": true,
+                    "required": false,
                     "receiverScope": "androidx.compose.remote.creation.compose.layout.RemoteRowScope"
                 }
             ],
@@ -1962,7 +1923,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -1976,12 +1937,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2058,21 +2019,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2099,7 +2047,7 @@
                             "name": "label",
                             "type": "(RemoteRowScope.() -> Unit)?",
                             "typeFqn": "kotlin.Function1",
-                            "hasDefault": false,
+                            "hasDefault": true,
                             "composableSlot": true,
                             "composableSlotReceiver": "androidx.compose.remote.creation.compose.layout.RemoteRowScope",
                             "nullable": true,
@@ -2123,7 +2071,7 @@
                 "name": "RemoteCard",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteCard",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -2131,8 +2079,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2251,7 +2199,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -2265,12 +2213,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2374,12 +2322,12 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2508,7 +2456,7 @@
                 "name": "RemoteOutlinedCard",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteOutlinedCard",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteCardColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -2516,8 +2464,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2567,6 +2515,19 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
+                    "name": "colors",
+                    "type": "RemoteCardColors",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteCardColors",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
                     "name": "border",
                     "type": "RemoteBorderStroke",
                     "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
@@ -2583,19 +2544,6 @@
                     "name": "contentPadding",
                     "type": "RemotePaddingValues",
                     "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "colors",
-                    "type": "RemoteCardColors",
-                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteCardColors",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2636,7 +2584,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -2650,12 +2598,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteCardColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2705,6 +2653,19 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
+                            "name": "colors",
+                            "type": "RemoteCardColors",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteCardColors",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
                             "name": "border",
                             "type": "RemoteBorderStroke",
                             "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
@@ -2721,19 +2682,6 @@
                             "name": "contentPadding",
                             "type": "RemotePaddingValues",
                             "typeFqn": "androidx.compose.remote.creation.compose.layout.RemotePaddingValues",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "colors",
-                            "type": "RemoteCardColors",
-                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteCardColors",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -2771,7 +2719,7 @@
                 "name": "RemoteCheckboxButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteCheckboxButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -2792,8 +2740,8 @@
                 },
                 {
                     "name": "onCheckedChange",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2870,21 +2818,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3010,7 +2945,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "checked",
@@ -3027,8 +2962,8 @@
                         },
                         {
                             "name": "onCheckedChange",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -3105,21 +3040,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -4562,7 +4484,7 @@
                 "name": "RemoteEdgeButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteEdgeButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteEdgeButtonSize;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteEdgeButtonSize;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -4570,8 +4492,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -4635,21 +4557,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -5031,7 +4940,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -5045,12 +4954,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteEdgeButtonSize;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteEdgeButtonSize;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -5114,21 +5023,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -5196,7 +5092,7 @@
                 "name": "RemoteIconButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteIconButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteIconButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteIconButtonShapes;Landroidx/wear/compose/remote/material3/RemoteIconButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -5204,8 +5100,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -5229,19 +5125,6 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "colors",
-                    "type": "RemoteIconButtonColors",
-                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonColors",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
                     "name": "enabled",
                     "type": "RemoteBoolean",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
@@ -5255,39 +5138,39 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "shape",
-                    "type": "RemoteShape",
-                    "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                    "name": "shapes",
+                    "type": "RemoteIconButtonShapes",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonShapes",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
                     "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "colors",
+                    "type": "RemoteIconButtonColors",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonColors",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "border",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
@@ -5519,7 +5402,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -5533,12 +5416,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteIconButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteIconButtonShapes;Landroidx/wear/compose/remote/material3/RemoteIconButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -5562,19 +5445,6 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "colors",
-                            "type": "RemoteIconButtonColors",
-                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonColors",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
                             "name": "enabled",
                             "type": "RemoteBoolean",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
@@ -5588,39 +5458,39 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "shape",
-                            "type": "RemoteShape",
-                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                            "name": "shapes",
+                            "type": "RemoteIconButtonShapes",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonShapes",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
                             "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "colors",
+                            "type": "RemoteIconButtonColors",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteIconButtonColors",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "border",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": true,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -7203,7 +7073,7 @@
                 "name": "RemoteHorizontalPageIndicator",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteHorizontalPageIndicator",
-                "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -7262,7 +7132,20 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "indicatorRadius",
+                    "name": "backgroundColor",
+                    "type": "RemoteColor",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "indicatorSize",
                     "type": "RemoteDp",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                     "hasDefault": true,
@@ -7278,19 +7161,6 @@
                     "name": "padding",
                     "type": "RemoteDp",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "backgroundColor",
-                    "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -7621,7 +7491,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "state",
@@ -7676,7 +7546,20 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "indicatorRadius",
+                            "name": "backgroundColor",
+                            "type": "RemoteColor",
+                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "indicatorSize",
                             "type": "RemoteDp",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                             "hasDefault": true,
@@ -7692,19 +7575,6 @@
                             "name": "padding",
                             "type": "RemoteDp",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "backgroundColor",
-                            "type": "RemoteColor",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -7729,7 +7599,7 @@
                 "name": "RemoteVerticalPageIndicator",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteVerticalPageIndicator",
-                "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -7788,7 +7658,20 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "indicatorRadius",
+                    "name": "backgroundColor",
+                    "type": "RemoteColor",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "indicatorSize",
                     "type": "RemoteDp",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                     "hasDefault": true,
@@ -7804,19 +7687,6 @@
                     "name": "padding",
                     "type": "RemoteDp",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "backgroundColor",
-                    "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -8347,7 +8217,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/wear/compose/remote/material3/RemotePageIndicatorState;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "state",
@@ -8402,7 +8272,20 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "indicatorRadius",
+                            "name": "backgroundColor",
+                            "type": "RemoteColor",
+                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "indicatorSize",
                             "type": "RemoteDp",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
                             "hasDefault": true,
@@ -8418,19 +8301,6 @@
                             "name": "padding",
                             "type": "RemoteDp",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "backgroundColor",
-                            "type": "RemoteColor",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -8455,7 +8325,7 @@
                 "name": "RemoteRadioButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteRadioButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -8476,8 +8346,8 @@
                 },
                 {
                     "name": "onSelect",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -8554,21 +8424,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -8694,7 +8551,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "selected",
@@ -8711,8 +8568,8 @@
                         },
                         {
                             "name": "onSelect",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -8789,21 +8646,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -8867,7 +8711,7 @@
                 "name": "RemoteSlider",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteSlider",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -8914,8 +8758,8 @@
                 },
                 {
                     "name": "decreaseAction",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -8927,8 +8771,8 @@
                 },
                 {
                     "name": "increaseAction",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -9241,7 +9085,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "value",
@@ -9284,8 +9128,8 @@
                         },
                         {
                             "name": "decreaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9297,8 +9141,8 @@
                         },
                         {
                             "name": "increaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9402,7 +9246,7 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteInt;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteInt;ILandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;ZLandroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSliderColors;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "value",
@@ -9445,8 +9289,8 @@
                         },
                         {
                             "name": "decreaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9458,8 +9302,8 @@
                         },
                         {
                             "name": "increaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9575,7 +9419,7 @@
                 "name": "RemoteSplitCheckboxButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteSplitCheckboxButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -9596,8 +9440,8 @@
                 },
                 {
                     "name": "onCheckedChange",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -9622,8 +9466,8 @@
                 },
                 {
                     "name": "onContainerClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -9796,7 +9640,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitCheckboxButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "checked",
@@ -9813,8 +9657,8 @@
                         },
                         {
                             "name": "onCheckedChange",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9839,8 +9683,8 @@
                         },
                         {
                             "name": "onContainerClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -9956,7 +9800,7 @@
                 "name": "RemoteSplitRadioButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteSplitRadioButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -9977,8 +9821,8 @@
                 },
                 {
                     "name": "onSelectionClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10003,8 +9847,8 @@
                 },
                 {
                     "name": "onContainerClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10177,7 +10021,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitRadioButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "selected",
@@ -10194,8 +10038,8 @@
                         },
                         {
                             "name": "onSelectionClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -10220,8 +10064,8 @@
                         },
                         {
                             "name": "onContainerClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -10337,7 +10181,7 @@
                 "name": "RemoteSplitSwitchButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteSplitSwitchButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -10358,8 +10202,8 @@
                 },
                 {
                     "name": "onCheckedChange",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10384,8 +10228,8 @@
                 },
                 {
                     "name": "onContainerClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10558,7 +10402,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSplitSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "checked",
@@ -10575,8 +10419,8 @@
                         },
                         {
                             "name": "onCheckedChange",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -10601,8 +10445,8 @@
                         },
                         {
                             "name": "onContainerClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -10718,7 +10562,7 @@
                 "name": "RemoteStepper",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteStepper",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -10791,8 +10635,8 @@
                 },
                 {
                     "name": "decreaseAction",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10804,8 +10648,8 @@
                 },
                 {
                     "name": "increaseAction",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -10944,7 +10788,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteFloat;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "value",
@@ -11013,8 +10857,8 @@
                         },
                         {
                             "name": "decreaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11026,8 +10870,8 @@
                         },
                         {
                             "name": "increaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11092,7 +10936,7 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteInt;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteInt;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/ranges/ClosedFloatingPointRange;Landroidx/wear/compose/remote/material3/RemoteStepperColors;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "value",
@@ -11161,8 +11005,8 @@
                         },
                         {
                             "name": "decreaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11174,8 +11018,8 @@
                         },
                         {
                             "name": "increaseAction",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11252,7 +11096,7 @@
                 "name": "RemoteSwitchButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteSwitchButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -11273,8 +11117,8 @@
                 },
                 {
                     "name": "onCheckedChange",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -11351,21 +11195,8 @@
                 },
                 {
                     "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -11491,7 +11322,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteSwitchButtonColors;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "checked",
@@ -11508,8 +11339,8 @@
                         },
                         {
                             "name": "onCheckedChange",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11586,21 +11417,8 @@
                         },
                         {
                             "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -11665,7 +11483,7 @@
                 "name": "RemoteTextButton",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteTextButton",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteTextButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteTextButtonShapes;Landroidx/wear/compose/remote/material3/RemoteTextButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -11673,8 +11491,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -11698,19 +11516,6 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "colors",
-                    "type": "RemoteTextButtonColors",
-                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonColors",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
                     "name": "enabled",
                     "type": "RemoteBoolean",
                     "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
@@ -11724,39 +11529,39 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "border",
-                    "type": "RemoteDp?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "borderColor",
-                    "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "shape",
-                    "type": "RemoteShape",
-                    "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                    "name": "shapes",
+                    "type": "RemoteTextButtonShapes",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonShapes",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
                     "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "colors",
+                    "type": "RemoteTextButtonColors",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonColors",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "border",
+                    "type": "RemoteBorderStroke?",
+                    "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
@@ -11963,7 +11768,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -11977,12 +11782,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/wear/compose/remote/material3/RemoteTextButtonColors;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/state/RemoteDp;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/wear/compose/remote/material3/RemoteTextButtonShapes;Landroidx/wear/compose/remote/material3/RemoteTextButtonColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -12006,19 +11811,6 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "colors",
-                            "type": "RemoteTextButtonColors",
-                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonColors",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
                             "name": "enabled",
                             "type": "RemoteBoolean",
                             "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
@@ -12032,39 +11824,39 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "border",
-                            "type": "RemoteDp?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteDp",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "borderColor",
-                            "type": "RemoteColor?",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "shape",
-                            "type": "RemoteShape",
-                            "typeFqn": "androidx.compose.remote.creation.compose.shapes.RemoteShape",
+                            "name": "shapes",
+                            "type": "RemoteTextButtonShapes",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonShapes",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
                             "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "colors",
+                            "type": "RemoteTextButtonColors",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteTextButtonColors",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
+                            "name": "border",
+                            "type": "RemoteBorderStroke?",
+                            "typeFqn": "androidx.wear.compose.remote.material3.RemoteBorderStroke",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": true,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -12142,8 +11934,8 @@
                 "callable": "androidx.wear.compose.remote.material3.RemoteText",
                 "name": "RemoteText",
                 "origin": "LIBRARY",
-                "jvmName": "RemoteText-yT6CtNU",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/ui/text/style/TextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/ui/text/font/FontVariation$Settings;Landroidx/compose/runtime/Composer;III)V",
+                "jvmName": "RemoteText-9WxCQ6Y",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/remote/creation/compose/text/RemoteFontStyle;Landroidx/compose/remote/creation/compose/text/RemoteFontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/remote/creation/compose/text/RemoteTextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteFontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -12203,8 +11995,8 @@
                 },
                 {
                     "name": "fontStyle",
-                    "type": "FontStyle?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontStyle",
+                    "type": "RemoteFontStyle?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontStyle",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -12216,8 +12008,8 @@
                 },
                 {
                     "name": "fontWeight",
-                    "type": "FontWeight?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontWeight",
+                    "type": "RemoteFontWeight?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontWeight",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -12242,8 +12034,8 @@
                 },
                 {
                     "name": "textAlign",
-                    "type": "TextAlign?",
-                    "typeFqn": "androidx.compose.ui.text.style.TextAlign",
+                    "type": "RemoteTextAlign?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextAlign",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -12255,8 +12047,8 @@
                 },
                 {
                     "name": "overflow",
-                    "type": "TextOverflow",
-                    "typeFqn": "androidx.compose.ui.text.style.TextOverflow",
+                    "type": "RemoteTextOverflow",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextOverflow",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -12280,6 +12072,19 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
+                    "name": "fontVariationSettings",
+                    "type": "Settings?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontVariation.Settings",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
                     "name": "style",
                     "type": "RemoteTextStyle",
                     "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextStyle",
@@ -12287,19 +12092,6 @@
                     "composableSlot": false,
                     "composableSlotReceiver": null,
                     "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
-                    "name": "fontVariationSettings",
-                    "type": "Settings?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontVariation.Settings",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": true,
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
@@ -13881,7 +13673,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/ui/text/style/TextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/ui/text/font/FontVariation$Settings;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/remote/creation/compose/text/RemoteFontStyle;Landroidx/compose/remote/creation/compose/text/RemoteFontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/remote/creation/compose/text/RemoteTextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteFontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "text",
@@ -13937,8 +13729,8 @@
                         },
                         {
                             "name": "fontStyle",
-                            "type": "FontStyle?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontStyle",
+                            "type": "RemoteFontStyle?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontStyle",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -13950,8 +13742,8 @@
                         },
                         {
                             "name": "fontWeight",
-                            "type": "FontWeight?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontWeight",
+                            "type": "RemoteFontWeight?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontWeight",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -13976,8 +13768,8 @@
                         },
                         {
                             "name": "textAlign",
-                            "type": "TextAlign?",
-                            "typeFqn": "androidx.compose.ui.text.style.TextAlign",
+                            "type": "RemoteTextAlign?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextAlign",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -13989,8 +13781,8 @@
                         },
                         {
                             "name": "overflow",
-                            "type": "TextOverflow",
-                            "typeFqn": "androidx.compose.ui.text.style.TextOverflow",
+                            "type": "RemoteTextOverflow",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextOverflow",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -14014,6 +13806,19 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
+                            "name": "fontVariationSettings",
+                            "type": "Settings?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontVariation.Settings",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": true,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
+                        },
+                        {
                             "name": "style",
                             "type": "RemoteTextStyle",
                             "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextStyle",
@@ -14021,19 +13826,6 @@
                             "composableSlot": false,
                             "composableSlotReceiver": null,
                             "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
-                            "name": "fontVariationSettings",
-                            "type": "Settings?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontVariation.Settings",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": true,
                             "noArgConstructible": false,
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
@@ -14054,7 +13846,7 @@
                 "name": "RemoteTitleCard",
                 "origin": "LIBRARY",
                 "jvmName": "RemoteTitleCard",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -14062,8 +13854,8 @@
             "parameters": [
                 {
                     "name": "onClick",
-                    "type": "Action",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": false,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -14100,19 +13892,6 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "enabled",
-                    "type": "RemoteBoolean",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
-                    "hasDefault": true,
-                    "composableSlot": false,
-                    "composableSlotReceiver": null,
-                    "nullable": false,
-                    "noArgConstructible": false,
-                    "noArgFactory": null,
-                    "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": null
-                },
-                {
                     "name": "time",
                     "type": "(() -> Unit)?",
                     "typeFqn": "kotlin.Function0",
@@ -14137,6 +13916,19 @@
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
                     "lambdaReturnTypeFqn": "kotlin.Unit"
+                },
+                {
+                    "name": "enabled",
+                    "type": "RemoteBoolean",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
                 },
                 {
                     "name": "shape",
@@ -14366,7 +14158,7 @@
             "code": {
                 "call": null,
                 "imports": [],
-                "refusedReason": "no placeholder can be written for required parameter `onClick: Action`",
+                "refusedReason": "no placeholder can be written for required parameter `onClick: RemoteAction`",
                 "requiredOptIns": [],
                 "androidxOptIns": []
             },
@@ -14380,12 +14172,12 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/remote/creation/compose/painter/RemotePainter;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -14435,19 +14227,6 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "enabled",
-                            "type": "RemoteBoolean",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
                             "name": "time",
                             "type": "(() -> Unit)?",
                             "typeFqn": "kotlin.Function0",
@@ -14472,6 +14251,19 @@
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
                             "lambdaReturnTypeFqn": "kotlin.Unit"
+                        },
+                        {
+                            "name": "enabled",
+                            "type": "RemoteBoolean",
+                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
                         },
                         {
                             "name": "shape",
@@ -14541,12 +14333,12 @@
                     ]
                 },
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/Action;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/action/RemoteAction;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/remote/creation/compose/state/RemoteBoolean;Landroidx/compose/remote/creation/compose/shapes/RemoteShape;Landroidx/wear/compose/remote/material3/RemoteCardColors;Landroidx/wear/compose/remote/material3/RemoteBorderStroke;Landroidx/compose/remote/creation/compose/layout/RemotePaddingValues;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "onClick",
-                            "type": "Action",
-                            "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                            "type": "RemoteAction",
+                            "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                             "hasDefault": false,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -14583,19 +14375,6 @@
                             "lambdaReturnTypeFqn": null
                         },
                         {
-                            "name": "enabled",
-                            "type": "RemoteBoolean",
-                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
-                            "hasDefault": true,
-                            "composableSlot": false,
-                            "composableSlotReceiver": null,
-                            "nullable": false,
-                            "noArgConstructible": false,
-                            "noArgFactory": null,
-                            "scopeDslReceiver": null,
-                            "lambdaReturnTypeFqn": null
-                        },
-                        {
                             "name": "time",
                             "type": "(() -> Unit)?",
                             "typeFqn": "kotlin.Function0",
@@ -14620,6 +14399,19 @@
                             "noArgFactory": null,
                             "scopeDslReceiver": null,
                             "lambdaReturnTypeFqn": "kotlin.Unit"
+                        },
+                        {
+                            "name": "enabled",
+                            "type": "RemoteBoolean",
+                            "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteBoolean",
+                            "hasDefault": true,
+                            "composableSlot": false,
+                            "composableSlotReceiver": null,
+                            "nullable": false,
+                            "noArgConstructible": false,
+                            "noArgFactory": null,
+                            "scopeDslReceiver": null,
+                            "lambdaReturnTypeFqn": null
                         },
                         {
                             "name": "shape",
@@ -14733,7 +14525,6 @@
                 "Text/Branded",
                 "Text/Caption",
                 "Text/MaxLines-Truncated",
-                "TextButton",
                 "Theme/ColorScheme",
                 "Theme/SystemThemeSwatches",
                 "Theme/Typography",
@@ -15310,156 +15101,6 @@
                     "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.ShaderGradientSticker_width_200dp_height_200dp_dpi_320",
                     "componentId": "Shader/LinearGradient",
                     "group": "Shaders"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child-large",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child-large-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child-small",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_child-small-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant-large",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant-large-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant-small",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_filled-variant-small-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_large",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_large-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined-large",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined-large-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined-small",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_outlined-small-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_small",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_small-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal-large",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal-large-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal-small",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TextRemoteButton_width_227dp_height_100dp_dpi_320_VARIANT_tonal-small-disabled",
-                    "componentId": "TextButton",
-                    "group": "Buttons"
                 },
                 {
                     "previewId": "ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.TitleCardRemote_width_227dp_height_200dp_dpi_320",

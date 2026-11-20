@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.0,
-        "byteLength": 2480
+        "byteLength": 2463
     },
     "operations": [
         {
@@ -178,6 +178,12 @@
                                     "animation": null
                                 },
                                 {
+                                    "type": "ComponentValue",
+                                    "valueId": 42,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
                                     "$tags": [
                                         "MODIFIER"
                                     ],
@@ -226,20 +232,6 @@
                                             "type": "ClipRectModifierOperation",
                                             "width": 0.0,
                                             "height": 0.0
-                                        },
-                                        {
-                                            "$tags": [
-                                                "MODIFIER",
-                                                "A11Y"
-                                            ],
-                                            "type": "CoreSemantics",
-                                            "contentDescriptionId": 0,
-                                            "role": "BUTTON",
-                                            "textId": 0,
-                                            "stateDescriptionId": 0,
-                                            "enabled": false,
-                                            "mode": "SET",
-                                            "clickable": false
                                         },
                                         {
                                             "$tags": [

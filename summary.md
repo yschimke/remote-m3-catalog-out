@@ -1,6 +1,6 @@
-## Remote Compose snapshot probe — androidx.dev build [16936034](https://androidx.dev/snapshots/builds/16936034/artifacts)
+## Remote Compose snapshot probe — androidx.dev build [17008000](https://androidx.dev/snapshots/builds/17008000/artifacts)
 
-Snapshot artifacts last updated `20261116003649`. Compiled: **no**.
+Snapshot artifacts last updated `20261123073542`. Compiled: **no**.
 
 **Why this is being reported**
 

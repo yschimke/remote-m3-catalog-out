@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "6dda6f2fc846c622557a8361b0fb0cbc522efdcd",
+    "generatedFrom": "75a7a2bf9d97c9b94055de832ac719ca79c77e95",
     "previews": {
         "remote-catalog/ee.schimke.wearm3catalog.remote.CatalogPreviewsKt.AppCardRemote_width=227dp,height=200dp,dpi=320": {
             "path": "renders/remote-catalog/AppCardRemote_width_227dp_height_200dp_dpi_320-f9961794.png",
@@ -18421,6 +18421,13 @@
             "path": "renders/samples-catalog/RemoteIndeterminateCircularProgressIndicatorSample_Devices_Large_Round-e54edd09.png",
             "versions": [
                 {
+                    "blob": "2582cadd40c784b9403e860cec041683e8fa9240",
+                    "commit": "75a7a2bf9d97c9b94055de832ac719ca79c77e95",
+                    "date": "2026-11-25T06:05:35Z",
+                    "sourceSha": "a5473e13",
+                    "commits": 1
+                },
+                {
                     "blob": "cb50b11884394e7b05de6f8e194d8fabb4a26dc2",
                     "commit": "6dda6f2fc846c622557a8361b0fb0cbc522efdcd",
                     "date": "2026-11-24T23:14:59Z",
@@ -18533,13 +18540,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 16,
+            "observations": 17,
             "unstable": false,
             "flapCount": 0
         },
         "samples-catalog/androidx.wear.compose.remote.material3.samples.RemoteCircularProgressIndicatorSampleKt.RemoteIndeterminateCircularProgressIndicatorSample_Devices - Small Round": {
             "path": "renders/samples-catalog/RemoteIndeterminateCircularProgressIndicatorSample_Devices_Small_Round-98042661.png",
             "versions": [
+                {
+                    "blob": "ca88986742f6a4720df4ef0e3f10489e67c7d35e",
+                    "commit": "75a7a2bf9d97c9b94055de832ac719ca79c77e95",
+                    "date": "2026-11-25T06:05:35Z",
+                    "sourceSha": "a5473e13",
+                    "commits": 1
+                },
                 {
                     "blob": "d37fb916583460998501329aaf04f683df7cfb91",
                     "commit": "6dda6f2fc846c622557a8361b0fb0cbc522efdcd",
@@ -18653,7 +18667,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 16,
+            "observations": 17,
             "unstable": false,
             "flapCount": 0
         },
